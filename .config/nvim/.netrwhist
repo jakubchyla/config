@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/halla/.config/i3'
+let g:netrw_dirhist_2='/home/halla/Downloads/i3-kde'
+let g:netrw_dirhist_3='/home/halla/.config/autostart'
+let g:netrw_dirhist_4='/home/halla'
+let g:netrw_dirhist_5='/home/halla/bin'
