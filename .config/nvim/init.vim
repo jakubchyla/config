@@ -5,8 +5,16 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'itchyny/lightline.vim'
 Plug 'wsdjeg/vim-fetch'
 Plug 'jiangmiao/auto-pairs'
-Plug 'w0rp/ale'
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+
+"Autocompletion
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+"Completion sources
+Plug 'ncm2/ncm2-bufword'
+Plug 'ncm2/ncm2-path'
+Plug 'ncm2/ncm2-jedi'
+Plug 'ncm2/ncm2-racer'
+Plug 'ncm2/ncm2-pyclang'
 
 call plug#end()
 
@@ -35,16 +43,13 @@ set guioptions-=L "remove left-hand scroll bar
 set autoindent
 "set softtabstop=8
 
-" syntax for coc.vim config file
-autocmd FileType json syntax match Comment +\/\/.\+$+
-
 " remap
 nnoremap k gk
 nnoremap j gj
 "quick save(if modified)
 nnoremap <S-w> :update<CR>
 "save and leave(if modified)
-nnoremap <S-x> :update<CR>:quit<CR>
+"nnoremap <S-x> :write<CR>:quit<CR>
 "unmap <Q> ex-mode
 nnoremap Q :q!<CR>
 
@@ -68,3 +73,9 @@ let g:lightline = {
    \ 'colorscheme': 'wombat',
   \}
 
+
+" ncm2
+autocmd BufEnter * call ncm2#enable_for_buffer()
+
+set completeopt=noinsert,menuone
+let g:ncm2_pyclang#library_path = '/usr/lib64/llvm6.0/lib'
