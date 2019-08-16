@@ -1,4 +1,0 @@
-#! /bin/bash
-feh --bg-scale ~/Pictures/wallpapers/wallpaper02* &
-#~/Pictures/wallpapers/gif_wallpaper.sh ~/Pictures/wallpapers/wallpaperanim04.gif
-compton -b
