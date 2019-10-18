@@ -33,3 +33,10 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Alt>F4', '<Super><Shift
 #fullscreen
 gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super>f']"
 
+
+#--------------
+#set options
+#--------------
+
+#change apps on current workspace
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
