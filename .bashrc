@@ -19,5 +19,4 @@ alias clls='clear && ls'
 alias clla='clear && ls -A'
 alias clll='clear && ls -Alh'
 alias info='info --vi-keys'
-alias vim="nvim"
 

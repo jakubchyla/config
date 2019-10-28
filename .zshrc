@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh" # theme
 export TERM="xterm-256color"
-ZSH_THEME="clean"
+ZSH_THEME="gentoo"
 
 source $ZSH/oh-my-zsh.sh &>/dev/null
 
@@ -15,6 +15,7 @@ DISABLE_MAGIC_FUNCTIONS=true
 alias ls='ls --color'
 alias la='ls -A'
 alias ll='ls -Alh'
+alias l='ls -Alh'
 alias cls='clear'
 alias clls='clear && ls'
 alias clla='clear && ls -A'
