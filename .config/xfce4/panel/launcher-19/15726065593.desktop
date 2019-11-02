@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/usr/bin/Discord
+Icon=/usr/lib64/discord/discord.png
+StartupNotify=false
+Terminal=false
+Categories=Network;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+X-XFCE-MimeType=x-scheme-handler/http;x-scheme-handler/https;
+X-AppStream-Ignore=True
+Name=Discord
+Comment=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
+X-XFCE-Source=file:///usr/share/applications/exo-web-browser.desktop
+Path=
