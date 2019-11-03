@@ -3,7 +3,11 @@ export ZSH="$HOME/.oh-my-zsh" # theme
 export TERM="xterm-256color"
 ZSH_THEME="gentoo"
 
+# oh-my-zsh
 source $ZSH/oh-my-zsh.sh &>/dev/null
+# fish-like syntax highlighting
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 DISABLE_MAGIC_FUNCTIONS=true
 
@@ -21,12 +25,16 @@ alias clls='clear && ls'
 alias clla='clear && ls -A'
 alias clll='clear && ls -Alh'
 alias info='info --vi-keys'
-alias vim=nvim
 
 #shell options
 bindkey -v #enable vi
 
 #source-highlight
 export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
+
+#kitty completion
+autoload -Uz compinit
+compinit
+kitty + complete setup zsh | source /dev/stdin
 
 clear
