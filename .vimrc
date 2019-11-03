@@ -16,7 +16,7 @@ call plug#end()
     set encoding=utf-8
     set hidden "seperate tabs
     let mapleader=","
-    set guifont=inconsolata\ 15
+    set breakindent
 
 "Change swapfiles dir
     set swapfile
@@ -80,7 +80,8 @@ call plug#end()
       \}
 
 " coc.vim
-
+" dependencies: python-language-server, ccls, bash language server
+" CocInstall: coc-json, coc-html, coc-css, coc-rls, coc-python, coc-highlght, coc-git, coc-vimlsp, coc-xml
     " if hidden is not set, TextEdit might fail
     set hidden
 
