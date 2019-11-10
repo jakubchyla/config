@@ -68,6 +68,8 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="pragha music player"/>
         <value type="string" value="blueman"/>
         <value type="string" value="blueman-tray"/>
         <value type="string" value="blueberry-tray.py"/>
@@ -81,7 +83,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chrome.instance2603;chrome.instance4127;chrome.instance49182;chrome.instance49828;chrome.instance5798;chrome.instance6406;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="chrome.instance1991;chrome.instance23683;chrome.instance25004;chrome.instance2603;chrome.instance4127;chrome.instance49182;chrome.instance49828;chrome.instance5798;chrome.instance6406;chrome.instance6619;pragha;spotify;vlc"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>

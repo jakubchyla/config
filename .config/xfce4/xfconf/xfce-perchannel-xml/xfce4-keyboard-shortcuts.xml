@@ -45,13 +45,12 @@
       <property name="XF86LogOff" type="string" value="xfce4-session-logout"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
-      <property name="XF86AudioNext" type="string" value="pragha --next"/>
-      <property name="XF86AudioPlay" type="string" value="pragha --pause"/>
+      <property name="XF86AudioNext" type="string" value="playerctl next"/>
+      <property name="XF86AudioPlay" type="string" value="playerctl play-pause"/>
       <property name="XF86Explorer" type="string" value="Thunar"/>
       <property name="XF86Calculator" type="string" value="galculator"/>
-      <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="XF86Calendar" type="string" value="orage"/>
-      <property name="XF86AudioPrev" type="string" value="pragha --prev"/>
+      <property name="XF86AudioPrev" type="string" value="playerctl previous"/>
       <property name="XF86Terminal" type="string" value="xfce4-terminal"/>
       <property name="XF86AudioMedia" type="string" value="pragha"/>
       <property name="XF86Memo" type="string" value="xfce4-notes"/>
@@ -59,8 +58,9 @@
       <property name="&lt;Super&gt;p" type="string" value="google-chrome"/>
       <property name="&lt;Super&gt;&lt;Shift&gt;p" type="string" value="google-chrome --incognito"/>
       <property name="&lt;Super&gt;m" type="string" value="keepassxc"/>
+      <property name="&lt;Super&gt;i" type="string" value="doublecmd"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Super&gt;Return" type="string" value="kitty"/>
+      <property name="&lt;Super&gt;Return" type="string" value="kitty tmux"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
