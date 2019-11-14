@@ -1,0 +1,9 @@
+#! /bin/bash
+if [ "$1" = "on" ];then
+    nmcli dev wifi hotspot ifname wlp3s0 ssid thinkpad password "bP<q,A4+o"
+elif [ "$1" = "off" ]; then
+    nmcli radio wwan off
+else
+    echo "not enough arguments"
+fi
+

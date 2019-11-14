@@ -26,10 +26,12 @@
         <value type="int" value="13"/>
         <value type="int" value="14"/>
       </property>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="Primary"/>
     </property>
     <property name="panel-2" type="empty">
       <property name="autohide-behavior" type="uint" value="2"/>
-      <property name="position" type="string" value="p=7;x=27;y=390"/>
+      <property name="position" type="string" value="p=12;x=2311;y=1055"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="48"/>
       <property name="plugin-ids" type="array">
@@ -40,7 +42,11 @@
         <value type="int" value="7"/>
         <value type="int" value="20"/>
       </property>
-      <property name="mode" type="uint" value="1"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="length" type="uint" value="12"/>
     </property>
   </property>
   <property name="plugins" type="empty">

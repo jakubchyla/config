@@ -1,4 +1,4 @@
 WebBrowser=google-chrome
 MailReader=thunderbird
-TerminalEmulator=gnome-terminal
+TerminalEmulator=custom-TerminalEmulator
 

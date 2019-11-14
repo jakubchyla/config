@@ -1,0 +1,3 @@
+#! /bin/bash
+
+setxkbmap -option -option ctrl:nocaps

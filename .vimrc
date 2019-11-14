@@ -68,7 +68,8 @@ call plug#end()
     nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 "set asm syntax
-    "let asmsyntax="nasm"
+    au BufRead,BufNewFile *.s   let asmsyntax='gas'|set filetype=asm
+    au BufRead,BufNewFile *.asm let asmsyntax='nasm'|set filetype=nasm
 
 "-----------------------
 " plugins options
