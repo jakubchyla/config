@@ -32,6 +32,10 @@ alias clll='clear && ls -Alh'
 alias info='info --vi-keys'
 alias sup='shutdown now'
 alias rm='rm --interactive'
+alias din='sudo dnf install'
+alias drm='sudo dnf remove'
+alias dse='dnf search'
+alias dup='sudo dnf upgrade --refresh'
 
 #shell options
 bindkey -v #enable vi
