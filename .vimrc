@@ -4,6 +4,7 @@ Plug 'kaicataldo/material.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'wsdjeg/vim-fetch'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
@@ -60,12 +61,6 @@ call plug#end()
 
 "clear highlight and search
     nnoremap / :noh<CR> :/
-
-"Ctrl-j/k deletes blank line below/above, and Alt-j/k inserts.
-    nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
-    nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
-    nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
-    nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 "set asm syntax
     au BufRead,BufNewFile *.s   let asmsyntax='gas'|set filetype=asm
@@ -217,4 +212,6 @@ call plug#end()
     "Resume latest coc list
     nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
       autocmd FileType json syntax match Comment +\/\/.\+$+
+
+
 
