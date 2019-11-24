@@ -1,0 +1,8 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Fira Code', 'monospace', 'Droid Sans Mono', monospace, 'Droid Sans Fallback",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Egoist One",
+    "workbench.iconTheme": "material-icon-theme"
+}

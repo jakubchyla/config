@@ -1,5 +1,8 @@
+[$Version]
+update_info=spectacle_shortcuts.upd:spectacle-migrate-shortcuts
+
 [Data]
-DataCount=4
+DataCount=3
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
@@ -881,135 +884,6 @@ TriggersCount=1
 [Data_3_9Triggers0]
 GesturePointData=0,0.0625,-0.5,0.5,1,0.0625,0.0625,-0.5,0.5,0.875,0.125,0.0625,-0.5,0.5,0.75,0.1875,0.0625,-0.5,0.5,0.625,0.25,0.0625,-0.5,0.5,0.5,0.3125,0.0625,-0.5,0.5,0.375,0.375,0.0625,-0.5,0.5,0.25,0.4375,0.0625,-0.5,0.5,0.125,0.5,0.0625,0.5,0.5,0,0.5625,0.0625,0.5,0.5,0.125,0.625,0.0625,0.5,0.5,0.25,0.6875,0.0625,0.5,0.5,0.375,0.75,0.0625,0.5,0.5,0.5,0.8125,0.0625,0.5,0.5,0.625,0.875,0.0625,0.5,0.5,0.75,0.9375,0.0625,0.5,0.5,0.875,1,0,0,0.5,1
 Type=GESTURE
-
-[Data_4]
-Comment=Shortcuts for taking screenshots
-DataCount=4
-Enabled=true
-ImportId=spectacle
-Name=Screenshots
-SystemGroup=0
-Type=ACTION_DATA_GROUP
-
-[Data_4Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_1]
-Comment=Start the screenshot tool and show the GUI
-Enabled=true
-Name=Start Screenshot Tool
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_1Actions]
-ActionsCount=1
-
-[Data_4_1Actions0]
-Arguments=
-Call=StartAgent
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_1Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_1Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_1Triggers0]
-Key=Print
-Type=SHORTCUT
-Uuid={6fce155a-c3d4-4c89-a4fa-a85403bc5777}
-
-[Data_4_2]
-Comment=Take a full screen (all monitors) screenshot and save it
-Enabled=true
-Name=Take Full Screen Screenshot
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_2Actions]
-ActionsCount=1
-
-[Data_4_2Actions0]
-Arguments=false
-Call=FullScreen
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_2Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_2Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_2Triggers0]
-Key=Shift+Print
-Type=SHORTCUT
-Uuid={207a25ac-9025-40a9-8647-304f8b98a6ad}
-
-[Data_4_3]
-Comment=Take a screenshot of the currently active window and save it
-Enabled=true
-Name=Take Active Window Screenshot
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_3Actions]
-ActionsCount=1
-
-[Data_4_3Actions0]
-Arguments=true false
-Call=ActiveWindow
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_3Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_3Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_3Triggers0]
-Key=Meta+Print
-Type=SHORTCUT
-Uuid={d601c994-41a5-4373-aa07-f462d7f4490b}
-
-[Data_4_4]
-Comment=Take a screenshot of a rectangular region you specify and save it
-Enabled=true
-Name=Take Rectangular Region Screenshot
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_4Actions]
-ActionsCount=1
-
-[Data_4_4Actions0]
-Arguments=true
-Call=RectangularRegion
-RemoteApp=org.kde.Spectacle
-RemoteObj=/
-Type=DBUS
-
-[Data_4_4Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_4Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_4Triggers0]
-Key=Meta+Shift+Print
-Type=SHORTCUT
-Uuid={08ac9923-433f-4a37-ade8-29f5c995d9cc}
 
 [General]
 ColorScheme[$d]
