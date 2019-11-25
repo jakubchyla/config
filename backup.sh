@@ -29,8 +29,12 @@ while [[ $# -gt 0 ]]; do
         backup
         shift
         ;;
-        update_repo)
-        update_repo
+        update_remote_repo)
+        update_remote_repo
+        shift
+        ;;
+        update_local_repo)
+        update_local_repo
         shift
         ;;
         update_local_config)

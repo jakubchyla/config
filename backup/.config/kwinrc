@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize
 
 [Compositing]
 AnimationSpeed=1
@@ -60,13 +60,6 @@ Top=None
 TopLeft=None
 TopRight=None
 
-[NightColor]
-Active=true
-EveningBeginFixed=2000
-Mode=Times
-MorningBeginFixed=0600
-NightTemperature=4000
-
 [Plugins]
 desktopchangeosdEnabled=false
 
@@ -91,11 +84,5 @@ ElectricBorders=0
 RollOverDesktops=true
 
 [org.kde.kdecoration2]
-BorderSize=Normal
-BorderSizeAuto=true
-ButtonsOnLeft=MS
-ButtonsOnRight=HIAX
-CloseOnDoubleClickOnMenu=false
-ShowToolTips=true
-library=org.kde.kwin.aurorae
+library=org.kde.breeze
 theme=__aurorae__svg__Arc-Dark

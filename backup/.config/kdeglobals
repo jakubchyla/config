@@ -106,7 +106,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [General]
-BrowserApplication[$e]=google-chrome.desktop
+BrowserApplication=google-chrome.desktop
 ColorScheme=ArcDark
 Name=Arc Dark
 TerminalApplication[$e]=kitty
@@ -115,13 +115,14 @@ XftSubPixel=
 fixed=Office Code Pro,10,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
 toolBarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+widgetStyle=Breeze
 
 [Icons]
 Theme=Papirus-Dark
 
 [KDE]
+ColorScheme=Breeze
 LookAndFeelPackage=com.github.varlesh.arc-dark
-ShowDeleteCommand=false
 contrast=4
 widgetStyle=kvantum
 
@@ -143,9 +144,6 @@ Sort directories first=true
 Sort reversed=false
 Speedbar Width=110
 View Style=DetailTree
-
-[PreviewSettings]
-MaximumRemoteSize=0
 
 [WM]
 activeBackground=47,52,63

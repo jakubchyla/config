@@ -107,9 +107,9 @@
       <Maximized>True</Maximized>
       <Splitter>49.7130933750652</Splitter>
       <Left>0</Left>
-      <Top>0</Top>
-      <Width>1366</Width>
-      <Height>735</Height>
+      <Top>36</Top>
+      <Width>1920</Width>
+      <Height>1015</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
@@ -119,60 +119,66 @@
         <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="jakchyla">/home/</Path>
-                  <Path Filename="bin">/home/jakchyla/</Path>
-                  <Path Filename="jakchyla">/home/</Path>
-                  <Path Filename="">/home/jakchyla/</Path>
-                  <Path Filename="01.mp4">/home/jakchyla/123/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
-                  <Path Filename="jakchyla">/home/</Path>
+                  <Path Filename="soundfonts">/mnt/jakchyla/opt/gzdoom/</Path>
+                  <Path Filename="innoextract">/mnt/jakchyla/opt/</Path>
+                  <Path Filename="bin">/mnt/jakchyla/opt/innoextract/</Path>
+                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/bin/</Path>
+                  <Path Filename="share">/mnt/jakchyla/opt/innoextract/</Path>
+                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/share/</Path>
+                  <Path Filename="share">/mnt/jakchyla/opt/innoextract/</Path>
+                  <Path Filename="man">/mnt/jakchyla/opt/innoextract/share/</Path>
+                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/share/man/</Path>
+                  <Path Filename="man">/mnt/jakchyla/opt/innoextract/share/</Path>
+                  <Path Filename="man1">/mnt/jakchyla/opt/innoextract/share/man/</Path>
+                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/share/man/man1/</Path>
+                  <Path Filename="man1">/mnt/jakchyla/opt/innoextract/share/man/</Path>
+                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/share/</Path>
+                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/</Path>
+                  <Path Filename="cross_compiler">/mnt/jakchyla/opt/</Path>
+                  <Path Filename="..">/mnt/jakchyla/opt/cross_compiler/</Path>
+                  <Path Filename="gzdoom">/mnt/jakchyla/opt/</Path>
+                  <Path Filename=".pylint.d">/mnt/jakchyla/</Path>
+                  <Path Filename="..">/mnt/jakchyla/.pylint.d/</Path>
+                  <Path Filename=".pylint.d">/mnt/jakchyla/</Path>
+                  <Path Filename="gen_compile_commands1.stats">/mnt/jakchyla/.pylint.d/</Path>
+                  <Path Filename="rest">/mnt/jakchyla/</Path>
+                  <Path Filename="..">/mnt/jakchyla/rest/</Path>
+                  <Path Filename=".rustup">/mnt/jakchyla/</Path>
+                  <Path Filename="..">/mnt/jakchyla/.rustup/</Path>
+                  <Path Filename=".rustup">/mnt/jakchyla/</Path>
+                  <Path Filename="downloads">/mnt/jakchyla/.rustup/</Path>
+                  <Path Filename="..">/mnt/jakchyla/.rustup/downloads/</Path>
+                  <Path Filename="update-hashes">/mnt/jakchyla/.rustup/</Path>
+                  <Path Filename="src">/mnt/jakchyla/</Path>
+                  <Path Filename="..">/mnt/jakchyla/src/</Path>
+                  <Path Filename=".steam">/mnt/jakchyla/</Path>
+                  <Path Filename="..">/mnt/jakchyla/.steam/</Path>
+                  <Path Filename=".cargo">/mnt/jakchyla/</Path>
+                  <Path Filename="bin">/mnt/jakchyla/.cargo/</Path>
+                  <Path Filename="rls">/mnt/jakchyla/.cargo/bin/</Path>
+                  <Path Filename="bin">/mnt/jakchyla/.cargo/</Path>
+                  <Path Filename="Downloads">/mnt/jakchyla/</Path>
+                  <Path Filename="..">/mnt/</Path>
+                  <Path Filename="mnt">/</Path>
+                  <Path Filename="rest">/home/jakchyla/</Path>
+                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
+                  <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
+                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
+                  <Path Filename="src">/home/jakchyla/</Path>
+                  <Path Filename="config">/home/jakchyla/src/</Path>
+                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
                   <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="03.mp4">/home/jakchyla/123/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="02.mp4">/home/jakchyla/123/</Path>
-                  <Path Filename="Downloads">/home/jakchyla/</Path>
-                  <Path Filename="Voc_list_Oct_19_2inf.pdf">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="Downloads">/home/jakchyla/</Path>
-                  <Path Filename="jakchyla">/home/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
-                  <Path Filename="Voc_list_Oct_19_2inf.pdf">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="Downloads">/home/jakchyla/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="mnt">/home/jakchyla/</Path>
-                  <Path Filename="123">/home/jakchyla/mnt/</Path>
-                  <Path Filename="01.mp4">/home/jakchyla/mnt/123/</Path>
-                  <Path Filename="Pictures">/home/jakchyla/</Path>
-                  <Path Filename="memes">/home/jakchyla/Pictures/</Path>
-                  <Path Filename="nomero_uno.mp4">/home/jakchyla/Pictures/memes/</Path>
-                  <Path Filename="mnt">/home/jakchyla/</Path>
-                  <Path Filename="123">/home/jakchyla/mnt/</Path>
-                  <Path Filename="">/home/jakchyla/mnt/123/</Path>
-                  <Path Filename="123">/home/jakchyla/mnt/</Path>
-                  <Path Filename="14.mp4">/home/jakchyla/mnt/123/</Path>
-                  <Path Filename="studia">/home/jakchyla/</Path>
-                  <Path Filename="prog_obiekt">/home/jakchyla/studia/</Path>
-                  <Path Filename="asdf">/home/jakchyla/studia/prog_obiekt/</Path>
-                  <Path Filename="src">/home/jakchyla/studia/prog_obiekt/asdf/</Path>
-                  <Path Filename="geometria">/home/jakchyla/studia/prog_obiekt/asdf/src/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/asdf/src/geometria/</Path>
-                  <Path Filename="geometria">/home/jakchyla/studia/prog_obiekt/asdf/src/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/asdf/src/geometria/</Path>
-                  <Path Filename="geometria">/home/jakchyla/studia/prog_obiekt/asdf/src/</Path>
-                  <Path Filename="mnt">/home/jakchyla/</Path>
-                  <Path Filename="123">/home/jakchyla/mnt/</Path>
-                  <Path Filename="30.mp4">/home/jakchyla/mnt/123/</Path>
-                  <Path Filename="..">/home/jakchyla/mnt/</Path>
-                  <Path Filename=".config">/home/jakchyla/</Path>
-                  <Path Filename="kitty">/home/jakchyla/.config/</Path>
-                  <Path Filename="light_theme.conf">/home/jakchyla/.config/kitty/</Path>
-                  <Path Filename="session">/home/jakchyla/.config/</Path>
+                  <Path Filename="rand.sh">/home/jakchyla/123/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -196,56 +202,56 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
+                  <Path Filename="Downloads">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="Downloads">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="">/home/jakchyla/123/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="vr">/home/jakchyla/123/</Path>
+                  <Path Filename="">/home/jakchyla/123/vr/</Path>
+                  <Path Filename="lock_screen.sh">/home/jakchyla/bin/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="vr">/home/jakchyla/123/</Path>
+                  <Path Filename="">/home/jakchyla/123/vr/</Path>
+                  <Path Filename="">/home/jakchyla/Desktop/</Path>
+                  <Path Filename="">/home/jakchyla/snap/</Path>
+                  <Path Filename="">/home/jakchyla/rest/</Path>
+                  <Path Filename="">/home/jakchyla/Public/</Path>
+                  <Path Filename="">/home/</Path>
+                  <Path Filename="">/home/jakchyla/bin/</Path>
+                  <Path Filename="">/home/jakchyla/123/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="">/home/jakchyla/123/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="">/home/jakchyla/123/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="01.mp4">/home/jakchyla/123/</Path>
+                  <Path Filename="">/home/jakchyla/</Path>
                   <Path Filename="">/home/jakchyla/123/</Path>
                   <Path Filename="123">/home/jakchyla/</Path>
                   <Path Filename="06.mp4">/home/jakchyla/123/</Path>
                   <Path Filename="Pictures">/home/jakchyla/</Path>
                   <Path Filename="wallpapers">/home/jakchyla/Pictures/</Path>
                   <Path Filename="wallpaper23.png">/home/jakchyla/Pictures/wallpapers/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="..">/boot/</Path>
-                  <Path Filename="jakchyla">/home/</Path>
-                  <Path Filename="studia">/home/jakchyla/</Path>
-                  <Path Filename="prog_obiekt">/home/jakchyla/studia/</Path>
-                  <Path Filename="Java_Wyklad">/home/jakchyla/studia/prog_obiekt/</Path>
-                  <Path Filename="Studenci">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/</Path>
-                  <Path Filename="FVAT">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/FVAT/</Path>
-                  <Path Filename="ChyłaJakub_2019">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/</Path>
-                  <Path Filename="01-geometria">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/ChyłaJakub_2019/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/ChyłaJakub_2019/01-geometria/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/ChyłaJakub_2019/</Path>
-                  <Path Filename="KozłowskiRafał_2019">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/KozłowskiRafał_2019/</Path>
-                  <Path Filename="WiśniewskiKrzysztof_2019">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/WiśniewskiKrzysztof_2019/</Path>
-                  <Path Filename="Readme.md">/home/jakchyla/studia/prog_obiekt/Java_Wyklad/Studenci/</Path>
+                  <Path Filename=".thunderbird">/home/jakchyla/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/.thunderbird/</Path>
+                  <Path Filename="calendar-data">/home/jakchyla/.thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="Pictures">/home/jakchyla/</Path>
+                  <Path Filename="memes">/home/jakchyla/Pictures/</Path>
+                  <Path Filename="robok.png">/home/jakchyla/Pictures/memes/</Path>
                   <Path Filename="Documents">/home/jakchyla/</Path>
-                  <Path Filename="jakchyla">/home/</Path>
-                  <Path Filename="src">/home/jakchyla/</Path>
-                  <Path Filename="config">/home/jakchyla/src/</Path>
-                  <Path Filename="bin">/home/jakchyla/src/config/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/bin/</Path>
-                  <Path Filename=".config">/home/jakchyla/src/config/</Path>
-                  <Path Filename="kitty">/home/jakchyla/src/config/.config/</Path>
-                  <Path Filename="theme_backup.conf">/home/jakchyla/src/config/.config/kitty/</Path>
-                  <Path Filename="kitty">/home/jakchyla/src/config/.config/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/.config/kitty/</Path>
+                  <Path Filename="..">/home/jakchyla/Documents/</Path>
+                  <Path Filename="opt">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/opt/</Path>
+                  <Path Filename=".local">/home/jakchyla/</Path>
+                  <Path Filename="share">/home/jakchyla/.local/</Path>
+                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="Team Fortress 2">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
+                  <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
+                  <Path Filename="cfg">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
                 </Paths>
               </Entry>
             </History>
