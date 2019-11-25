@@ -82,7 +82,7 @@ editor_backup_extension=~
 editor_filesize_threshold=64M
 editor_stop_format_chars=-+*\\,.;:&>
 mcview_eof=
-skin=gray-orange-blue256
+skin=dark
 
 [Layout]
 message_visible=1
@@ -94,7 +94,7 @@ menubar_visible=1
 free_space=1
 horizontal_split=0
 vertical_equal=1
-left_panel_size=87
+left_panel_size=62
 horizontal_equal=1
 top_panel_size=1
 
@@ -111,8 +111,10 @@ clipboard_paste=
 
 [Colors]
 base_color=
-xterm-256color=
+linux=
 color_terminals=
+
+xterm-256color=
 
 [Panels]
 show_mini_info=true

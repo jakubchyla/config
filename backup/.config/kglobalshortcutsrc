@@ -1,7 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-5aeec7eb-b6cc-40d3-aa72-8c37f4615de5=none,none,Switch to activity "Default"
-switch-to-activity-8e2f478b-180f-412b-823b-ad7967bdcc5d=none,none,Switch to activity "Default"
+switch-to-activity-ea33d031-0ee8-4807-be59-ae9a2b35eaec=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -52,10 +52,15 @@ increase_volume=Volume Up,Volume Up,Increase Volume
 mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
+[krunner]
+_k_friendly_name=Run Command
+run command=Alt+Space\tAlt+F2\tSearch,Alt+Space,Run Command
+run command on clipboard contents=Alt+Shift+F2,Alt+Shift+F2,Run Command on clipboard contents
+
 [krunner.desktop]
-RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
+RunClipboard=,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tMeta+Space\tSearch,KRunner
+_launch=Meta+D,Alt+Space\tAlt+F2\tMeta+Space\tSearch,KRunner
 
 [ksmserver]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,Halt Without Confirmation
@@ -84,7 +89,7 @@ Remove Window From Group=none,none,Remove Window From Group
 Setup Window Shortcut=none,none,Setup Window Shortcut
 Show Desktop=none,Meta+D,Show Desktop
 ShowDesktopGrid=Ctrl+F8,Ctrl+F8,Show Desktop Grid
-Suspend Compositing=none,Alt+Shift+F12,Suspend Compositing
+Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=none,none,Switch One Desktop Down
 Switch One Desktop Up=none,none,Switch One Desktop Up
 Switch One Desktop to the Left=none,none,Switch One Desktop to the Left
@@ -307,7 +312,7 @@ activate task manager entry 6=,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=,Meta+9,Activate Task Manager Entry 9
-activate widget 3=Alt+F1,none,Activate Application Launcher Widget
+activate widget 20=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
