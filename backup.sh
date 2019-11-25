@@ -8,10 +8,15 @@ for file in `find backup/ -type f`; do
 done
 }
 
-update_repo() {
+update_remote_repo() {
     git add .
     git commit -m "auto update" && git push
 }
+
+update_local_repo(){
+    git pull
+}
+
 
 update_local_config(){
     cp -r backup/. ~/
