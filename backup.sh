@@ -29,6 +29,10 @@ fi
 
 cd $(dirname $(realpath $0))
 
+if [ $# -eq 0 ];then
+    backup
+    update_remote_repo
+else
 while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
@@ -55,3 +59,4 @@ while [[ $# -gt 0 ]]; do
         ;;
     esac
 done
+fi
