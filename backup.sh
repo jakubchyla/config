@@ -22,28 +22,34 @@ update_local_config(){
     cp -r backup/. ~/
 }
 
-if [[ "$BACKUP_DIR" = "" ]]; then
-    echo "BACKUP_DIR not set!"
-    exit -1
+#if run as root; rerun as jakchyla
+if [ $(id -u) -eq 0 ];then
+    exec sudo -H -u jakchyla $0 "$@"
 fi
-cd $BACKUP_DIR
+
+cd $(dirname $(realpath $0))
 
 while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
-        backup)
+        backup-local)
         backup
         shift
         ;;
-        update_remote_repo)
+        backup)
+        backup
         update_remote_repo
         shift
         ;;
-        update_local_repo)
+        update-remote-repo)
+        update_remote_repo
+        shift
+        ;;
+        update-local-repo)
         update_local_repo
         shift
         ;;
-        update_local_config)
+        update-local-config)
         update_local_config
         shift
         ;;
