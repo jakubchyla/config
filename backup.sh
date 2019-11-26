@@ -22,6 +22,12 @@ update_local_config(){
     cp -r backup/. ~/
 }
 
+if [[ "$BACKUP_DIR" = "" ]]; then
+    echo "BACKUP_DIR not set!"
+    exit -1
+fi
+cd $BACKUP_DIR
+
 while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
