@@ -30,7 +30,6 @@ fi
 cd $(dirname $(realpath $0))
 
 if [ $# -eq 0 ];then
-    update_local_config
     backup
     update_remote_repo
 else
