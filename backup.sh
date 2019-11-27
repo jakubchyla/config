@@ -57,6 +57,9 @@ while [[ $# -gt 0 ]]; do
         update_local_config
         shift
         ;;
+        *)
+        exit -1
+        ;;
     esac
 done
 fi
