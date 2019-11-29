@@ -10,8 +10,7 @@ done
 
 update_remote_repo() {
     git add .
-    git commit -m "auto update"
-    git push
+    git commit -m "auto update" && git push
 }
 
 update_local_repo(){
