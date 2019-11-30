@@ -1,7 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
-let g:netrw_dirhist_0='/home/jakchyla/.vim'
-let g:netrw_dirhist_9='/home/jakchyla/src/config/backup/.vim'
+let g:netrw_dirhistcnt =8
 let g:netrw_dirhist_8='/home/jakchyla/.vim'
 let g:netrw_dirhist_7='/home/jakchyla/.config/fontconfig'
 let g:netrw_dirhist_6='/home/jakchyla/.config/kitty'
