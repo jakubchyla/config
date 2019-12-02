@@ -5,6 +5,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'wsdjeg/vim-fetch'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
+Plug 'sheerun/vim-polyglot'
+Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
@@ -20,7 +22,11 @@ call plug#end()
     set breakindent
 
 "theme
-    colorscheme material
+    if exists('g:GuiLoaded')
+        GuiFont Fira Mono:h12
+        colorscheme onedark
+    endif
+    set termguicolors
 
 "disable swapfile
     set noswapfile

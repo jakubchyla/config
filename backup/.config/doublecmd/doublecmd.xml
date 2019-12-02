@@ -129,15 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="share">/mnt/jakchyla/opt/innoextract/</Path>
-                  <Path Filename="man">/mnt/jakchyla/opt/innoextract/share/</Path>
-                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/share/man/</Path>
-                  <Path Filename="man">/mnt/jakchyla/opt/innoextract/share/</Path>
-                  <Path Filename="man1">/mnt/jakchyla/opt/innoextract/share/man/</Path>
-                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/share/man/man1/</Path>
-                  <Path Filename="man1">/mnt/jakchyla/opt/innoextract/share/man/</Path>
-                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/share/</Path>
-                  <Path Filename="..">/mnt/jakchyla/opt/innoextract/</Path>
                   <Path Filename="cross_compiler">/mnt/jakchyla/opt/</Path>
                   <Path Filename="..">/mnt/jakchyla/opt/cross_compiler/</Path>
                   <Path Filename="gzdoom">/mnt/jakchyla/opt/</Path>
@@ -178,7 +169,16 @@
                   <Path Filename="..">/home/jakchyla/studia/prog_obiekt/</Path>
                   <Path Filename="123">/home/jakchyla/</Path>
                   <Path Filename="rand.sh">/home/jakchyla/123/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
+                  <Path Filename=".local">/home/jakchyla/</Path>
+                  <Path Filename="share">/home/jakchyla/.local/</Path>
+                  <Path Filename="sddm">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/sddm/</Path>
+                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="Dark Souls Prepare to Die Edition">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
+                  <Path Filename="DATA">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/</Path>
+                  <Path Filename="DSfix.ini">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -199,10 +199,9 @@
               </Sorting>
             </Sortings>
             <History>
-              <Entry Active="True">
+              <Entry>
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="">/home/</Path>
                   <Path Filename="">/home/jakchyla/bin/</Path>
                   <Path Filename="">/home/jakchyla/123/</Path>
                   <Path Filename="123">/home/jakchyla/</Path>
@@ -252,6 +251,7 @@
                   <Path Filename="production">/home/jakchyla/studia/tmp/out/</Path>
                   <Path Filename="src">/home/jakchyla/studia/tmp/</Path>
                   <Path Filename="..">/home/jakchyla/studia/</Path>
+                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -314,7 +314,7 @@
     <DateTimeFormat>mm/dd/yyyy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -329,8 +329,8 @@
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
     </Viewer>
-    <Editor Enabled="False">
-      <Path/>
+    <Editor Enabled="True">
+      <Path>/usr/bin/nvim-qt</Path>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
