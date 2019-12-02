@@ -129,56 +129,56 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="cross_compiler">/mnt/jakchyla/opt/</Path>
-                  <Path Filename="..">/mnt/jakchyla/opt/cross_compiler/</Path>
-                  <Path Filename="gzdoom">/mnt/jakchyla/opt/</Path>
-                  <Path Filename=".pylint.d">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.pylint.d/</Path>
-                  <Path Filename=".pylint.d">/mnt/jakchyla/</Path>
-                  <Path Filename="gen_compile_commands1.stats">/mnt/jakchyla/.pylint.d/</Path>
-                  <Path Filename="rest">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/rest/</Path>
-                  <Path Filename=".rustup">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.rustup/</Path>
-                  <Path Filename=".rustup">/mnt/jakchyla/</Path>
-                  <Path Filename="downloads">/mnt/jakchyla/.rustup/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.rustup/downloads/</Path>
-                  <Path Filename="update-hashes">/mnt/jakchyla/.rustup/</Path>
-                  <Path Filename="src">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/src/</Path>
-                  <Path Filename=".steam">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.steam/</Path>
-                  <Path Filename=".cargo">/mnt/jakchyla/</Path>
-                  <Path Filename="bin">/mnt/jakchyla/.cargo/</Path>
-                  <Path Filename="rls">/mnt/jakchyla/.cargo/bin/</Path>
-                  <Path Filename="bin">/mnt/jakchyla/.cargo/</Path>
-                  <Path Filename="Downloads">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/</Path>
-                  <Path Filename="mnt">/</Path>
-                  <Path Filename="rest">/home/jakchyla/</Path>
-                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
-                  <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
-                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
-                  <Path Filename="src">/home/jakchyla/</Path>
-                  <Path Filename="config">/home/jakchyla/src/</Path>
-                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="rand.sh">/home/jakchyla/123/</Path>
-                  <Path Filename="studia">/home/jakchyla/</Path>
-                  <Path Filename="prog_obiekt">/home/jakchyla/studia/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="rand.sh">/home/jakchyla/123/</Path>
-                  <Path Filename=".local">/home/jakchyla/</Path>
-                  <Path Filename="share">/home/jakchyla/.local/</Path>
-                  <Path Filename="sddm">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/sddm/</Path>
-                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/860950/remote/users/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/860950/remote/</Path>
+                  <Path Filename="remote">/home/jakchyla/.local/share/Steam/userdata/79233520/860950/</Path>
+                  <Path Filename="7">/home/jakchyla/.local/share/Steam/userdata/79233520/</Path>
+                  <Path Filename="remote">/home/jakchyla/.local/share/Steam/userdata/79233520/7/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/7/remote/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/7/</Path>
+                  <Path Filename="512900">/home/jakchyla/.local/share/Steam/userdata/79233520/</Path>
+                  <Path Filename="remotecache.vdf">/home/jakchyla/.local/share/Steam/userdata/79233520/512900/</Path>
+                  <Path Filename="440">/home/jakchyla/.local/share/Steam/userdata/79233520/</Path>
+                  <Path Filename="remote">/home/jakchyla/.local/share/Steam/userdata/79233520/440/</Path>
+                  <Path Filename="cfg">/home/jakchyla/.local/share/Steam/userdata/79233520/440/remote/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/440/remote/cfg/</Path>
+                  <Path Filename="cfg">/home/jakchyla/.local/share/Steam/userdata/79233520/440/remote/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/440/remote/cfg/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/440/remote/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/440/</Path>
+                  <Path Filename="311690">/home/jakchyla/.local/share/Steam/userdata/79233520/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/311690/</Path>
+                  <Path Filename="250900">/home/jakchyla/.local/share/Steam/userdata/79233520/</Path>
+                  <Path Filename="remote">/home/jakchyla/.local/share/Steam/userdata/79233520/250900/</Path>
+                  <Path Filename="ab_persistentgamedata1.dat">/home/jakchyla/.local/share/Steam/userdata/79233520/250900/remote/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/250900/</Path>
+                  <Path Filename="211420">/home/jakchyla/.local/share/Steam/userdata/79233520/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/211420/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/79233520/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/userdata/</Path>
+                  <Path Filename="ubuntu12_64">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/ubuntu12_64/</Path>
+                  <Path Filename="ubuntu12_32">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/ubuntu12_32/</Path>
                   <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="Dark Souls Prepare to Die Edition">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
-                  <Path Filename="DATA">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/</Path>
-                  <Path Filename="DSfix.ini">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/</Path>
+                  <Path Filename="temp">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/temp/</Path>
+                  <Path Filename="temp">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="211420">/home/jakchyla/.local/share/Steam/steamapps/temp/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/temp/211420/</Path>
+                  <Path Filename="211420">/home/jakchyla/.local/share/Steam/steamapps/temp/</Path>
+                  <Path Filename="compatdata">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="211420">/home/jakchyla/.local/share/Steam/steamapps/compatdata/</Path>
+                  <Path Filename="pfx">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/</Path>
+                  <Path Filename="drive_c">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/</Path>
+                  <Path Filename="users">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/</Path>
+                  <Path Filename="steamuser">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/</Path>
+                  <Path Filename="steamuser">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/</Path>
+                  <Path Filename="My Documents">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/</Path>
+                  <Path Filename="NBGI">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/</Path>
+                  <Path Filename="DarkSouls">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/</Path>
+                  <Path Filename="DRAKS0005.sl2">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/DarkSouls/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -199,7 +199,7 @@
               </Sorting>
             </Sortings>
             <History>
-              <Entry>
+              <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path Filename="">/home/jakchyla/bin/</Path>
@@ -251,7 +251,7 @@
                   <Path Filename="production">/home/jakchyla/studia/tmp/out/</Path>
                   <Path Filename="src">/home/jakchyla/studia/tmp/</Path>
                   <Path Filename="..">/home/jakchyla/studia/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="DRAKS0005.sl2">/home/jakchyla/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>

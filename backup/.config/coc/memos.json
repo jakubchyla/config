@@ -372,8 +372,7 @@
       },
       "sysPrefix": "/usr",
       "fileHash": "32916cfd7886a3888d466666818e3972efba09ef0ba8c4442327bd3154a717d8db493e7d382367b4739c8e90419b43f89b0d639cc953954209fc0b2401de6c0e",
-      "type": "Unknown",
-      "cachedEntry": true
+      "type": "Unknown"
     },
     "preferredGlobalPyInterpreter": {
       "architecture": 3,
@@ -1057,7 +1056,6 @@
       "sysPrefix": "/usr",
       "fileHash": "32916cfd7886a3888d466666818e3972efba09ef0ba8c4442327bd3154a717d8db493e7d382367b4739c8e90419b43f89b0d639cc953954209fc0b2401de6c0e",
       "type": "Unknown",
-      "cachedEntry": true,
       "displayName": "Python 3.8.0 64-bit"
     },
     "/usr/bin/python2.interpreter.Details.v7": {
@@ -1674,6 +1672,36 @@
     "INTERPRETERS_CACHE_v3_PipEnvService:7a474f4d8c5dede1cc7ddd60f5183c09": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7a474f4d8c5dede1cc7ddd60f5183c09": [],
     "autoSelectedWorkspacePythonInterpreter-/home/jakchyla/p/assembler": {
+      "architecture": 3,
+      "path": "/sbin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.0-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.0-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "32916cfd7886a3888d466666818e3972efba09ef0ba8c4442327bd3154a717d8db493e7d382367b4739c8e90419b43f89b0d639cc953954209fc0b2401de6c0e",
+      "type": "Unknown",
+      "displayName": "Python 3.8.0 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/jakchyla/p/advent_of_code/day2": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:f5b759473a25b7156eba1747ab7d6910": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:f5b759473a25b7156eba1747ab7d6910": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/jakchyla/p/advent_of_code/day2": {
       "architecture": 3,
       "path": "/sbin/python",
       "version": {
