@@ -26,7 +26,7 @@ call plug#end()
         GuiFont Fira Mono:h12
         colorscheme onedark
     endif
-    set termguicolors
+    "set termguicolors
 
 "disable swapfile
     set noswapfile
