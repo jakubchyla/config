@@ -1,7 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'kaicataldo/material.vim'
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
 Plug 'wsdjeg/vim-fetch'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
@@ -76,15 +77,22 @@ call plug#end()
 " plugins options
 "-----------------------
 
-"status bar plugin
-    set laststatus=2
-    if !has('gui_running')
-            set t_Co=256
-    endif
-    set noshowmode
-    let g:lightline = {
-       \ 'colorscheme': 'wombat',
-      \}
+"lightline.vim
+"    set laststatus=2
+"    if !has('gui_running')
+"            set t_Co=256
+"    endif
+"    set noshowmode
+"    let g:lightline = {
+"       \ 'colorscheme': 'wombat',
+"      \}
+
+
+"vim-airline
+let g:airline_section_y = ""
+let g:airline_section_z = ""
+let g:airline_section_warning = ""
+
 
 "coc.vim
 "dependencies: python-language-server, ccls, bash language server
@@ -218,6 +226,4 @@ call plug#end()
     "Resume latest coc list
     nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
       autocmd FileType json syntax match Comment +\/\/.\+$+
-
-
 
