@@ -61,10 +61,10 @@ call plug#end()
     nnoremap <S-w> :update<CR>
     nnoremap <S-q> :q<CR>
 
-    nnoremap <leader>y "+y
-    nnoremap <leader>p "+p
-    nnoremap <leader>Y "+y
-    nnoremap <leader>P "+p
+    noremap <leader>y "+y
+    noremap <leader>p "+p
+    noremap <leader>Y "+y
+    noremap <leader>P "+p
 
 "clear highlight and search
     nnoremap / :noh<CR> :/
