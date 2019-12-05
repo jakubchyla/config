@@ -129,6 +129,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
+<<<<<<< HEAD
                   <Path Filename="..">/home/jakchyla/tmp/.cache/mozilla/firefox/p44nmw64.default-release/</Path>
                   <Path Filename="..">/home/jakchyla/tmp/.cache/mozilla/firefox/</Path>
                   <Path Filename="..">/home/jakchyla/tmp/.cache/mozilla/</Path>
@@ -179,6 +180,58 @@
                   <Path Filename="discover">/home/jakchyla/tmp/.cache/</Path>
                   <Path Filename=".thunderbird">/home/jakchyla/tmp/</Path>
                   <Path Filename="profiles.ini">/home/jakchyla/tmp/.thunderbird/</Path>
+=======
+                  <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
+                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
+                  <Path Filename="src">/home/jakchyla/</Path>
+                  <Path Filename="config">/home/jakchyla/src/</Path>
+                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="rand.sh">/home/jakchyla/123/</Path>
+                  <Path Filename="studia">/home/jakchyla/</Path>
+                  <Path Filename="prog_obiekt">/home/jakchyla/studia/</Path>
+                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="rand.sh">/home/jakchyla/123/</Path>
+                  <Path Filename=".local">/home/jakchyla/</Path>
+                  <Path Filename="share">/home/jakchyla/.local/</Path>
+                  <Path Filename="sddm">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/sddm/</Path>
+                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="Dark Souls Prepare to Die Edition">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
+                  <Path Filename="DATA">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/</Path>
+                  <Path Filename="dsfix">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/</Path>
+                  <Path Filename="tex_dump">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/dsfix/</Path>
+                  <Path Filename="movWW">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/movWW/</Path>
+                  <Path Filename="readme">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/readme/</Path>
+                  <Path Filename="movWW">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/</Path>
+                  <Path Filename="REDIST">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/</Path>
+                  <Path Filename="DirectX">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/REDIST/</Path>
+                  <Path Filename="REDIST">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/</Path>
+                  <Path Filename="Dark Souls Prepare to Die Edition">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
+                  <Path Filename="shadercache">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="compatdata">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="211420">/home/jakchyla/.local/share/Steam/steamapps/compatdata/</Path>
+                  <Path Filename="pfx">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/</Path>
+                  <Path Filename="drive_c">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/</Path>
+                  <Path Filename="users">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/</Path>
+                  <Path Filename="Public">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/Public/</Path>
+                  <Path Filename="steamuser">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/</Path>
+                  <Path Filename="My Documents">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/</Path>
+                  <Path Filename="My Music">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/My Music/</Path>
+                  <Path Filename="My Pictures">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/My Pictures/</Path>
+                  <Path Filename="NBGI">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/</Path>
+                  <Path Filename="DarkSouls">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/</Path>
+                  <Path Filename="DRAKS0005.sl2">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/DarkSouls/</Path>
+>>>>>>> 7176d24d86c8529bd0084b23405a9c3401ded3f0
                 </Paths>
               </Entry>
             </History>
@@ -202,6 +255,16 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
+<<<<<<< HEAD
+=======
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="">/home/jakchyla/123/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="">/home/jakchyla/123/</Path>
+                  <Path Filename="123">/home/jakchyla/</Path>
+                  <Path Filename="01.mp4">/home/jakchyla/123/</Path>
+                  <Path Filename="">/home/jakchyla/</Path>
+>>>>>>> 7176d24d86c8529bd0084b23405a9c3401ded3f0
                   <Path Filename="">/home/jakchyla/123/</Path>
                   <Path Filename="123">/home/jakchyla/</Path>
                   <Path Filename="06.mp4">/home/jakchyla/123/</Path>
@@ -243,6 +306,7 @@
                   <Path Filename="src">/home/jakchyla/studia/tmp/</Path>
                   <Path Filename="..">/home/jakchyla/studia/</Path>
                   <Path Filename="..">/home/jakchyla/Downloads/</Path>
+<<<<<<< HEAD
                   <Path Filename=".cache">/home/jakchyla/</Path>
                   <Path Filename="thunderbird">/home/jakchyla/.cache/</Path>
                   <Path Filename="qiyspbx8.default-release">/home/jakchyla/.cache/thunderbird/</Path>
@@ -252,6 +316,10 @@
                   <Path Filename="..">/home/jakchyla/.cache/thunderbird/</Path>
                   <Path Filename=".thunderbird">/home/jakchyla/</Path>
                   <Path Filename="..">/home/jakchyla/.thunderbird/</Path>
+=======
+                  <Path Filename="tmp">/home/jakchyla/</Path>
+                  <Path Filename="DRAKS0005.sl2">/home/jakchyla/tmp/</Path>
+>>>>>>> 7176d24d86c8529bd0084b23405a9c3401ded3f0
                 </Paths>
               </Entry>
             </History>
@@ -314,7 +382,7 @@
     <DateTimeFormat>mm/dd/yyyy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>True</ShowSystemFiles>
+    <ShowSystemFiles>False</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
