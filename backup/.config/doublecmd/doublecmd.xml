@@ -129,56 +129,56 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="cross_compiler">/mnt/jakchyla/opt/</Path>
-                  <Path Filename="..">/mnt/jakchyla/opt/cross_compiler/</Path>
-                  <Path Filename="gzdoom">/mnt/jakchyla/opt/</Path>
-                  <Path Filename=".pylint.d">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.pylint.d/</Path>
-                  <Path Filename=".pylint.d">/mnt/jakchyla/</Path>
-                  <Path Filename="gen_compile_commands1.stats">/mnt/jakchyla/.pylint.d/</Path>
-                  <Path Filename="rest">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/rest/</Path>
-                  <Path Filename=".rustup">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.rustup/</Path>
-                  <Path Filename=".rustup">/mnt/jakchyla/</Path>
-                  <Path Filename="downloads">/mnt/jakchyla/.rustup/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.rustup/downloads/</Path>
-                  <Path Filename="update-hashes">/mnt/jakchyla/.rustup/</Path>
-                  <Path Filename="src">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/src/</Path>
-                  <Path Filename=".steam">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/jakchyla/.steam/</Path>
-                  <Path Filename=".cargo">/mnt/jakchyla/</Path>
-                  <Path Filename="bin">/mnt/jakchyla/.cargo/</Path>
-                  <Path Filename="rls">/mnt/jakchyla/.cargo/bin/</Path>
-                  <Path Filename="bin">/mnt/jakchyla/.cargo/</Path>
-                  <Path Filename="Downloads">/mnt/jakchyla/</Path>
-                  <Path Filename="..">/mnt/</Path>
-                  <Path Filename="mnt">/</Path>
-                  <Path Filename="rest">/home/jakchyla/</Path>
-                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
-                  <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
-                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
-                  <Path Filename="src">/home/jakchyla/</Path>
-                  <Path Filename="config">/home/jakchyla/src/</Path>
-                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="rand.sh">/home/jakchyla/123/</Path>
-                  <Path Filename="studia">/home/jakchyla/</Path>
-                  <Path Filename="prog_obiekt">/home/jakchyla/studia/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/prog_obiekt/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="rand.sh">/home/jakchyla/123/</Path>
-                  <Path Filename=".local">/home/jakchyla/</Path>
-                  <Path Filename="share">/home/jakchyla/.local/</Path>
-                  <Path Filename="sddm">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/sddm/</Path>
-                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="Dark Souls Prepare to Die Edition">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
-                  <Path Filename="DATA">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/</Path>
-                  <Path Filename="DSfix.ini">/home/jakchyla/.local/share/Steam/steamapps/common/Dark Souls Prepare to Die Edition/DATA/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/mozilla/firefox/p44nmw64.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/mozilla/firefox/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/mozilla/</Path>
+                  <Path Filename="thunderbird">/home/jakchyla/tmp/.cache/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="doomed">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/doomed/</Path>
+                  <Path Filename="doomed">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename=".startup-incomplete">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="ip45z2xz.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/startupCache/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="doomed">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/doomed/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="2B8FB3A7C1E8990CE64886D66718692D2B2ED2BC">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/entries/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/entries/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/entries/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/startupCache/</Path>
+                  <Path Filename="safebrowsing">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/safebrowsing/</Path>
+                  <Path Filename="safebrowsing">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="thunderbird">/home/jakchyla/tmp/.cache/</Path>
+                  <Path Filename="ip45z2xz.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/startupCache/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="discover">/home/jakchyla/tmp/.cache/</Path>
+                  <Path Filename=".thunderbird">/home/jakchyla/tmp/</Path>
+                  <Path Filename="profiles.ini">/home/jakchyla/tmp/.thunderbird/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -199,18 +199,9 @@
               </Sorting>
             </Sortings>
             <History>
-              <Entry>
+              <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="">/home/jakchyla/bin/</Path>
-                  <Path Filename="">/home/jakchyla/123/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="">/home/jakchyla/123/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="">/home/jakchyla/123/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="01.mp4">/home/jakchyla/123/</Path>
-                  <Path Filename="">/home/jakchyla/</Path>
                   <Path Filename="">/home/jakchyla/123/</Path>
                   <Path Filename="123">/home/jakchyla/</Path>
                   <Path Filename="06.mp4">/home/jakchyla/123/</Path>
@@ -252,6 +243,15 @@
                   <Path Filename="src">/home/jakchyla/studia/tmp/</Path>
                   <Path Filename="..">/home/jakchyla/studia/</Path>
                   <Path Filename="..">/home/jakchyla/Downloads/</Path>
+                  <Path Filename=".cache">/home/jakchyla/</Path>
+                  <Path Filename="thunderbird">/home/jakchyla/.cache/</Path>
+                  <Path Filename="qiyspbx8.default-release">/home/jakchyla/.cache/thunderbird/</Path>
+                  <Path Filename="..">/home/jakchyla/.cache/thunderbird/qiyspbx8.default-release/</Path>
+                  <Path Filename="qiyspbx8.default-release">/home/jakchyla/.cache/thunderbird/</Path>
+                  <Path Filename="..">/home/jakchyla/.cache/thunderbird/qiyspbx8.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/.cache/thunderbird/</Path>
+                  <Path Filename=".thunderbird">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/.thunderbird/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -281,7 +281,7 @@
     <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
     <RunInTerminalCloseCmd>xterm</RunInTerminalCloseCmd>
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
-    <JustRunTerminal>gnome-terminal</JustRunTerminal>
+    <JustRunTerminal>kitty-tmux</JustRunTerminal>
     <JustRunTermParams/>
     <OnlyOneAppInstance>False</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
