@@ -24,7 +24,7 @@ call plug#end()
 
 "theme
     if exists('g:GuiLoaded')
-        GuiFont Fira Code Regular:h12
+        GuiFont Fira Mono:h12
         colorscheme onedark
     endif
     "set termguicolors
