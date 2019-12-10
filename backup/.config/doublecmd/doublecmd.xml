@@ -104,11 +104,11 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Maximized>False</Maximized>
+      <Maximized>True</Maximized>
       <Splitter>49.7130933750652</Splitter>
-      <Left>960</Left>
+      <Left>0</Left>
       <Top>36</Top>
-      <Width>960</Width>
+      <Width>1920</Width>
       <Height>1015</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
@@ -126,59 +126,65 @@
               </Sorting>
             </Sortings>
             <History>
+              <Entry>
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="thunderbird">/home/jakchyla/tmp/.cache/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="doomed">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/doomed/</Path>
+                  <Path Filename="doomed">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename=".startup-incomplete">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="ip45z2xz.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/startupCache/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="doomed">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/doomed/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="2B8FB3A7C1E8990CE64886D66718692D2B2ED2BC">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/entries/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/entries/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/entries/</Path>
+                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/startupCache/</Path>
+                  <Path Filename="safebrowsing">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/safebrowsing/</Path>
+                  <Path Filename="safebrowsing">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="thunderbird">/home/jakchyla/tmp/.cache/</Path>
+                  <Path Filename="ip45z2xz.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/startupCache/</Path>
+                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
+                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
+                  <Path Filename="discover">/home/jakchyla/tmp/.cache/</Path>
+                  <Path Filename=".thunderbird">/home/jakchyla/tmp/</Path>
+                  <Path Filename="profiles.ini">/home/jakchyla/tmp/.thunderbird/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/</Path>
+                  <Path Filename=".123">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/.123/</Path>
+                </Paths>
+              </Entry>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Public">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/Public/</Path>
-                  <Path Filename="steamuser">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/</Path>
-                  <Path Filename="My Documents">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/</Path>
-                  <Path Filename="NBGI">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/</Path>
-                  <Path Filename="DarkSouls">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/</Path>
-                  <Path Filename="DRAKS0005.sl2">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/DarkSouls/</Path>
-                  <Path Filename="sddm">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/sddm/</Path>
-                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="steam">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="games">/home/jakchyla/.local/share/Steam/steam/</Path>
-                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="Team Fortress 2">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
-                  <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
-                  <Path Filename="custom">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
-                  <Path Filename="budhud">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/</Path>
-                  <Path Filename="resource">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/</Path>
-                  <Path Filename="ui">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/resource/</Path>
-                  <Path Filename="hudmannvsmachinestatus.res">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/resource/ui/</Path>
-                  <Path Filename="ui">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/resource/</Path>
-                  <Path Filename="#customization">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/</Path>
-                  <Path Filename="_enabled">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/#customization/</Path>
-                  <Path Filename="bh_crosshairs.res">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/#customization/_enabled/</Path>
-                  <Path Filename="bh_mainmenu_dev.res">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/#customization/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
-                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
-                  <Path Filename="compatdata">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="211420">/home/jakchyla/.local/share/Steam/steamapps/compatdata/</Path>
-                  <Path Filename="pfx">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/</Path>
-                  <Path Filename="drive_c">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/</Path>
-                  <Path Filename="users">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/</Path>
-                  <Path Filename="steamuser">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/</Path>
-                  <Path Filename="My Documents">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/</Path>
-                  <Path Filename="NBGI">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/</Path>
-                  <Path Filename="DarkSouls">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/</Path>
-                  <Path Filename="DRAKS0005.sl2">/home/jakchyla/.local/share/Steam/steamapps/compatdata/211420/pfx/drive_c/users/steamuser/My Documents/NBGI/DarkSouls/</Path>
-                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="Dawn of War Soulstorm">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
-                  <Path Filename="Drivers">/home/jakchyla/.local/share/Steam/steamapps/common/Dawn of War Soulstorm/</Path>
-                  <Path Filename="spdx9_config.txt">/home/jakchyla/.local/share/Steam/steamapps/common/Dawn of War Soulstorm/Drivers/</Path>
-                  <Path Filename="W40k">/home/jakchyla/.local/share/Steam/steamapps/common/Dawn of War Soulstorm/</Path>
-                  <Path Filename="Data">/home/jakchyla/.local/share/Steam/steamapps/common/Dawn of War Soulstorm/W40k/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Dawn of War Soulstorm/W40k/Data/</Path>
+                  <Path Filename="..">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,12 +208,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="">/home/jakchyla/123/</Path>
-                  <Path Filename="123">/home/jakchyla/</Path>
-                  <Path Filename="06.mp4">/home/jakchyla/123/</Path>
-                  <Path Filename="Pictures">/home/jakchyla/</Path>
-                  <Path Filename="wallpapers">/home/jakchyla/Pictures/</Path>
-                  <Path Filename="wallpaper23.png">/home/jakchyla/Pictures/wallpapers/</Path>
                   <Path Filename=".thunderbird">/home/jakchyla/</Path>
                   <Path Filename="2hct43qm.default-release">/home/jakchyla/.thunderbird/</Path>
                   <Path Filename="calendar-data">/home/jakchyla/.thunderbird/2hct43qm.default-release/</Path>
@@ -243,15 +243,21 @@
                   <Path Filename="src">/home/jakchyla/studia/tmp/</Path>
                   <Path Filename="..">/home/jakchyla/studia/</Path>
                   <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="tmp">/home/jakchyla/</Path>
-                  <Path Filename="">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/#customization/Crosshair Images/</Path>
-                  <Path Filename="_enabled">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/#customization/</Path>
-                  <Path Filename="bh_colors.res">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom/budhud/#customization/_enabled/</Path>
-                  <Path Filename="tmp">/home/jakchyla/</Path>
-                  <Path Filename="DRAKS0005.sl2">/home/jakchyla/tmp/</Path>
-                  <Path Filename="zoom">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="Camera Mod">/home/jakchyla/Downloads/zoom/</Path>
-                  <Path Filename="camera_high.lua">/home/jakchyla/Downloads/zoom/Camera Mod/</Path>
+                  <Path Filename=".cache">/home/jakchyla/</Path>
+                  <Path Filename="thunderbird">/home/jakchyla/.cache/</Path>
+                  <Path Filename="qiyspbx8.default-release">/home/jakchyla/.cache/thunderbird/</Path>
+                  <Path Filename="..">/home/jakchyla/.cache/thunderbird/qiyspbx8.default-release/</Path>
+                  <Path Filename="qiyspbx8.default-release">/home/jakchyla/.cache/thunderbird/</Path>
+                  <Path Filename="..">/home/jakchyla/.cache/thunderbird/qiyspbx8.default-release/</Path>
+                  <Path Filename="..">/home/jakchyla/.cache/thunderbird/</Path>
+                  <Path Filename=".thunderbird">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/.thunderbird/</Path>
+                  <Path Filename=".thunderbird">/home/jakchyla/</Path>
+                  <Path Filename="jakchyla">/home/</Path>
+                  <Path Filename="run">/</Path>
+                  <Path Filename="media">/run/</Path>
+                  <Path Filename="..">/run/media/</Path>
+                  <Path Filename="initramfs">/run/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -281,7 +287,7 @@
     <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
     <RunInTerminalCloseCmd>xterm</RunInTerminalCloseCmd>
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
-    <JustRunTerminal>gnome-terminal</JustRunTerminal>
+    <JustRunTerminal>kitty-tmux</JustRunTerminal>
     <JustRunTermParams/>
     <OnlyOneAppInstance>False</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
