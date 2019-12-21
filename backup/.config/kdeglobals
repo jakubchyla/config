@@ -106,12 +106,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [General]
-BrowserApplication=google-chrome.desktop
+BrowserApplication[$e]=firefox.desktop
 ColorScheme=ArcDark
 Name=Arc Dark
 TerminalApplication[$e]=kitty
 XftHintStyle=
 XftSubPixel=
+dbfile=/home/jakchyla/.mozilla/firefox/jzwebyhb.default/places.sqlite
 fixed=Office Code Pro,10,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
 toolBarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
@@ -138,7 +139,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
