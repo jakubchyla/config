@@ -35,5 +35,27 @@
             "after": ["g", "j"]
         }
     ],
-    "workbench.colorTheme": "One Dark Pro"
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["W"],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": ["Q"],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-b>": false,
+        "<C-s>": false,
+        "<C-w>": false
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "files.associations": {
+        "*.h": "c"
+    },
 }

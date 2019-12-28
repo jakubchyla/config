@@ -104,7 +104,7 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Maximized>False</Maximized>
+      <Maximized>True</Maximized>
       <Splitter>49.7130933750652</Splitter>
       <Left>1366</Left>
       <Top>36</Top>
@@ -129,29 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename=".startup-incomplete">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
-                  <Path Filename="ip45z2xz.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
-                  <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
-                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/startupCache/</Path>
-                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
-                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
-                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
-                  <Path Filename="doomed">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
-                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/doomed/</Path>
-                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
-                  <Path Filename="2B8FB3A7C1E8990CE64886D66718692D2B2ED2BC">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/entries/</Path>
-                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
-                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
-                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
-                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/entries/</Path>
-                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/cache2/</Path>
-                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/ip45z2xz.default-release/</Path>
-                  <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
-                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
-                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
-                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
-                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
-                  <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/entries/</Path>
                   <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
                   <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
                   <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
@@ -178,7 +155,30 @@
                   <Path Filename="04.mp4">/home/jakchyla/.123/</Path>
                   <Path Filename=".123">/home/jakchyla/</Path>
                   <Path Filename="23.mp4">/home/jakchyla/.123/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
+                  <Path Filename="">/home/jakchyla/</Path>
+                  <Path Filename="User">/home/jakchyla/.config/sublime-text-3/Packages/</Path>
+                  <Path Filename="Package Control.cache">/home/jakchyla/.config/sublime-text-3/Packages/User/</Path>
+                  <Path Filename="..">/home/jakchyla/.config/sublime-text-3/Packages/User/Package Control.cache/</Path>
+                  <Path Filename="Package Control.cache">/home/jakchyla/.config/sublime-text-3/Packages/User/</Path>
+                  <Path Filename="pyyaml">/home/jakchyla/.config/sublime-text-3/Packages/</Path>
+                  <Path Filename="Installed Packages">/home/jakchyla/.config/sublime-text-3/</Path>
+                  <Path Filename="..">/home/jakchyla/.config/sublime-text-3/Installed Packages/</Path>
+                  <Path Filename="Lib">/home/jakchyla/.config/sublime-text-3/</Path>
+                  <Path Filename="..">/home/jakchyla/.config/sublime-text-3/Lib/</Path>
+                  <Path Filename="Local">/home/jakchyla/.config/sublime-text-3/</Path>
+                  <Path Filename="..">/home/jakchyla/.config/sublime-text-3/Local/</Path>
+                  <Path Filename="Index">/home/jakchyla/.config/sublime-text-3/</Path>
+                  <Path Filename="..">/home/jakchyla/.config/sublime-text-3/Index/</Path>
+                  <Path Filename="Cache">/home/jakchyla/.config/sublime-text-3/</Path>
+                  <Path Filename="..">/home/jakchyla/.config/sublime-text-3/Cache/</Path>
+                  <Path Filename="Cache">/home/jakchyla/.config/sublime-text-3/</Path>
+                  <Path Filename="C++">/home/jakchyla/.config/sublime-text-3/Cache/</Path>
+                  <Path Filename="C.sublime-syntax.cache">/home/jakchyla/.config/sublime-text-3/Cache/C++/</Path>
+                  <Path Filename=".123">/home/jakchyla/</Path>
+                  <Path Filename="06.mp4">/home/jakchyla/.123/</Path>
+                  <Path Filename="tmp">/home/jakchyla/</Path>
+                  <Path Filename="wallpaper">/home/jakchyla/tmp/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/wallpaper/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,9 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename=".thunderbird">/home/jakchyla/</Path>
-                  <Path Filename="2hct43qm.default-release">/home/jakchyla/.thunderbird/</Path>
-                  <Path Filename="calendar-data">/home/jakchyla/.thunderbird/2hct43qm.default-release/</Path>
                   <Path Filename="Pictures">/home/jakchyla/</Path>
                   <Path Filename="memes">/home/jakchyla/Pictures/</Path>
                   <Path Filename="robok.png">/home/jakchyla/Pictures/memes/</Path>
@@ -252,6 +249,9 @@
                   <Path Filename="media">/run/</Path>
                   <Path Filename="..">/run/media/</Path>
                   <Path Filename="initramfs">/run/</Path>
+                  <Path Filename="Pictures">/home/jakchyla/</Path>
+                  <Path Filename="wallpapers">/home/jakchyla/Pictures/</Path>
+                  <Path Filename="wallpaper13.png">/home/jakchyla/Pictures/wallpapers/</Path>
                 </Paths>
               </Entry>
             </History>
