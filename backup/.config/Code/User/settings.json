@@ -58,4 +58,5 @@
     "files.associations": {
         "*.h": "c"
     },
+    "explorer.confirmDragAndDrop": false,
 }

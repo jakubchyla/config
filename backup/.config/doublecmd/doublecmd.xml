@@ -129,8 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="entries">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/cache2/</Path>
-                  <Path Filename="cache2">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
                   <Path Filename="2hct43qm.default-release">/home/jakchyla/tmp/.cache/thunderbird/</Path>
                   <Path Filename="startupCache">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/</Path>
                   <Path Filename="..">/home/jakchyla/tmp/.cache/thunderbird/2hct43qm.default-release/startupCache/</Path>
@@ -179,6 +177,8 @@
                   <Path Filename="tmp">/home/jakchyla/</Path>
                   <Path Filename="wallpaper">/home/jakchyla/tmp/</Path>
                   <Path Filename="..">/home/jakchyla/tmp/wallpaper/</Path>
+                  <Path Filename="..">/home/jakchyla/tmp/</Path>
+                  <Path Filename="tmp">/home/jakchyla/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,8 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Pictures">/home/jakchyla/</Path>
-                  <Path Filename="memes">/home/jakchyla/Pictures/</Path>
                   <Path Filename="robok.png">/home/jakchyla/Pictures/memes/</Path>
                   <Path Filename="Documents">/home/jakchyla/</Path>
                   <Path Filename="..">/home/jakchyla/Documents/</Path>
@@ -252,6 +250,8 @@
                   <Path Filename="Pictures">/home/jakchyla/</Path>
                   <Path Filename="wallpapers">/home/jakchyla/Pictures/</Path>
                   <Path Filename="wallpaper13.png">/home/jakchyla/Pictures/wallpapers/</Path>
+                  <Path Filename="memes">/home/jakchyla/Pictures/</Path>
+                  <Path Filename="nokie_talkie.png">/home/jakchyla/Pictures/memes/</Path>
                 </Paths>
               </Entry>
             </History>

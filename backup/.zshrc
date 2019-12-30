@@ -53,9 +53,5 @@
 #source-highlight
     export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
 
-#kitty completion
-    autoload -Uz compinit
-    compinit
-    kitty + complete setup zsh | source /dev/stdin
 
 clear
