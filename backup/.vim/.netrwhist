@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/jakchyla/src/config/backup'
 let g:netrw_dirhist_2='/home/jakchyla/p/os/src'
 let g:netrw_dirhist_1='/home/jakchyla/tmp/meaty-skeleton/kernel'
 let g:netrw_dirhist_0='/home/jakchyla/tmp/meaty-skeleton/kernel/include'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_7='/home/jakchyla/.config/fontconfig'
 let g:netrw_dirhist_6='/home/jakchyla/.config/kitty'
 let g:netrw_dirhist_5='/home/jakchyla/.config/xfce4/xfwm4'
 let g:netrw_dirhist_4='/home/jakchyla/.config/xfce4'
-let g:netrw_dirhist_3='/home/jakchyla/.ssh'
