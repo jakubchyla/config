@@ -4,10 +4,7 @@ backup() {
 for file in `find backup/ -type f`; do
     src_file=`echo $file | sed "s#backup#$HOME#"`
     dest_file=`readlink -f $file`
-
-    echo "$src_file  ----  $dest_file"
-
-    cp $src_file $dest_file #2>/dev/null
+    cp $src_file $dest_file 2>/dev/null
 done
 }
 
