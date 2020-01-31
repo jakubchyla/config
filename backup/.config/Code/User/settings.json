@@ -8,6 +8,8 @@
     "explorer.confirmDelete": false,
     "editor.fontSize": 13,
 
+    "python.jediEnabled": false,
+
     "vim.leader": ",",
     "vim.insertModeKeyBindings": [
         {

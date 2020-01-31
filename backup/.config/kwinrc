@@ -37,6 +37,12 @@ Name_9=8
 Number=10
 Rows=2
 
+[DrmOutputs][be750668db][32a01f7b12]
+Scale=1
+
+[DrmOutputs][be750668db][e6de746eb2]
+Scale=1
+
 [Effect-Cube]
 BorderActivate=9
 BorderActivateCylinder=9
@@ -84,5 +90,11 @@ ElectricBorders=0
 RollOverDesktops=true
 
 [org.kde.kdecoration2]
+BorderSize=Normal
+BorderSizeAuto=true
+ButtonsOnLeft=MS
+ButtonsOnRight=HIAX
+CloseOnDoubleClickOnMenu=false
+ShowToolTips=true
 library=org.kde.breeze
-theme=
+theme=Breeze

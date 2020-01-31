@@ -7,12 +7,16 @@ switch-to-activity-ea33d031-0ee8-4807-be59-ae9a2b35eaec=none,none,Switch to acti
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Polish=none,none,Switch keyboard layout to Polish
-Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
+Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=KDE Daemon
 
 [doublecmd.desktop]
 _k_friendly_name=Launch Double Commander
 _launch=Meta+I,none,Launch Double Commander
+
+[emacs.desktop]
+_k_friendly_name=Launch Emacs
+_launch=Meta+W,none,Launch Emacs
 
 [firefox.desktop]
 _k_friendly_name=Launch Firefox
@@ -37,7 +41,7 @@ display=Display\tMeta+O,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=KDE Daemon
-{a6ebd6ed-e45d-47d3-8a20-5b56559ffe0e}=Meta+Return,none,Launch Konsole
+{a6ebd6ed-e45d-47d3-8a20-5b56559ffe0e}=,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
 
 [kmix]
@@ -49,6 +53,12 @@ increase_volume=Volume Up,Volume Up,Increase Volume
 mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
+[konsole-tmux.desktop]
+NewTab=,none,
+NewWindow=none,none,
+_k_friendly_name=Launch Konsole-tmux
+_launch=Meta+Return,none,Launch Konsole-tmux
+
 [krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
@@ -56,7 +66,7 @@ _launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tMeta+Space\tSearch,KRunner
 
 [ksmserver]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,Halt Without Confirmation
-Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
+Lock Session=none,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,none,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
@@ -304,7 +314,9 @@ activate task manager entry 6=,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=,Meta+9,Activate Task Manager Entry 9
-activate widget 20=Alt+F1,none,Activate Application Launcher Widget
+activate widget 12=Alt+F1,none,Activate Application Launcher Widget
+activate widget 20=,none,Activate Application Launcher Widget
+activate widget 21=,none,Activate Application Launcher Widget
 activate widget 3=,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions

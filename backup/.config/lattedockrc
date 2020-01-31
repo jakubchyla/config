@@ -6,6 +6,9 @@ outlineWidth=1
 11=LVDS-1
 12=HDMI-1
 13=VGA-1
+14=DVI-D-1
+15=Screen30
+16=Screen32
 
 [UniversalSettings]
 badges3DStyle=false

@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'kaicataldo/material.vim'
-"Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'wsdjeg/vim-fetch'
 Plug 'jiangmiao/auto-pairs'
@@ -76,17 +75,6 @@ call plug#end()
 "-----------------------
 " plugins options
 "-----------------------
-
-"lightline.vim
-"    set laststatus=2
-"    if !has('gui_running')
-"            set t_Co=256
-"    endif
-"    set noshowmode
-"    let g:lightline = {
-"       \ 'colorscheme': 'wombat',
-"      \}
-
 
 "vim-airline
 let g:airline_section_y = ""

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=kitty-tmux
-GenericName=Terminal emulator
-Comment=A fast, feature full, GPU based terminal emulator
-Exec=/home/jakchyla/bin/kitty-tmux
-Icon=kitty
-Categories=System;TerminalEmulator;
