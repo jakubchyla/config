@@ -6,6 +6,8 @@
 
 gsettings set org.cinnamon.desktop.keybindings.wm push-tile-up "['']"
 gsettings set org.cinnamon.desktop.keybindings.wm push-tile-down "['']"
+gsettings set org.cinnamon.desktop.keybindings.media-keys video-outputs "['XF86Display']"
+gsettings set org.cinnamon.desktop.keybindings.media-keys screenshot "['']"
 
 #--------------
 #set keybinds
@@ -35,6 +37,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm toggle-fullscreen "['<Super>f'
 
 
 #custom keybindings
+let x=6
 name0="terminal"
 command0="kitty tmux"
 binding0="['<Super>Return']"
@@ -59,8 +62,12 @@ name5="editor"
 command5="emacs"
 binding5="['<Super>w']"
 
-for i in {0..5}; do
-    if [ $i -eq 5 ]; then
+name6="screenshot-launch"
+command6="gnome-screenshot -i"
+binding6="['Print']"
+
+for (( i = 0; i <= $x; i++  )); do
+    if [ $i -eq $x ]; then
        customlist=$customlist"'custom$i'"
     else
        customlist=$customlist"'custom$i', "
