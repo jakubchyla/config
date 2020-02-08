@@ -66,6 +66,15 @@ build_emacs(){
     cd $GO_BACK_DIR
 }
 
+cinnamon_settings(){
+    if [ -f "$1" ]; then
+        ./$1
+    else
+        echo "$1 doesn't exist"
+        exit -1
+    fi
+}
+
 main(){
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root"
