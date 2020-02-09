@@ -90,3 +90,19 @@ gsettings set org.cinnamon.desktop.keybindings custom-list "[$customlist]"
 
 #set workspaces to 10
 gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 10
+#set wallpaper
+gsettings set org.cinnamon.desktop.background picture-uri 'file:///home/jakchyla/Pictures/wallpapers/wallpaper11.jpg'
+#disable sounds
+gsettings set org.cinnamon.sounds close-enabled false
+gsettings set org.cinnamon.sounds login-enabled false
+gsettings set org.cinnamon.sounds logout-enabled false
+gsettings set org.cinnamon.sounds map-enabled false
+gsettings set org.cinnamon.sounds maximize-enabled false
+gsettings set org.cinnamon.sounds minimize-enabled false
+gsettings set org.cinnamon.sounds plug-enabled false
+gsettings set org.cinnamon.sounds switch-enabled false
+gsettings set org.cinnamon.sounds tile-enabled false
+gsettings set org.cinnamon.sounds unmaximize-enabled false
+gsettings set org.cinnamon.sounds unplug-enabled false
+#set icon-theme
+gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-dark'
