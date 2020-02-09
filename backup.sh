@@ -9,12 +9,18 @@ done
 }
 
 update_remote_repo() {
-    git add .
-    git commit -m "auto update" && git push
+    if git checkout master; then
+        git add .
+        git commit -m "auto update" && git push origin master
+    else
+        echo "cannot checkout!"
+        exit 1
+    fi
 }
 
 update_local_repo(){
-    git pull
+    
+    git pull origin master
 }
 
 
