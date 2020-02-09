@@ -40,7 +40,7 @@ install_packages(){
   dnf -y upgrade
 
   #install packages
-  dnf -y clang clang-tools-extra cmake code compat-ffmpeg28 dconf-editor \
+  dnf -y install clang clang-tools-extra cmake code compat-ffmpeg28 dconf-editor \
     doublecmd-gtk exfat-utils ffmpeg ffmpegthumbnailer fira-code-fonts \
     flatpak fontawesome-fonts fuse-exfat gimp git glances \
     google-chrome-stable gstreamer1-libav gstreamer1-plugins-bad-freeworld \
@@ -69,6 +69,12 @@ build_emacs(){
   make -j `nproc`
   make install -j `nproc`
   cd $GO_BACK_DIR
+
+  if [ ! -z $SUDO_USER ];then
+    sudo -u $SUDO_USER bash -c '
+    git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+    ~/.emacs.d/bin/doom install'
+  fi
 }
 
 
@@ -81,6 +87,14 @@ main(){
   while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
+      --all)
+        CINNAMON_SCRIPT="./cinnamon-settings.sh"
+        PACKAGES="SET"
+        EMACS_BUILD="SET"
+        BACKUP_SCRIPT="../backup.sh"
+        shift
+        break
+      ;;
       --cinnamon)
         CINNAMON_SCRIPT="$2"
         shift
@@ -105,22 +119,8 @@ main(){
       ;;
     esac
   done
-  if ! [ -z $POSITIONAL ]; then
+  if [ ! -z $POSITIONAL ]; then
     echo "Unknown options: $POSITIONAL"
-    exit 1
-  fi
-
-  if [ -f "$CINNAMON_SCRIPT" && ! -z "$CINNAMON_SCRIPT" ]; then
-    ./$CINNAMON_SCRIPT
-  else
-    echo "$CINNAMON_SCRIPT doesn't exist!"
-    exit 1
-  fi
-
-  if [ -f "$BACKUP_SCRIPT" && ! -z "$BACKUP_SCRIPT" ];then
-    cp -r $BACKUP_SCRIPT/. ~/
-  else
-    echo "$BACKUP_SCRIPT doesn't exist!"
     exit 1
   fi
 
@@ -130,6 +130,18 @@ main(){
 
   if [ ! -z "$EMACS_BUILD" ]; then
     build_emacs
+  fi
+
+  if [[ -f "$BACKUP_SCRIPT" && ! -z "$BACKUP_SCRIPT" ]];then
+    cp -r $BACKUP_SCRIPT/. ~/
+  elif [ ! -z "$BACKUP_SCRIPT" ]; then
+    echo "$BACKUP_SCRIPT doesn't exist!"
+  fi
+
+  if [[ -f "$CINNAMON_SCRIPT" && ! -z "$CINNAMON_SCRIPT" ]]; then
+    ./$CINNAMON_SCRIPT
+  elif [ ! -z "$CINNAMON_SCRIPT" ]; then
+    echo "$CINNAMON_SCRIPT doesn't exist!"
   fi
 }
 
