@@ -61,4 +61,6 @@
         "*.h": "c"
     },
     "explorer.confirmDragAndDrop": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
 }
