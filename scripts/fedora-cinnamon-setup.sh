@@ -88,10 +88,10 @@ main(){
     key="$1"
     case $key in
       --all)
-        CINNAMON_SCRIPT="./cinnamon-settings.sh"
+        CINNAMON_SCRIPT="./scripts/cinnamon-settings.sh"
         PACKAGES="SET"
         EMACS_BUILD="SET"
-        BACKUP_SCRIPT="../backup.sh"
+        BACKUP_SCRIPT="./backup.sh"
         shift
         break
       ;;
