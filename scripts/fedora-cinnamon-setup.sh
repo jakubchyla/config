@@ -40,13 +40,13 @@ install_packages(){
   dnf -y upgrade
 
   #install packages
-  dnf -y install clang clang-tools-extra cmake code compat-ffmpeg28 dconf-editor \
+  dnf -y install ccls clang clang-tools-extra cmake code compat-ffmpeg28 dconf-editor \
     doublecmd-gtk exfat-utils ffmpeg ffmpegthumbnailer fira-code-fonts \
     flatpak fontawesome-fonts fuse-exfat gimp git glances \
     google-chrome-stable gstreamer1-libav gstreamer1-plugins-bad-freeworld \
     gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer-ffmpeg \
-    htop keepassxc kitty mc mercurial meson mpv nasm papirus-icon-theme \
-    steam syncthing VirtualBox vlc xclip z3-devel zsh
+    htop keepassxc kitty mc mercurial meson mpv nasm npm papirus-icon-theme \
+    steam syncthing virt-manager VirtualBox vlc xclip z3-devel zsh
 
   flatpak remote-add --if-not-exists flathub \
     https://flathub.org/repo/flathub.flatpakrepo
@@ -139,7 +139,11 @@ main(){
   fi
 
   if [[ -f "$CINNAMON_SCRIPT" && ! -z "$CINNAMON_SCRIPT" ]]; then
-    ./$CINNAMON_SCRIPT
+    if [ -z $SUDO_USER ]; then
+      echo "\$SUDO_USER not set, skipping..."
+    else
+      ./$CINNAMON_SCRIPT
+    fi
   elif [ ! -z "$CINNAMON_SCRIPT" ]; then
     echo "$CINNAMON_SCRIPT doesn't exist!"
   fi
