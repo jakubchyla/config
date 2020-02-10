@@ -73,7 +73,7 @@ build_emacs(){
   if [ ! -z $SUDO_USER ];then
     sudo -u $SUDO_USER bash -c '
     git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
-    ~/.emacs.d/bin/doom install'
+    echo "y\ny" | ~/.emacs.d/bin/doom install'
   fi
 }
 
