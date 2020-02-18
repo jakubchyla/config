@@ -5,9 +5,6 @@
 
 #aliases
     alias ls='ls --color'
-    #alias ll='ls -Alh'
-    #alias la='ls -A'
-    #alias l='ls -Alh'
     alias info='info --vi-keys'
     alias sup='shutdown now'
     alias rm='rm --interactive'
@@ -15,16 +12,17 @@
     alias less='less -R'
     alias gvim='nvim-qt 2>&1 >/dev/null'
     alias glances='glances --disable-bg'
-
+    alias unsshfs='fusermount3 -u'
+    emacs () {/usr/local/bin/emacs $@ &}
 
     # Arch
-    alias pacman='pacman --color always'
+    #alias pacman='pacman --color always'
 
     # Fedora
-    #alias din='sudo dnf install'
-    #alias drm='sudo dnf remove'
-    #alias dse='dnf search'
-    #alias dup='sudo dnf upgrade --refresh'
+    alias din='dnf install'
+    alias drm='dnf remove'
+    alias dse='dnf search'
+    alias dup='dnf upgrade --refresh'
     
 
 # Path to your oh-my-zsh installation.
