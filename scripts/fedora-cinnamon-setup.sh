@@ -55,7 +55,12 @@ install_packages(){
     flatpak override --filesystem=/home/$SUDO_USER/Music com.spotify.Client
     flatpak override --filesystem=/home/$SUDO_USER/Pictures com.discordapp.Discord
   fi
+
+  #oh-my-zsh
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 }
+
 
 build_emacs(){
   dnf -y remove emacs
