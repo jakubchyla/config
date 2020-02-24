@@ -19,10 +19,10 @@
     #alias pacman='pacman --color always'
 
     # Fedora
-    alias din='dnf install'
-    alias drm='dnf remove'
+    alias din='sudo dnf install'
+    alias drm='sudo dnf remove'
     alias dse='dnf search'
-    alias dup='dnf upgrade --refresh'
+    alias dup='sudo dnf upgrade --refresh'
     
 
 # Path to your oh-my-zsh installation.
