@@ -1,32 +1,28 @@
+" vim:foldmethod=marker
+
 call plug#begin('~/.vim/plugged')
 
-Plug 'kaicataldo/material.vim'
 Plug 'vim-airline/vim-airline'
-Plug 'wsdjeg/vim-fetch'
-Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
-Plug 'sheerun/vim-polyglot'
-Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
 "basic set up
     syntax on
+
 "basic editor options
     set nu
     set relativenumber
     set encoding=utf-8
     set hidden "seperate tabs
-    let mapleader=","
     set breakindent
 
 "theme
     if exists('g:GuiLoaded')
         GuiFont Fira Code:h12
-        colorscheme onedark
     endif
-    "set termguicolors
+    colorscheme tempus_totus
 
 "disable swapfile
     set noswapfile
@@ -54,6 +50,9 @@ call plug#end()
 " keybinds
 "-----------------------
 
+    nnoremap <Space> <Nop>
+    let g:mapleader = " "
+
 "move by one 'visible' line 
     nnoremap k gk
     nnoremap j gj
@@ -72,6 +71,54 @@ call plug#end()
 "clear highlight and search
     nnoremap / :noh<CR> :/
 
+    inoremap jj <Esc>
+    cnoremap jj <Esc>
+    nnoremap <leader>k :
+    
+    ""insert space before cursor
+    "nnoremap <leader>h i<Space><Esc>
+    ""insert space after cursor
+    "nnoremap <leader>l a<Space><Esc>
+    
+    "insert empty lines
+    nnoremap <A-j> o<Esc>
+    nnoremap <A-k> O<Esc>
+
+    "merge lines
+    nnoremap <C-j> :j<CR>
+    nnoremap <C-k> k:j<CR>j
+
+    "movement
+    nnoremap <leader>j 5j
+    nnoremap <leader><leader>j 10j
+    vnoremap <leader>j 5j
+    vnoremap <leader><leader>j 10j
+
+    nnoremap <leader>k 5k
+    nnoremap <leader><leader>k 10k
+    vnoremap <leader>k 5k
+    vnoremap <leader><leader>k 10k
+
+    nnoremap <leader>h 5h
+    nnoremap <leader><leader>h 10h
+    vnoremap <leader>h 5h
+    vnoremap <leader><leader>h 10h
+
+    nnoremap <leader>l 5l
+    nnoremap <leader><leader>l 10l
+    vnoremap <leader>l 5l
+    vnoremap <leader><leader>l 10l
+
+    nnoremap J 50jzz
+    nnoremap J 50jzz
+    vnoremap K 50kzz
+    vnoremap K 50kzz
+
+    
+"-----------------------
+" language specific
+"-----------------------
+
 "set asm syntax
     au BufRead,BufNewFile *.s   let asmsyntax='gas'|set filetype=asm
     au BufRead,BufNewFile *.asm let asmsyntax='nasm'|set filetype=nasm
@@ -87,11 +134,9 @@ let g:airline_section_warning = ""
 
 
 "coc.vim
+"{{{
 "dependencies: python-language-server, ccls, bash language server
-"CocInstall: coc-json, coc-html, coc-css, coc-rls, coc-python, coc-highlght, coc-git, coc-vimlsp, coc-xml
-    " if hidden is not set, TextEdit might fail
-    set hidden
-
+"CocInstall: coc-json, coc-html, coc-css, coc-rls, coc-python, coc-highlight, coc-git, coc-vimlsp, coc-pairs
     "Some servers have issues with backup file
     set nobackup
     set nowritebackup
@@ -139,9 +184,6 @@ let g:airline_section_warning = ""
     nmap <silent> gy <Plug>(coc-type-definition)
     nmap <silent> gi <Plug>(coc-implementation)
     nmap <silent> gr <Plug>(coc-references)
-
-    "Use K to show documentation in preview window
-    nnoremap <silent> K :call <SID>show_documentation()<CR>
 
     function! s:show_documentation()
       if (index(['vim','help'], &filetype) >= 0)
@@ -200,22 +242,4 @@ let g:airline_section_warning = ""
     "Add status line support, for integration with other plugin, checkout `:h coc-status`
     set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
-    "using CocList
-    "show all diagnostics
-    nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
-    "Manage extensions
-    nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
-    "Show commands
-    nnoremap <silent> <space>c  :<C-u>CocList commands<cr>
-    "Find symbol of current document
-    nnoremap <silent> <space>o  :<C-u>CocList outline<cr>
-    "Search workspace symbols
-    nnoremap <silent> <space>s  :<C-u>CocList -I symbols<cr>
-    "Do default action for next item.
-    nnoremap <silent> <space>j  :<C-u>CocNext<CR>
-    "Do default action for previous item.
-    nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
-    "Resume latest coc list
-    nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
-      autocmd FileType json syntax match Comment +\/\/.\+$+
-
+"}}}

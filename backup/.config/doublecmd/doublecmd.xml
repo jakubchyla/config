@@ -129,7 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="HRTzAX.png">/home/jakchyla/Downloads/</Path>
                   <Path Filename="Downloads">/home/jakchyla/</Path>
                   <Path Filename="..">/home/jakchyla/Downloads/</Path>
                   <Path Filename=".123">/home/jakchyla/</Path>
@@ -179,6 +178,7 @@
                   <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
                   <Path Filename="..">/home/jakchyla/rest/tf2/cfg/</Path>
                   <Path Filename="custom">/home/jakchyla/rest/tf2/</Path>
+                  <Path Filename="Odpowiedzi_1.pdf">/home/jakchyla/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,14 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="out">/home/jakchyla/studia/tmp/</Path>
-                  <Path Filename="production">/home/jakchyla/studia/tmp/out/</Path>
-                  <Path Filename="asdf">/home/jakchyla/studia/tmp/out/production/</Path>
-                  <Path Filename="geometria">/home/jakchyla/studia/tmp/out/production/asdf/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/tmp/out/production/asdf/geometria/</Path>
-                  <Path Filename="geometria">/home/jakchyla/studia/tmp/out/production/asdf/</Path>
-                  <Path Filename="asdf">/home/jakchyla/studia/tmp/out/production/</Path>
-                  <Path Filename="production">/home/jakchyla/studia/tmp/out/</Path>
                   <Path Filename="src">/home/jakchyla/studia/tmp/</Path>
                   <Path Filename="..">/home/jakchyla/studia/</Path>
                   <Path Filename="..">/home/jakchyla/Downloads/</Path>
@@ -252,6 +244,14 @@
                   <Path Filename="cfg">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
                   <Path Filename="shiftbinds.cfg">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/cfg/</Path>
                   <Path Filename="..">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="..">/home/jakchyla/</Path>
+                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="Team Fortress 2">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
+                  <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
+                  <Path Filename="maps">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/maps/</Path>
                 </Paths>
               </Entry>
             </History>

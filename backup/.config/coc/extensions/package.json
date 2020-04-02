@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "coc-git": ">=1.7.7",
+    "coc-git": ">=1.7.8",
     "coc-json": ">=1.2.5",
+    "coc-pairs": ">=1.2.21",
     "coc-python": ">=1.2.9",
     "coc-rls": ">=1.1.4",
     "coc-vimlsp": ">=0.5.1"

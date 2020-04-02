@@ -11,7 +11,6 @@
     alias pless='ps aux | less'
     alias less='less -R'
     alias vim='nvim'
-    alias gvim='nvim-qt 2>&1 >/dev/null'
     alias glances='glances --disable-bg'
     alias unsshfs='fusermount3 -u'
     emacs () {/usr/local/bin/emacs $@ &}

@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/jakchyla/p/Vector/.ccls-cache'
+let g:netrw_dirhist_3='/home/jakchyla/.config/kitty'
 let g:netrw_dirhist_2='/home/jakchyla/studia/algorytmy/lab4'
 let g:netrw_dirhist_1='/home/jakchyla/.config/kitty/themes'
