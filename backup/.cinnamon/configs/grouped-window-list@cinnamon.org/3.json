@@ -165,9 +165,8 @@
         ],
         "value": [
             "firefox.desktop",
-            "kitty.desktop",
             "nemo.desktop",
-            "emacs.desktop",
+            "jetbrains-clion.desktop",
             "steam.desktop",
             "com.discordapp.Discord.desktop",
             "mozilla-thunderbird.desktop",

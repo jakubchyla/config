@@ -5,6 +5,7 @@ export EDITOR="vim"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.luarocks/bin:$PATH"
 
 # backup dir
 export BACKUP_DIR="$HOME/src/config"

@@ -10,6 +10,7 @@
     alias rm='rm --interactive'
     alias pless='ps aux | less'
     alias less='less -R'
+    alias vim='nvim'
     alias gvim='nvim-qt 2>&1 >/dev/null'
     alias glances='glances --disable-bg'
     alias unsshfs='fusermount3 -u'
@@ -45,7 +46,10 @@
 
 
 # zsh options
-    bindkey -v #enable vi
+    #enable vi
+    bindkey -v
+    #how long to wait for next char (affects vim mode)
+    KEYTIMEOUT=1 
 
 
 #source-highlight

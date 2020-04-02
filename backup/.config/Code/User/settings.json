@@ -8,6 +8,8 @@
     "explorer.confirmDelete": false,
     "editor.fontSize": 13,
 
+    "C_Cpp.enhancedColorization": "Enabled",
+
     "python.jediEnabled": false,
 
     "vim.leader": ",",
@@ -63,4 +65,5 @@
     "explorer.confirmDragAndDrop": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
+    "workbench.activityBar.visible": true,
 }

@@ -46,6 +46,10 @@ call plug#end()
     set autoindent
     set softtabstop=4
 
+"set delays
+    set timeoutlen=1000
+    set ttimeoutlen=10
+
 "-----------------------
 " keybinds
 "-----------------------
