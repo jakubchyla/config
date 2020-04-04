@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-surround'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -22,7 +23,6 @@ call plug#end()
     if exists('g:GuiLoaded')
         GuiFont Fira Code:h12
     endif
-    colorscheme tempus_totus
 
 "disable swapfile
     set noswapfile

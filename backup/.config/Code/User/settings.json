@@ -56,9 +56,11 @@
     "vim.handleKeys": {
         "<C-b>": false,
         "<C-s>": false,
-        "<C-w>": false
+        "<C-w>": false,
+        "<C-k>": false,
+        "<C-i>": false
     },
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
     "files.associations": {
         "*.h": "c"
     },

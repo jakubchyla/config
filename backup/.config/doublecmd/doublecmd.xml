@@ -129,15 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Downloads">/home/jakchyla/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename=".123">/home/jakchyla/</Path>
-                  <Path Filename="New Folder">/home/jakchyla/.123/</Path>
-                  <Path Filename="33.mp4">/home/jakchyla/.123/New Folder/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="share">/home/jakchyla/.local/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/</Path>
                   <Path Filename="share">/home/jakchyla/.local/</Path>
                   <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
                   <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
@@ -178,7 +169,16 @@
                   <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
                   <Path Filename="..">/home/jakchyla/rest/tf2/cfg/</Path>
                   <Path Filename="custom">/home/jakchyla/rest/tf2/</Path>
-                  <Path Filename="Odpowiedzi_1.pdf">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="calki.pdf">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="src">/home/jakchyla/</Path>
+                  <Path Filename="config">/home/jakchyla/src/</Path>
+                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
+                  <Path Filename="bin">/home/jakchyla/src/config/backup/</Path>
+                  <Path Filename="..">/home/jakchyla/src/config/backup/bin/</Path>
+                  <Path Filename="bin">/home/jakchyla/src/config/backup/</Path>
+                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
+                  <Path Filename=".vim">/home/jakchyla/src/config/backup/</Path>
+                  <Path Filename="autoload">/home/jakchyla/src/config/backup/.vim/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,14 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="src">/home/jakchyla/studia/tmp/</Path>
-                  <Path Filename="..">/home/jakchyla/studia/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename=".cache">/home/jakchyla/</Path>
-                  <Path Filename="thunderbird">/home/jakchyla/.cache/</Path>
-                  <Path Filename="qiyspbx8.default-release">/home/jakchyla/.cache/thunderbird/</Path>
-                  <Path Filename="..">/home/jakchyla/.cache/thunderbird/qiyspbx8.default-release/</Path>
-                  <Path Filename="qiyspbx8.default-release">/home/jakchyla/.cache/thunderbird/</Path>
                   <Path Filename="..">/home/jakchyla/.cache/thunderbird/qiyspbx8.default-release/</Path>
                   <Path Filename="..">/home/jakchyla/.cache/thunderbird/</Path>
                   <Path Filename=".thunderbird">/home/jakchyla/</Path>
@@ -252,6 +244,14 @@
                   <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
                   <Path Filename="maps">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
                   <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/maps/</Path>
+                  <Path Filename=".config">/home/jakchyla/</Path>
+                  <Path Filename="0ad">/home/jakchyla/.config/</Path>
+                  <Path Filename="config">/home/jakchyla/.config/0ad/</Path>
+                  <Path Filename="gtk-3.0">/home/jakchyla/.config/</Path>
+                  <Path Filename="studia">/home/jakchyla/</Path>
+                  <Path Filename="algorytmy2">/home/jakchyla/studia/</Path>
+                  <Path Filename="b_drzewa">/home/jakchyla/studia/algorytmy2/</Path>
+                  <Path Filename="pdfs">/home/jakchyla/studia/algorytmy2/b_drzewa/</Path>
                 </Paths>
               </Entry>
             </History>
