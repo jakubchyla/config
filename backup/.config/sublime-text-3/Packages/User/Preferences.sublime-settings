@@ -1,0 +1,20 @@
+{
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Medium).sublime-color-scheme",
+	"font_face": "Fira Code Medium",
+	"font_options":
+	[
+		"dlig"
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Six",
+		"Vintage",
+		"Vintageous"
+	],
+	"neovintageous_build_version": 11100,
+	"vintageous_use_ctrl_keys": null,
+	"vintageous_use_super_keys": null,
+	"vintageous_use_sys_clipboard": true,
+	"highlightedyank_duration": 250
+}

@@ -1,0 +1,17 @@
+{
+	"clients":
+	{
+		"clangd":
+		{
+			"enabled": true
+		},
+		"pyls":
+		{
+			"enabled": true
+		},
+		"rust-analyzer":
+		{
+			"enabled": true
+		}
+	}
+}
