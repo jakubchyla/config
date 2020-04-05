@@ -12,7 +12,7 @@ backup() {
     done
 }
 
-update_remote_repo() {
+push() {
     if git checkout master; then
         git add .
         git commit -m "auto update" && git push origin master
@@ -22,7 +22,7 @@ update_remote_repo() {
     fi
 }
 
-update_local_repo(){
+pull(){
     if git checkout master; then
         git pull origin master
     else
@@ -50,35 +50,20 @@ cd $(dirname $(realpath $0))
 
 if [ $# -eq 0 ];then
     backup
-    update_remote_repo
+    push
 else
-while [[ $# -gt 0 ]]; do
-    key="$1"
-    case $key in
-        backup-local)
+    case $1 in
+    update-remote)
         backup
-        shift
+        push
         ;;
-        backup)
-        backup
-        update_remote_repo
-        shift
-        ;;
-        update-remote-repo)
-        update_remote_repo
-        shift
-        ;;
-        update-local-repo)
-        update_local_repo
-        shift
-        ;;
-        update-local-config)
+    update-local)
+        pull
         update_local_config
-        shift
         ;;
         *)
         exit -1
         ;;
     esac
-done
 fi
+exit 0
