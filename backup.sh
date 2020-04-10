@@ -33,6 +33,7 @@ pull(){
 
 
 update_local_config(){
+    echo "updaing local config..."
     cp -r backup/. ~/
 }
 
@@ -53,11 +54,11 @@ if [ $# -eq 0 ];then
     push
 else
     case $1 in
-    push)
+    --push)
         backup
         push
         ;;
-    pull)
+    --pull)
         pull
         update_local_config
         ;;
