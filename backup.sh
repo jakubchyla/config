@@ -53,11 +53,11 @@ if [ $# -eq 0 ];then
     push
 else
     case $1 in
-    update-remote)
+    push)
         backup
         push
         ;;
-    update-local)
+    pull)
         pull
         update_local_config
         ;;
