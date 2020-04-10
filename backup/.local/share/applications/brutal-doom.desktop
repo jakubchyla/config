@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Brutal Doom
+GenericName=Game
+Comment=Launch Brutal Doom
+Exec=/home/jakchyla/bin/doom --brutal-doom
+Icon=doom
+Type=Application
+Terminal=false
+Categories=Games;
+Keywords=Doom; Game;

@@ -66,6 +66,14 @@ Top=None
 TopLeft=None
 TopRight=None
 
+[NightColor]
+Active=true
+EveningBeginFixed=1800
+Mode=Times
+MorningBeginFixed=0600
+NightTemperature=4200
+TransitionTime=1
+
 [Plugins]
 desktopchangeosdEnabled=false
 

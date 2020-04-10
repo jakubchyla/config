@@ -70,4 +70,5 @@
     "workbench.activityBar.visible": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.autofetch": true,
 }

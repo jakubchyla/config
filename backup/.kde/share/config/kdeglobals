@@ -1,6 +1,3 @@
-[$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
-
 [ColorEffects:Disabled]
 Color=56,56,56
 ColorAmount=0
@@ -105,20 +102,13 @@ ForegroundNormal=239,240,241
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
-[DirSelect Dialog]
-DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME/.123/New Folder,file:$HOME/.123,file:$HOME/.123/New Folder
-
 [General]
-BrowserApplication[$e]=firefox.desktop
-ColorScheme=BreezeDark
+ColorScheme=Breeze Dark
 Name=Breeze Dark
-TerminalApplication[$e]=kitty
-XftHintStyle=
-XftSubPixel=
-dbfile=/home/jakchyla/.mozilla/firefox/ilhp1m4v.default/places.sqlite
-fixed=Office Code Pro,10,-1,5,50,0,0,0,0,0,Regular
+font=Sans Serif,10,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
+smallestReadableFont=Sans Serif,8,-1,5,50,0,0,0,0,0
 toolBarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
@@ -126,37 +116,17 @@ widgetStyle=Breeze
 Theme=Papirus-Dark
 
 [KDE]
-ColorScheme=Breeze
-LookAndFeelPackage=org.kde.breezedark.desktop
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
 contrast=4
-widgetStyle=Breeze
 
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=0
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort reversed=false
-Speedbar Width=110
-View Style=Detail
-
-[KShortcutsDialog Settings]
-Dialog Size=1920,1015
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
 activeBackground=49,54,59
 activeBlend=255,255,255
-activeFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 activeForeground=239,240,241
 inactiveBackground=49,54,59
 inactiveBlend=75,71,67

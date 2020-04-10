@@ -1,6 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-5aeec7eb-b6cc-40d3-aa72-8c37f4615de5=none,none,Switch to activity "Default"
+switch-to-activity-72f55426-94e2-40b0-a526-29532f23a9af=none,none,Switch to activity "Default"
 switch-to-activity-8e2f478b-180f-412b-823b-ad7967bdcc5d=none,none,Switch to activity "Default"
 switch-to-activity-ea33d031-0ee8-4807-be59-ae9a2b35eaec=none,none,Switch to activity "Default"
 
@@ -10,19 +11,20 @@ Switch keyboard layout to Polish=none,none,Switch keyboard layout to Polish
 Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=KDE Daemon
 
+[code.desktop]
+_k_friendly_name=Launch Visual Studio Code
+_launch=Meta+W,none,Launch Visual Studio Code
+new-empty-window=none,none,New Empty Window
+
 [doublecmd.desktop]
 _k_friendly_name=Launch Double Commander
 _launch=Meta+I,none,Launch Double Commander
 
-[emacs.desktop]
-_k_friendly_name=Launch Emacs
-_launch=Meta+W,none,Launch Emacs
-
-[firefox.desktop]
-_k_friendly_name=Launch Firefox
-_launch=,none,Launch Firefox
-new-private-window=Meta+Shift+P,none,New Private Window
-new-window=Meta+P,none,New Window
+[google-chrome.desktop]
+_k_friendly_name=Launch Google Chrome
+_launch=Meta+P,none,Launch Google Chrome
+new-private-window=Meta+Shift+P,none,New Incognito Window
+new-window=none,none,New Window
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -52,12 +54,6 @@ increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Mi
 increase_volume=Volume Up,Volume Up,Increase Volume
 mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
-
-[konsole-tmux.desktop]
-NewTab=,none,
-NewWindow=none,none,
-_k_friendly_name=Launch Konsole-tmux
-_launch=Meta+Return,none,Launch Konsole-tmux
 
 [krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
@@ -205,9 +201,9 @@ Window to Desktop 7=Meta+&,none,Window to Desktop 7
 Window to Desktop 8=Meta+*,none,Window to Desktop 8
 Window to Desktop 9=Meta+(,none,Window to Desktop 9
 Window to Next Desktop=none,none,Window to Next Desktop
-Window to Next Screen=Meta+Space,none,Window to Next Screen
+Window to Next Screen=Meta+Shift+Right,none,Window to Next Screen
 Window to Previous Desktop=none,none,Window to Previous Desktop
-Window to Previous Screen=,none,Window to Previous Screen
+Window to Previous Screen=Meta+Shift+Left,none,Window to Previous Screen
 Window to Screen 0=none,none,Window to Screen 0
 Window to Screen 1=none,none,Window to Screen 1
 Window to Screen 2=none,none,Window to Screen 2
@@ -225,15 +221,15 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 _k_friendly_name=Latte Dock
 activate entry 1=,Meta+1,Activate Entry 1
 activate entry 10=,Meta+0,Activate Entry 10
-activate entry 11=none,Meta+Z,Activate Entry 11
-activate entry 12=none,Meta+X,Activate Entry 12
-activate entry 13=none,Meta+C,Activate Entry 13
-activate entry 14=none,Meta+V,Activate Entry 14
-activate entry 15=none,Meta+B,Activate Entry 15
-activate entry 16=none,Meta+N,Activate Entry 16
+activate entry 11=Meta+Z,Meta+Z,Activate Entry 11
+activate entry 12=Meta+X,Meta+X,Activate Entry 12
+activate entry 13=Meta+C,Meta+C,Activate Entry 13
+activate entry 14=Meta+V,Meta+V,Activate Entry 14
+activate entry 15=Meta+B,Meta+B,Activate Entry 15
+activate entry 16=Meta+N,Meta+N,Activate Entry 16
 activate entry 17=,Meta+M,Activate Entry 17
-activate entry 18=none,Meta+\\,,Activate Entry 18
-activate entry 19=none,Meta+.,Activate Entry 19
+activate entry 18=Meta+\\,,Meta+\\,,Activate Entry 18
+activate entry 19=Meta+.,Meta+.,Activate Entry 19
 activate entry 2=,Meta+2,Activate Entry 2
 activate entry 3=,Meta+3,Activate Entry 3
 activate entry 4=,Meta+4,Activate Entry 4
@@ -242,28 +238,28 @@ activate entry 6=,Meta+6,Activate Entry 6
 activate entry 7=,Meta+7,Activate Entry 7
 activate entry 8=,Meta+8,Activate Entry 8
 activate entry 9=,Meta+9,Activate Entry 9
-new instance for entry 1=none,Meta+Ctrl+1,New Instance for Entry 1
-new instance for entry 10=none,Meta+Ctrl+0,New Instance for Entry 10
-new instance for entry 11=none,Meta+Ctrl+Z,New Instance for Entry 11
-new instance for entry 12=none,Meta+Ctrl+X,New Instance for Entry 12
-new instance for entry 13=none,Meta+Ctrl+C,New Instance for Entry 13
-new instance for entry 14=none,Meta+Ctrl+V,New Instance for Entry 14
-new instance for entry 15=none,Meta+Ctrl+B,New Instance for Entry 15
-new instance for entry 16=none,Meta+Ctrl+N,New Instance for Entry 16
-new instance for entry 17=none,Meta+Ctrl+M,New Instance for Entry 17
-new instance for entry 18=none,Meta+Ctrl+\\,,New Instance for Entry 18
-new instance for entry 19=none,Meta+Ctrl+.,New Instance for Entry 19
-new instance for entry 2=none,Meta+Ctrl+2,New Instance for Entry 2
-new instance for entry 3=none,Meta+Ctrl+3,New Instance for Entry 3
-new instance for entry 4=none,Meta+Ctrl+4,New Instance for Entry 4
-new instance for entry 5=none,Meta+Ctrl+5,New Instance for Entry 5
-new instance for entry 6=none,Meta+Ctrl+6,New Instance for Entry 6
-new instance for entry 7=none,Meta+Ctrl+7,New Instance for Entry 7
-new instance for entry 8=none,Meta+Ctrl+8,New Instance for Entry 8
-new instance for entry 9=none,Meta+Ctrl+9,New Instance for Entry 9
-show latte global settings=none,Meta+W,Show Latte Global Settings
-show latte view=none,Meta+`,Show Latte Dock/Panel
-show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
+new instance for entry 1=Meta+Ctrl+1,Meta+Ctrl+1,New Instance for Entry 1
+new instance for entry 10=Meta+Ctrl+0,Meta+Ctrl+0,New Instance for Entry 10
+new instance for entry 11=Meta+Ctrl+Z,Meta+Ctrl+Z,New Instance for Entry 11
+new instance for entry 12=Meta+Ctrl+X,Meta+Ctrl+X,New Instance for Entry 12
+new instance for entry 13=Meta+Ctrl+C,Meta+Ctrl+C,New Instance for Entry 13
+new instance for entry 14=Meta+Ctrl+V,Meta+Ctrl+V,New Instance for Entry 14
+new instance for entry 15=Meta+Ctrl+B,Meta+Ctrl+B,New Instance for Entry 15
+new instance for entry 16=Meta+Ctrl+N,Meta+Ctrl+N,New Instance for Entry 16
+new instance for entry 17=Meta+Ctrl+M,Meta+Ctrl+M,New Instance for Entry 17
+new instance for entry 18=Meta+Ctrl+\\,,Meta+Ctrl+\\,,New Instance for Entry 18
+new instance for entry 19=Meta+Ctrl+.,Meta+Ctrl+.,New Instance for Entry 19
+new instance for entry 2=Meta+Ctrl+2,Meta+Ctrl+2,New Instance for Entry 2
+new instance for entry 3=Meta+Ctrl+3,Meta+Ctrl+3,New Instance for Entry 3
+new instance for entry 4=Meta+Ctrl+4,Meta+Ctrl+4,New Instance for Entry 4
+new instance for entry 5=Meta+Ctrl+5,Meta+Ctrl+5,New Instance for Entry 5
+new instance for entry 6=Meta+Ctrl+6,Meta+Ctrl+6,New Instance for Entry 6
+new instance for entry 7=Meta+Ctrl+7,Meta+Ctrl+7,New Instance for Entry 7
+new instance for entry 8=Meta+Ctrl+8,Meta+Ctrl+8,New Instance for Entry 8
+new instance for entry 9=Meta+Ctrl+9,Meta+Ctrl+9,New Instance for Entry 9
+show latte global settings=,Meta+W,Show Latte Global Settings
+show latte view=Meta+`,Meta+`,Show Latte Dock/Panel
+show view settings=Meta+A,Meta+A,Cycle Through Dock/Panel Settings Windows
 
 [mediacontrol]
 _k_friendly_name=Media Controller
@@ -314,10 +310,11 @@ activate task manager entry 6=,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=,Meta+9,Activate Task Manager Entry 9
-activate widget 12=Alt+F1,none,Activate Application Launcher Widget
+activate widget 12=none,none,Activate Application Launcher Widget
 activate widget 20=,none,Activate Application Launcher Widget
 activate widget 21=,none,Activate Application Launcher Widget
 activate widget 3=,none,Activate Application Launcher Widget
+activate widget 4=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
@@ -332,6 +329,6 @@ show-barcode=none,none,Show Barcode...
 show-on-mouse-pos=none,none,Open Klipper at Mouse Position
 stop current activity=Meta+S,Meta+S,Stop Current Activity
 
-[yakuake]
-_k_friendly_name=Yakuake
-toggle-window-state=F12,F12,Open/Retract Yakuake
+[tmux-kitty.desktop]
+_k_friendly_name=Launch kitty-tmux
+_launch=Meta+Return,none,Launch kitty-tmux

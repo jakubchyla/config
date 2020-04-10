@@ -1,0 +1,18 @@
+[Desktop Action new-empty-window]
+Exec=/usr/share/code/code --no-sandbox --new-window %F
+Icon=com.visualstudio.code
+Name=New Empty Window
+
+[Desktop Entry]
+Actions=new-empty-window;
+Categories=Utility;TextEditor;Development;IDE;
+Comment=Code Editing. Redefined.
+Exec=/usr/share/code/code --no-sandbox --unity-launch %F
+GenericName=Text Editor
+Icon=com.visualstudio.code
+Keywords=vscode;
+MimeType=text/plain;inode/directory;
+Name=Visual Studio Code
+StartupNotify=false
+StartupWMClass=Code
+Type=Application

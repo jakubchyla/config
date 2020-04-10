@@ -129,21 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="tf2">/home/jakchyla/rest/</Path>
-                  <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
-                  <Path Filename="..">/home/jakchyla/rest/tf2/cfg/</Path>
-                  <Path Filename="cfg">/home/jakchyla/rest/tf2/</Path>
-                  <Path Filename="..">/home/jakchyla/rest/tf2/cfg/</Path>
-                  <Path Filename="custom">/home/jakchyla/rest/tf2/</Path>
-                  <Path Filename="calki.pdf">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="src">/home/jakchyla/</Path>
-                  <Path Filename="config">/home/jakchyla/src/</Path>
-                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
-                  <Path Filename="bin">/home/jakchyla/src/config/backup/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/bin/</Path>
-                  <Path Filename="bin">/home/jakchyla/src/config/backup/</Path>
-                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
-                  <Path Filename=".vim">/home/jakchyla/src/config/backup/</Path>
                   <Path Filename="autoload">/home/jakchyla/src/config/backup/.vim/</Path>
                   <Path Filename="">/home/jakchyla/Downloads/</Path>
                   <Path Filename="src">/home/jakchyla/</Path>
@@ -179,6 +164,21 @@
                   <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/</Path>
                   <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
                   <Path Filename="kitty">/home/jakchyla/src/config/backup/.config/</Path>
+                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="studia">/home/jakchyla/</Path>
+                  <Path Filename="aplikacje_bazodanowe">/home/jakchyla/studia/</Path>
+                  <Path Filename="lab7">/home/jakchyla/studia/aplikacje_bazodanowe/</Path>
+                  <Path Filename="src">/home/jakchyla/studia/aplikacje_bazodanowe/lab7/</Path>
+                  <Path Filename="w07 - pliki">/home/jakchyla/studia/aplikacje_bazodanowe/</Path>
+                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
+                  <Path Filename=".123">/home/jakchyla/</Path>
+                  <Path Filename="New Folder">/home/jakchyla/.123/</Path>
+                  <Path Filename="07.mp4">/home/jakchyla/.123/New Folder/</Path>
+                  <Path Filename="..">/run/user/1000/doc/</Path>
+                  <Path Filename="..">/run/user/1000/</Path>
+                  <Path Filename="1000">/run/user/</Path>
+                  <Path Filename="user">/run/</Path>
+                  <Path Filename="Desktop">/home/jakchyla/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,30 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="media">/run/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="initramfs">/run/</Path>
-                  <Path Filename="Pictures">/home/jakchyla/</Path>
-                  <Path Filename="wallpapers">/home/jakchyla/Pictures/</Path>
-                  <Path Filename="wallpaper13.png">/home/jakchyla/Pictures/wallpapers/</Path>
-                  <Path Filename="memes">/home/jakchyla/Pictures/</Path>
-                  <Path Filename="nokie_talkie.png">/home/jakchyla/Pictures/memes/</Path>
-                  <Path Filename="wallpapers">/home/jakchyla/Pictures/</Path>
-                  <Path Filename="wallpaper04.jpg">/home/jakchyla/Pictures/wallpapers/</Path>
-                  <Path Filename="tmp">/home/jakchyla/</Path>
-                  <Path Filename="encapsulation.c">/home/jakchyla/tmp/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="..">/run/media/jakchyla/Linux Mint 19.3 MATE 64-bit/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="lvm">/run/</Path>
-                  <Path Filename="Documents">/home/jakchyla/</Path>
-                  <Path Filename="..">/home/jakchyla/Documents/</Path>
-                  <Path Filename="Documents">/home/jakchyla/</Path>
-                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="Team Fortress 2">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
-                  <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
                   <Path Filename="cfg">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
                   <Path Filename="shiftbinds.cfg">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/cfg/</Path>
                   <Path Filename="..">/home/jakchyla/.local/share/</Path>
@@ -252,6 +228,30 @@
                   <Path Filename="sublime-text-3">/home/jakchyla/.config/</Path>
                   <Path Filename="..">/home/jakchyla/.config/sublime-text-3/</Path>
                   <Path Filename="sublime-text-3">/home/jakchyla/.config/</Path>
+                  <Path Filename="$w-$0$9.pdf">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="Music">/home/jakchyla/</Path>
+                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="steam">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steam/</Path>
+                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
+                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
+                  <Path Filename="Team Fortress 2">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
+                  <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
+                  <Path Filename="maps">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/maps/</Path>
+                  <Path Filename="maps">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
+                  <Path Filename="workshop">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/maps/</Path>
+                  <Path Filename="maps">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
+                  <Path Filename="platform">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
+                  <Path Filename="admin">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/platform/</Path>
+                  <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
+                  <Path Filename="demos">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
+                  <Path Filename="2020-02-16_23-27-44.dem">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/demos/</Path>
+                  <Path Filename="demos">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
+                  <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/demos/</Path>
+                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="..">/run/user/1000/doc/</Path>
+                  <Path Filename="..">/run/user/1000/</Path>
                 </Paths>
               </Entry>
             </History>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Doom
+GenericName=Game
+Comment=Launch Doom
+Exec=/home/jakchyla/bin/doom
+Icon=doom
+Type=Application
+Terminal=false
+Categories=Games;
+Keywords=Doom; Game;
