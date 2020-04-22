@@ -4,7 +4,7 @@ clientmachine=localhost
 clientmachinematch=0
 desktop=3
 desktoprule=3
-title=Friends List - Nok
+title=Friends List - Noki
 titlematch=1
 types=1
 wmclass=steam
@@ -17,7 +17,7 @@ clientmachine=localhost
 clientmachinematch=0
 desktop=3
 desktoprule=3
-title=Steam
+title=Friends List - Nok
 titlematch=1
 types=1
 wmclass=steam
@@ -25,6 +25,19 @@ wmclasscomplete=false
 wmclassmatch=1
 
 [3]
+Description=Window settings for steam
+clientmachine=localhost
+clientmachinematch=0
+desktop=3
+desktoprule=3
+title=Steam
+titlematch=1
+types=1
+wmclass=steam
+wmclasscomplete=false
+wmclassmatch=1
+
+[4]
 Description=Window settings for discord
 clientmachine=localhost
 clientmachinematch=0
@@ -39,7 +52,7 @@ wmclass=discord
 wmclasscomplete=false
 wmclassmatch=1
 
-[4]
+[5]
 Description=Application settings for spotify
 clientmachine=localhost
 clientmachinematch=0
@@ -50,4 +63,4 @@ wmclasscomplete=false
 wmclassmatch=1
 
 [General]
-count=4
+count=5

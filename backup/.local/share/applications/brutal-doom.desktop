@@ -6,5 +6,5 @@ Exec=/home/jakchyla/bin/doom --brutal-doom
 Icon=doom
 Type=Application
 Terminal=false
-Categories=Games;
+Categories=Game;
 Keywords=Doom; Game;

@@ -103,8 +103,14 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
+BrowserApplication[$e]=google-chrome.desktop
 ColorScheme=Breeze Dark
 Name=Breeze Dark
+TerminalApplication[$e]=kitty
+XftHintStyle=
+XftSubPixel=
+dbfile=/home/jakchyla/.mozilla/firefox/ilhp1m4v.default/places.sqlite
+fixed=Office Code Pro,10,-1,5,50,0,0,0,0,0,Regular
 font=Sans Serif,10,-1,5,50,0,0,0,0,0
 menuFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true

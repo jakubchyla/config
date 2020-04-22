@@ -7,7 +7,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometriesHorizontal=
+ItemGeometriesHorizontal=Applet-22:1664,64,256,256,0;
 activityId=72f55426-94e2-40b0-a526-29532f23a9af
 formfactor=0
 immutability=1
@@ -16,14 +16,25 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][1][Applets][22]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][1][Applets][22][Configuration]
+PreloadWeight=42
+
+[Containments][1][Applets][22][Configuration][General]
+noteId=41565fd3-7db1-4bdc-ada9-e6a7e82b24
+
 [Containments][1][ConfigDialog]
 DialogHeight=1051
 DialogWidth=1920
 
 [Containments][1][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][1][General]
+pressToMoveHelp=false
 showToolbox=false
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -44,7 +55,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][2][General]
 showToolbox=false
@@ -66,7 +77,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][3][Applets][4][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][3][Applets][4][Configuration][General]
 favoritesPortedToKAstats=true
@@ -83,14 +94,14 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][3][Applets][5][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][3][Applets][6]
 immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][3][Applets][6][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][3][Applets][6][Configuration][ConfigDialog]
 DialogHeight=540
@@ -104,7 +115,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][3][Applets][7][Configuration]
-PreloadWeight=73
+PreloadWeight=61
 SystrayContainmentId=8
 
 [Containments][3][Applets][9]
@@ -112,14 +123,14 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][3][Applets][9][Configuration]
-PreloadWeight=23
+PreloadWeight=15
 
 [Containments][3][ConfigDialog]
 DialogHeight=83
 DialogWidth=1920
 
 [Containments][3][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][3][General]
 AppletOrder=4;5;6;7;9
@@ -138,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=33
+PreloadWeight=30
 
 [Containments][8][Applets][12][Configuration]
 PreloadWeight=42
@@ -148,7 +159,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][13][Configuration]
-PreloadWeight=23
+PreloadWeight=2
 
 [Containments][8][Applets][14][Configuration]
 PreloadWeight=42
@@ -158,14 +169,14 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][15][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][8][Applets][16]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][8][Applets][16][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][8][Applets][17][Configuration]
 PreloadWeight=42
@@ -175,27 +186,32 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][18][Configuration]
-PreloadWeight=18
+PreloadWeight=0
+
+[Containments][8][Applets][19]
+immutability=1
+plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][19][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][8][Applets][20]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][20][Configuration]
-PreloadWeight=26
+PreloadWeight=0
 
 [Containments][8][ConfigDialog]
 DialogHeight=1015
 DialogWidth=1920
 
 [Containments][8][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.battery
+hiddenItems=KDE Daemon
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.bluetooth
 
 [General]

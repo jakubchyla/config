@@ -129,44 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="autoload">/home/jakchyla/src/config/backup/.vim/</Path>
-                  <Path Filename="">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="src">/home/jakchyla/</Path>
-                  <Path Filename="config">/home/jakchyla/src/</Path>
-                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
-                  <Path Filename="config">/home/jakchyla/src/</Path>
-                  <Path Filename="backup">/home/jakchyla/src/config/</Path>
-                  <Path Filename=".config">/home/jakchyla/src/config/backup/</Path>
-                  <Path Filename="sublime-text-3">/home/jakchyla/src/config/backup/.config/</Path>
-                  <Path Filename="Cache">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Cache/</Path>
-                  <Path Filename="Local">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Local/</Path>
-                  <Path Filename="Lib">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="python3.3">/home/jakchyla/src/config/backup/.config/sublime-text-3/Lib/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Lib/python3.3/</Path>
-                  <Path Filename="python3.3">/home/jakchyla/src/config/backup/.config/sublime-text-3/Lib/</Path>
-                  <Path Filename="Installed Packages">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Installed Packages/</Path>
-                  <Path Filename="Index">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Index/</Path>
-                  <Path Filename="Cache">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="Default">/home/jakchyla/src/config/backup/.config/sublime-text-3/Cache/</Path>
-                  <Path Filename="Packages">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="User">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/User/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/</Path>
-                  <Path Filename="Packages">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="User">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/</Path>
-                  <Path Filename="Package Control.cache">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/User/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/User/Package Control.cache/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/User/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/Packages/</Path>
-                  <Path Filename="..">/home/jakchyla/src/config/backup/.config/sublime-text-3/</Path>
-                  <Path Filename="kitty">/home/jakchyla/src/config/backup/.config/</Path>
-                  <Path Filename="..">/home/jakchyla/Downloads/</Path>
-                  <Path Filename="studia">/home/jakchyla/</Path>
-                  <Path Filename="aplikacje_bazodanowe">/home/jakchyla/studia/</Path>
                   <Path Filename="lab7">/home/jakchyla/studia/aplikacje_bazodanowe/</Path>
                   <Path Filename="src">/home/jakchyla/studia/aplikacje_bazodanowe/lab7/</Path>
                   <Path Filename="w07 - pliki">/home/jakchyla/studia/aplikacje_bazodanowe/</Path>
@@ -178,7 +140,45 @@
                   <Path Filename="..">/run/user/1000/</Path>
                   <Path Filename="1000">/run/user/</Path>
                   <Path Filename="user">/run/</Path>
+                  <Path Filename=".123">/home/jakchyla/</Path>
+                  <Path Filename="New Folder">/home/jakchyla/.123/</Path>
+                  <Path Filename="rand.sh">/home/jakchyla/.123/New Folder/</Path>
+                  <Path Filename="GPUCache">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/GPUCache/</Path>
                   <Path Filename="Desktop">/home/jakchyla/</Path>
+                  <Path Filename="jakchyla">/home/</Path>
+                  <Path Filename=".123">/home/jakchyla/</Path>
+                  <Path Filename="New Folder">/home/jakchyla/.123/</Path>
+                  <Path Filename="others">/home/jakchyla/.123/New Folder/</Path>
+                  <Path Filename="New Folder">/home/jakchyla/.123/</Path>
+                  <Path Filename=".cargo">/home/jakchyla/</Path>
+                  <Path Filename="jakchyla">/home/</Path>
+                  <Path Filename=".config">/home/jakchyla/</Path>
+                  <Path Filename="R">/home/jakchyla/.config/</Path>
+                  <Path Filename=".gradle">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/.gradle/</Path>
+                  <Path Filename=".local">/home/jakchyla/</Path>
+                  <Path Filename="share">/home/jakchyla/.local/</Path>
+                  <Path Filename="torbrowser">/home/jakchyla/.local/share/</Path>
+                  <Path Filename="share">/home/jakchyla/.local/</Path>
+                  <Path Filename=".sqlsecrets">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/.sqlsecrets/</Path>
+                  <Path Filename=".sqlsecrets">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/.sqlsecrets/</Path>
+                  <Path Filename=".var">/home/jakchyla/</Path>
+                  <Path Filename="app">/home/jakchyla/.var/</Path>
+                  <Path Filename="com.discordapp.Discord">/home/jakchyla/.var/app/</Path>
+                  <Path Filename="app">/home/jakchyla/.var/</Path>
+                  <Path Filename="opt">/home/jakchyla/</Path>
+                  <Path Filename="minecraft">/home/jakchyla/opt/</Path>
+                  <Path Filename="locales">/home/jakchyla/opt/minecraft/</Path>
+                  <Path Filename="fi.pak">/home/jakchyla/opt/minecraft/locales/</Path>
+                  <Path Filename="locales">/home/jakchyla/opt/minecraft/</Path>
+                  <Path Filename="am.pak">/home/jakchyla/opt/minecraft/locales/</Path>
+                  <Path Filename="locales">/home/jakchyla/opt/minecraft/</Path>
+                  <Path Filename="gzdoom">/home/jakchyla/opt/</Path>
+                  <Path Filename="Downloads">/home/jakchyla/</Path>
+                  <Path Filename="gpg-pubkey-3dbdc284-53674dd4.asc">/home/jakchyla/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,15 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="cfg">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
-                  <Path Filename="shiftbinds.cfg">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/cfg/</Path>
-                  <Path Filename="..">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="..">/home/jakchyla/</Path>
-                  <Path Filename="Steam">/home/jakchyla/.local/share/</Path>
-                  <Path Filename="steamapps">/home/jakchyla/.local/share/Steam/</Path>
-                  <Path Filename="common">/home/jakchyla/.local/share/Steam/steamapps/</Path>
-                  <Path Filename="Team Fortress 2">/home/jakchyla/.local/share/Steam/steamapps/common/</Path>
-                  <Path Filename="tf">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/</Path>
                   <Path Filename="maps">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/</Path>
                   <Path Filename="..">/home/jakchyla/.local/share/Steam/steamapps/common/Team Fortress 2/tf/maps/</Path>
                   <Path Filename=".config">/home/jakchyla/</Path>
@@ -252,6 +243,15 @@
                   <Path Filename="..">/home/jakchyla/Downloads/</Path>
                   <Path Filename="..">/run/user/1000/doc/</Path>
                   <Path Filename="..">/run/user/1000/</Path>
+                  <Path Filename="1000">/run/user/</Path>
+                  <Path Filename="opt">/home/jakchyla/</Path>
+                  <Path Filename="..">/home/jakchyla/opt/</Path>
+                  <Path Filename="opt">/home/jakchyla/</Path>
+                  <Path Filename="HoMM3">/home/jakchyla/opt/</Path>
+                  <Path Filename="studia">/home/jakchyla/</Path>
+                  <Path Filename="analiza_mat2">/home/jakchyla/studia/</Path>
+                  <Path Filename="6.Ekstrema-zadania.pdf">/home/jakchyla/studia/analiza_mat2/</Path>
+                  <Path Filename="ak">/home/jakchyla/studia/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -381,7 +381,7 @@
     <DateTimeFormat>mm/dd/yyyy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>True</ShowSystemFiles>
+    <ShowSystemFiles>False</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>

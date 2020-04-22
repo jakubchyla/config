@@ -13,6 +13,7 @@
     "python.jediEnabled": false,
 
     "vim.leader": ",",
+    "vim.useSystemClipboard": true,
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "j"],
@@ -71,4 +72,6 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "git.autofetch": true,
+    "java.requirements.JDK11Warning": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
 }

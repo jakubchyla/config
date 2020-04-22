@@ -9,7 +9,7 @@ Width 1920=622
 Number of Actions=0
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_org.kde.kcolorchooser.desktop,1 services_gimp.desktop,1 services_org.keepassxc.KeePassXC.desktop,16 services_kitty.desktop,3 services_tmux-kitty.desktop,1 services_org.kde.latte-dock.desktop,1 services_kitty-tmux.desktop
+LaunchCounts=2 services_virtualbox.desktop,1 services_org.kde.kcolorchooser.desktop,1 services_org.keepassxc.KeePassXC.desktop,24 services_minecraft.desktop,1 services_firefox.desktop,2 services_jetbrains-toolbox.desktop,1 services_kitty-tmux.desktop,1 services_pavucontrol.desktop,1 services_org.kde.latte-dock.desktop,2 services_transmission-gtk --minimized,3 services_tmux-kitty.desktop,2 services_gimp.desktop,16 services_kitty.desktop,2 services_virt-manager.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 3][Defaults]
