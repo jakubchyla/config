@@ -9,6 +9,7 @@ $KEYBINDING -p "/xfwm4/custom/<Super>Page_Down" -r
 $KEYBINDING -p "/xfwm4/custom/<Super>Page_Up" -r
 $KEYBINDING -p "/xfwm4/custom/<Super>Right" -r
 
+
 $KEYBINDING -p "/xfwm4/custom/<Super>Left" -n -t string -s "tile_left_key"
 $KEYBINDING -p "/xfwm4/custom/<Super>Page_Down" -n -t string -s "tile_down_key"
 $KEYBINDING -p "/xfwm4/custom/<Super>Page_Up" -n -t string -s "tile_up_key"

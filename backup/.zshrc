@@ -6,7 +6,7 @@
 #aliases
     alias ls='ls --color'
     alias info='info --vi-keys'
-    alias sup='shutdown now'
+    alias sup='/sbin/shutdown now'
     alias rm='rm --interactive'
     alias pless='ps aux | less'
     alias less='less -R'
@@ -14,19 +14,25 @@
     alias glances='glances --disable-bg'
     alias unsshfs='fusermount3 -u'
     emacs () {/usr/local/bin/emacs $@ &}
+    alias C="| xclip -selection \"clipboard\""
 
-    # Arch
+    # Pacman
     #alias pacman='pacman --color always'
 
-    # Fedora
-    alias din='sudo dnf install'
-    alias drm='sudo dnf remove'
-    alias dse='dnf search'
-    alias dup='sudo dnf upgrade --refresh'
+    # DNF
+    #alias din='sudo dnf install'
+    #alias drm='sudo dnf remove'
+    #alias dse='dnf search'
+    #alias dup='sudo dnf upgrade --refresh'
     
+    # APT
+    alias aptin='sudo apt install'
+    alias aptrm='sudo apt remove'
+    alias aptse='apt search'
+    alias aptup='sudo apt update && sudo apt upgrade'
 
 # Path to your oh-my-zsh installation.
-    export ZSH="$HOME/.oh-my-zsh" # theme
+    export ZSH="$HOME/.oh-my-zsh"
     export TERM="xterm-256color"
     ZSH_THEME="powerlevel10k/powerlevel10k"
 
@@ -46,7 +52,7 @@
 
 # zsh options
     #enable vi
-    bindkey -v
+   bindkey -v
     #how long to wait for next char (affects vim mode)
     KEYTIMEOUT=1 
 
@@ -54,5 +60,8 @@
 #source-highlight
     export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
 
+#functions
+    fpath+=~/.zfunc
+    compinit
 
 clear

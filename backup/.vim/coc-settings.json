@@ -6,13 +6,13 @@
           "filetypes": ["sh"],
           "ignoredRootPaths": ["~"]
         },
-        "ccls": {
-          "command": "ccls",
+        "clangd": {
+          "command": "clangd",
           "filetypes": ["c", "cpp", "objc", "objcpp"],
-          "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+          "rootPatterns": [".clangd", "compile_commands.json", ".git/", ".hg/"],
           "initializationOptions": {
              "cache": {
-               "directory": "/tmp/ccls"
+               "directory": "/tmp/clangd"
              }
            }
         },

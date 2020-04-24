@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="0.9.8 beta" ConfigVersion="10">
+<doublecmd DCVersion="0.9.1 beta" ConfigVersion="10">
   <Toolbars>
     <MainToolbar>
       <Row>
@@ -178,7 +178,7 @@
                   <Path Filename="locales">/home/jakchyla/opt/minecraft/</Path>
                   <Path Filename="gzdoom">/home/jakchyla/opt/</Path>
                   <Path Filename="Downloads">/home/jakchyla/</Path>
-                  <Path Filename="gpg-pubkey-3dbdc284-53674dd4.asc">/home/jakchyla/Downloads/</Path>
+                  <Path Filename="nerd-fonts">/home/jakchyla/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -272,7 +272,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/jakchyla/.thunderbird/</Path>
                   <Path Filename=".thunderbird">/home/jakchyla/</Path>
                   <Path Filename="jakchyla">/home/</Path>
                   <Path Filename="run">/</Path>
@@ -322,6 +321,7 @@
                   <Path Filename=".123">/home/jakchyla/</Path>
                   <Path Filename="New Folder">/home/jakchyla/.123/</Path>
                   <Path Filename="">/home/jakchyla/.123/New Folder/</Path>
+                  <Path Filename="">/home/jakchyla/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -343,7 +343,6 @@
   </Language>
   <Behaviours>
     <GoToRoot>False</GoToRoot>
-    <ActiveRight>False</ActiveRight>
     <RunInTerminalStayOpenCmd>konsole</RunInTerminalStayOpenCmd>
     <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
     <RunInTerminalCloseCmd>konsole</RunInTerminalCloseCmd>
