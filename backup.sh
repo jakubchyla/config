@@ -15,7 +15,8 @@ backup() {
 push() {
     if git checkout master; then
         git add .
-        git commit -m "auto update" && git push origin master
+        git commit -m "auto update"
+        git push origin master
     else
         echo "cannot checkout master!"
         exit 1
