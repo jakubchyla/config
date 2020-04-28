@@ -84,18 +84,20 @@ editor_stop_format_chars=-+*\\,.;:&>
 mcview_eof=
 skin=gray-orange-blue256
 
+filepos_max_saved_entries=1024
+
 [Layout]
-message_visible=0
-keybar_visible=0
-xterm_title=0
+message_visible=false
+keybar_visible=false
+xterm_title=false
 output_lines=0
-command_prompt=0
-menubar_visible=0
-free_space=0
-horizontal_split=0
-vertical_equal=0
-left_panel_size=87
-horizontal_equal=0
+command_prompt=false
+menubar_visible=false
+free_space=false
+horizontal_split=false
+vertical_equal=true
+left_panel_size=62
+horizontal_equal=false
 top_panel_size=1
 
 [Misc]

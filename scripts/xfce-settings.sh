@@ -1,14 +1,15 @@
 #! /bin/bash
 
-WM="xfconf-query -c xfwm4"
 KEYBINDING="xfconf-query -c xfce4-keyboard-shortcuts"
+WM="xfconf-query -c xfwm4"
+SETTINGS="xfconf-query -c xsettings"
+KEYBOARD="xfconf-query -c keyboard-layout"
 
 #tiling
 $KEYBINDING -p "/xfwm4/custom/<Super>Left" -r
 $KEYBINDING -p "/xfwm4/custom/<Super>Page_Down" -r
 $KEYBINDING -p "/xfwm4/custom/<Super>Page_Up" -r
 $KEYBINDING -p "/xfwm4/custom/<Super>Right" -r
-
 
 $KEYBINDING -p "/xfwm4/custom/<Super>Left" -n -t string -s "tile_left_key"
 $KEYBINDING -p "/xfwm4/custom/<Super>Page_Down" -n -t string -s "tile_down_key"
@@ -63,3 +64,13 @@ for i in {1..10};do
     fi
 done
 
+#rest
+$KEYBOARD   -p "/Default/XkbLayout pl"
+$KEYBINDING -p "/xfwm4/custom/<Super>Up" -n -t string -s "maximize_window_key"
+$KEYBINDING -p "/xfwm4/custom/<Shift><Super>Q" -n -t string -s "close_window_key"
+$KEYBINDING -p "/xfwm4/custom/<Super>f" -n -t string -s "fullscreen_key"
+
+#appereance
+$WM -p "/general/theme" -n -t string -s "Arc-Dark"
+$SETTINGS -p "/Net/ThemeName" -n -t string -s "Arc-Dark"
+$SETTINGS -p "/Net/IconThemeName" -n -t string -s "Papirus-Dark"

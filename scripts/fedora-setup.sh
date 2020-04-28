@@ -40,13 +40,11 @@ install_packages(){
   dnf -y upgrade
 
   #install packages
-  dnf -y install ccls clang clang-tools-extra cmake code compat-ffmpeg28 dconf-editor \
+  dnf -y install ccls clang clang-tools-extra cmake code \
     doublecmd-gtk exfat-utils ffmpeg ffmpegthumbnailer fira-code-fonts \
-    flatpak fontawesome-fonts fuse-exfat gimp git glances \
-    google-chrome-stable gstreamer1-libav gstreamer1-plugins-bad-freeworld \
-    gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer-ffmpeg \
-    htop keepassxc kitty mc mercurial meson mpv nasm neovim npm papirus-icon-theme \
-    steam syncthing virt-manager VirtualBox vlc xclip z3-devel zsh
+    flatpak fontawesome-fonts fuse-exfat gimp git glances google-chrome-stable \
+    htop keepassxc kitty mc meson mpv nasm neovim npm papirus-icon-theme \
+    steam syncthing vagrant virt-manager VirtualBox vlc xclip zsh
 
   flatpak remote-add --if-not-exists flathub \
     https://flathub.org/repo/flathub.flatpakrepo
@@ -82,7 +80,7 @@ build_emacs(){
   fi
 }
 
-minor_changes(){
+rest(){
     echo "defaultyes = True" >> /etc/dnf/dnf.conf
 }
 
@@ -127,6 +125,11 @@ main(){
         shift
         shift
       ;;
+      --basic)
+        PACKAGES="SET"
+        REST="SET"
+        shift
+      ;;
       *)
         POSITIONAL+="$1 "
         shift
@@ -146,8 +149,12 @@ main(){
     build_emacs
   fi
 
+  if [ ! -z "$REST" ]; then
+    rest
+  fi
+
   if [[ -f "$BACKUP_SCRIPT" && ! -z "$BACKUP_SCRIPT" ]];then
-    ./$BACKUP_SCRIPT --pull
+    sudo -H -u $SUDO_USER ./$BACKUP_SCRIPT --pull
   elif [ ! -z "$BACKUP_SCRIPT" ]; then
     echo "$BACKUP_SCRIPT doesn't exist!"
   fi
