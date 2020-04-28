@@ -45,7 +45,7 @@ install_packages(){
     flatpak fontawesome-fonts fuse-exfat gimp git glances \
     google-chrome-stable gstreamer1-libav gstreamer1-plugins-bad-freeworld \
     gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer-ffmpeg \
-    htop keepassxc kitty mc mercurial meson mpv nasm npm papirus-icon-theme \
+    htop keepassxc kitty mc mercurial meson mpv nasm neovim npm papirus-icon-theme \
     steam syncthing virt-manager VirtualBox vlc xclip z3-devel zsh
 
   flatpak remote-add --if-not-exists flathub \
@@ -82,6 +82,10 @@ build_emacs(){
   fi
 }
 
+minor_changes(){
+    echo "defaultyes = True" >> /etc/dnf/dnf.conf
+}
+
 
 main(){
   if [[ $EUID -ne 0 ]]; then
@@ -102,6 +106,11 @@ main(){
       ;;
       --cinnamon)
         CINNAMON_SCRIPT="$2"
+        shift
+        shift
+      ;;
+      --xfce)
+        XFCE_SCRIPT="$2"
         shift
         shift
       ;;
@@ -138,19 +147,29 @@ main(){
   fi
 
   if [[ -f "$BACKUP_SCRIPT" && ! -z "$BACKUP_SCRIPT" ]];then
-    cp -r $BACKUP_SCRIPT/. ~/
+    ./$BACKUP_SCRIPT --pull
   elif [ ! -z "$BACKUP_SCRIPT" ]; then
     echo "$BACKUP_SCRIPT doesn't exist!"
   fi
 
   if [[ -f "$CINNAMON_SCRIPT" && ! -z "$CINNAMON_SCRIPT" ]]; then
     if [ -z $SUDO_USER ]; then
-      echo "\$SUDO_USER not set, skipping..."
+      echo "\$SUDO_USER not set, skipping"
     else
       ./$CINNAMON_SCRIPT
     fi
   elif [ ! -z "$CINNAMON_SCRIPT" ]; then
     echo "$CINNAMON_SCRIPT doesn't exist!"
+  fi
+
+  if [[ -f "$XFCE_SCRIPT" && ! -z "$XFCE_SCRIPT" ]]; then
+    if [ -z $SUDO_USER ]; then
+      echo "\$SUDO_USER not set, skipping"
+    else
+      ./$XFCE_SCRIPT
+    fi
+  elif [ ! -z "$XFCE_SCRIPT" ]; then
+    echo "$XFCE_SCRIPT doesn't exist!"
   fi
 }
 

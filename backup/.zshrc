@@ -16,21 +16,6 @@
     emacs () {/usr/local/bin/emacs $@ &}
     alias C="| xclip -selection \"clipboard\""
 
-    # Pacman
-    #alias pacman='pacman --color always'
-
-    # DNF
-    #alias din='sudo dnf install'
-    #alias drm='sudo dnf remove'
-    #alias dse='dnf search'
-    #alias dup='sudo dnf upgrade --refresh'
-    
-    # APT
-    alias aptin='sudo apt install'
-    alias aptrm='sudo apt remove'
-    alias aptse='apt search'
-    alias aptup='sudo apt update && sudo apt upgrade'
-
 # Path to your oh-my-zsh installation.
     export ZSH="$HOME/.oh-my-zsh"
     export TERM="xterm-256color"
@@ -52,7 +37,7 @@
 
 # zsh options
     #enable vi
-   bindkey -v
+    bindkey -v
     #how long to wait for next char (affects vim mode)
     KEYTIMEOUT=1 
 

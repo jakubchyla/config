@@ -61,7 +61,7 @@
         "<C-k>": false,
         "<C-i>": false
     },
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.colorTheme": "Gruvbox Dark (Medium)",
     "files.associations": {
         "*.h": "c"
     },
