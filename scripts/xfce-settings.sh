@@ -65,10 +65,9 @@ for i in {1..10};do
 done
 
 #rest
-$KEYBOARD   -p "/Default/XkbLayout pl"
 $KEYBINDING -p "/xfwm4/custom/<Super>Up" -n -t string -s "maximize_window_key"
 $KEYBINDING -p "/xfwm4/custom/<Shift><Super>Q" -n -t string -s "close_window_key"
-$KEYBINDING -p "/xfwm4/custom/<Super>f" -n -t string -s "fullscreen_key"
+$KEYBINDING -p "/xfwm4/custom/<Super>F" -n -t string -s "fullscreen_key"
 
 #appereance
 $WM -p "/general/theme" -n -t string -s "Arc-Dark"
