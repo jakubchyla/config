@@ -26,12 +26,14 @@ $KEYBINDING -p "/commands/custom/<Super>p" -r
 $KEYBINDING -p "/commands/custom/<Super><Shift>P" -r
 $KEYBINDING -p "/commands/custom/<Super>m" -r
 $KEYBINDING -p "/commands/custom/<Super>i" -r
+$KEYBINDING -p "/commands/custom/<Super>w" -r
 
 $KEYBINDING -p "/commands/custom/<Super>Return" -n -t string -s "kitty tmux"
 $KEYBINDING -p "/commands/custom/<Super>p" -n -t string -s "google-chrome"
 $KEYBINDING -p "/commands/custom/<Super><Shift>P" -n -t string -s "google-chrome --incognito"
 $KEYBINDING -p "/commands/custom/<Super>m" -n -t string -s "keepassxc"
 $KEYBINDING -p "/commands/custom/<Super>i" -n -t string -s "doublecmd"
+$KEYBINDING -p "/commands/custom/<Super>w" -n -t string -s "code"
 
 #workspaces
 $WM -p "/general/workspace_count" -s 10
@@ -65,10 +67,9 @@ for i in {1..10};do
 done
 
 #rest
-$KEYBOARD   -p "/Default/XkbLayout pl"
 $KEYBINDING -p "/xfwm4/custom/<Super>Up" -n -t string -s "maximize_window_key"
 $KEYBINDING -p "/xfwm4/custom/<Shift><Super>Q" -n -t string -s "close_window_key"
-$KEYBINDING -p "/xfwm4/custom/<Super>f" -n -t string -s "fullscreen_key"
+$KEYBINDING -p "/xfwm4/custom/<Super>F" -n -t string -s "fullscreen_key"
 
 #appereance
 $WM -p "/general/theme" -n -t string -s "Arc-Dark"
