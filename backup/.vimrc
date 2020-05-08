@@ -1,14 +1,19 @@
 " vim:foldmethod=marker
 
-call plug#begin('~/.vim/plugged')
+"plugin manager {{{
 
-Plug 'vim-airline/vim-airline'
-Plug 'tpope/vim-surround'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'morhetz/gruvbox'
+    call plug#begin('~/.vim/plugged')
 
-call plug#end()
+    Plug 'vim-airline/vim-airline'
+    Plug 'tpope/vim-surround'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'morhetz/gruvbox'
 
+    call plug#end()
+
+"}}}
+
+"basic editor {{{
 "basic set up
     syntax on
 
@@ -46,9 +51,9 @@ call plug#end()
     set timeoutlen=1000
     set ttimeoutlen=10
 
-"-----------------------
-" keybinds
-"-----------------------
+"}}}
+
+" keybinds {{{
 
     nnoremap <Space> <Nop>
     let g:mapleader = " "
@@ -114,24 +119,22 @@ call plug#end()
     vnoremap K 50kzz
     vnoremap K 50kzz
 
+"}}}
     
-"-----------------------
-" language specific
-"-----------------------
+" language specific {{{
 
 "set asm syntax
     au BufRead,BufNewFile *.s   let asmsyntax='gas'|set filetype=asm
     au BufRead,BufNewFile *.asm let asmsyntax='nasm'|set filetype=nasm
 
-"-----------------------
-" plugins options
-"-----------------------
+"}}}
+
+" plugins options {{{
 
 "vim-airline
-let g:airline_section_y = ""
-let g:airline_section_z = ""
-let g:airline_section_warning = ""
-
+    let g:airline_section_y = ""
+    let g:airline_section_z = ""
+    let g:airline_section_warning = ""
 
 "coc.vim
 "{{{
@@ -243,3 +246,6 @@ let g:airline_section_warning = ""
     set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 "}}}
+
+"}}}
+

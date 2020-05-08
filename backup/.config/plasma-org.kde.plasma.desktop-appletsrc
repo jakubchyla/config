@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][1][Applets][22][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][1][Applets][22][Configuration][General]
 noteId=41565fd3-7db1-4bdc-ada9-e6a7e82b24
@@ -115,7 +115,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][3][Applets][7][Configuration]
-PreloadWeight=61
+PreloadWeight=16
 SystrayContainmentId=8
 
 [Containments][3][Applets][9]
@@ -123,7 +123,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][3][Applets][9][Configuration]
-PreloadWeight=15
+PreloadWeight=37
 
 [Containments][3][ConfigDialog]
 DialogHeight=83
@@ -149,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][11][Configuration]
-PreloadWeight=30
+PreloadWeight=6
 
 [Containments][8][Applets][12][Configuration]
 PreloadWeight=42
@@ -159,7 +159,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][13][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][8][Applets][14][Configuration]
 PreloadWeight=42
@@ -202,6 +202,13 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][8][Applets][20][Configuration]
 PreloadWeight=0
 
+[Containments][8][Applets][23]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][8][Applets][23][Configuration]
+PreloadWeight=0
+
 [Containments][8][ConfigDialog]
 DialogHeight=1015
 DialogWidth=1920
@@ -210,12 +217,12 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.battery
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol
 hiddenItems=KDE Daemon
-knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.bluetooth
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.pkupdates,org.kde.plasma.bluetooth,org.kde.plasma.nightcolorcontrol
 
 [General]
-immutability=2
+immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=

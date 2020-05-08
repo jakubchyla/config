@@ -7,6 +7,7 @@
     "editor.lineNumbers": "relative",
     "explorer.confirmDelete": false,
     "editor.fontSize": 13,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
 
     "C_Cpp.enhancedColorization": "Enabled",
 
@@ -61,17 +62,10 @@
         "<C-k>": false,
         "<C-i>": false
     },
-    "workbench.colorTheme": "Gruvbox Dark (Medium)",
-    "files.associations": {
-        "*.h": "c"
-    },
     "explorer.confirmDragAndDrop": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "workbench.activityBar.visible": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "git.autofetch": true,
-    "java.requirements.JDK11Warning": false,
-    "java.configuration.checkProjectSettingsExclusions": false,
+    "git.autofetch": true
 }
