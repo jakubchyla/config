@@ -38,9 +38,10 @@ update_local_config(){
     cp -r backup/. ~/
 }
 
-#if run as root; rerun as jakchyla
+main(){
+#if run as root; rerun as $SUDO_USER - fails if SUDO_USER is root
 if [ $(id -u) -eq 0 ];then
-    if [ -z $SUDO_USER ]; then
+    if ! [ -z $SUDO_USER ]; then
         exec sudo -H -u $SUDO_USER $0 "$@"
     else
         echo "cannot change to non-root user!"
@@ -51,21 +52,23 @@ fi
 cd $(dirname $(realpath $0))
 
 if [ $# -eq 0 ];then
+    echo "no option given!"
+    exit 1
+fi
+case $1 in
+--push)
     backup
     push
-else
-    case $1 in
-    --push)
-        backup
-        push
-        ;;
-    --pull)
-        pull
-        update_local_config
-        ;;
-        *)
-        exit -1
-        ;;
-    esac
-fi
+    ;;
+--pull)
+    pull
+    update_local_config
+    ;;
+    *)
+    exit -1
+    ;;
+esac
 exit 0
+}
+
+main "$@"
