@@ -8,9 +8,22 @@ Width 1920=622
 [General]
 Number of Actions=0
 
+[KPropertiesDialog]
+Height 768=451
+Width 1366=410
+
+[Notification Messages]
+ConfirmEmptyTrash=true
+
 [PlasmaRunnerManager]
-LaunchCounts=1 services_org.kde.kcolorchooser.desktop,1 services_firefox.desktop,24 services_minecraft.desktop,3 services_tmux-kitty.desktop,2 services_jetbrains-toolbox.desktop,6 services_gimp.desktop,2 services_virtualbox.desktop,2 services_virt-manager.desktop,2 services_rstudio.desktop,16 services_kitty.desktop,1 services_kitty-tmux.desktop,1 services_org.kde.latte-dock.desktop,3 services_pavucontrol.desktop,1 services_org.keepassxc.KeePassXC.desktop,2 services_transmission-gtk --minimized,3 services_torbrowser.desktop
+LaunchCounts=1 services_org.kde.latte-dock.desktop,1 services_systemsettings.desktop,3 services_pavucontrol.desktop,1 shell_kitty tmux,1 services_org.kde.kwalletmanager5.desktop,2 services_virt-manager.desktop,18 services_kitty.desktop,24 services_minecraft.desktop,2 services_virtualbox.desktop,2 services_jetbrains-toolbox.desktop,3 services_torbrowser.desktop,1 services_firefox.desktop,1 services_org.kde.kcolorchooser.desktop,3 services_tmux-kitty.desktop,1 services_org.keepassxc.KeePassXC.desktop,2 services_transmission-gtk --minimized,6 services_gimp.desktop,1 services_kitty-tmux.desktop,2 services_rstudio.desktop,1 services_brutal-doom.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 24][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 24][Horizontal1366]
+thickness=36
 
 [PlasmaViews][Panel 3][Defaults]
 maxLength=1920
@@ -23,8 +36,8 @@ minLength=1920
 thickness=36
 
 [ScreenConnectors]
-0=HDMI-1
+0=LVDS-1
 1=DVI-D-1
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/00-start-here-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc-1.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/00-start-here-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc-1.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

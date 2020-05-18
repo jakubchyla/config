@@ -46,20 +46,29 @@
 
     #package manager aliases
     if [ -f "/usr/bin/apt" ]; then
-        # APT
-        alias aptin='sudo apt install'
-        alias aptrm='sudo apt remove'
-        alias aptse='apt search'
-        alias aptup='sudo apt update && sudo apt upgrade'
+        # apt
+        alias pacin='sudo apt install'
+        alias pacrm='sudo apt remove'
+        alias pacse='apt search'
+        alias pacup='sudo apt update && sudo apt upgrade'
     elif [ -f "/usr/bin/dnf" ]; then
-        # DNF
-        alias din='sudo dnf install'
-        alias drm='sudo dnf remove'
-        alias dse='dnf search'
-        alias dup='sudo dnf upgrade --refresh'
+        # dnf
+        alias pacin='sudo dnf install'
+        alias pacrm='sudo dnf remove'
+        alias pacse='dnf search'
+        alias pacup='sudo dnf upgrade --refresh'
     elif [ -f "/usr/bin/pacman" ]; then
-        # Pacman
-        alias pacman='pacman --color always'
+        # pacman
+        alias pacin='sudo pacman -S'
+        alias pacrm='sudo pacman -Rs'
+        alias pacse='pacman -Ss'
+        alias pacup='sudo pacman -Syu'
+    elif [ -f "/usr/bin/zypper" ]; then
+        # zypper
+        alias pacin='sudo zypper install'
+        alias pacrm='sudo zypper remove'
+        alias pacse='zypper search'
+        alias pacup='sudo zypper dup'
     fi
 
 #}}}
@@ -76,10 +85,10 @@
 
     #trackball {{{
         trackball(){
-            id=`xinput --list --short | grep "Kensington USB Orbit" | grep -Po "id=\d*" | grep -Po "\d*"`
+            id=`xinput --list --short 2>/dev/null | grep "Kensington USB Orbit" | grep -Po "id=\d*" | grep -Po "\d*"`
             if [ $id ]; then
-                prop_id=`xinput list-props $id | grep -Po "Middle Emulation Enabled \(\d*\)" | grep -Po "\d*"`
-                xinput set-prop $id $prop_id 1
+                prop_id=`xinput list-props $id 2>/dev/null | grep -Po "Middle Emulation Enabled \(\d*\)" | grep -Po "\d*"`
+                xinput set-prop $id $prop_id 1 2>/dev/null
             fi
         }
         trackball

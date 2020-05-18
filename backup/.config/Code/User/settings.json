@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
@@ -67,5 +67,6 @@
     "telemetry.enableTelemetry": false,
     "workbench.activityBar.visible": true,
     "editor.suggestSelection": "first",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "terminal.integrated.fontSize": 13
 }

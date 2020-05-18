@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-0d2039af-439b-4133-a4ba-dc51543584e4=none,none,Switch to activity "Default"
 switch-to-activity-5aeec7eb-b6cc-40d3-aa72-8c37f4615de5=none,none,Switch to activity "Default"
 switch-to-activity-72f55426-94e2-40b0-a526-29532f23a9af=none,none,Switch to activity "Default"
 switch-to-activity-8e2f478b-180f-412b-823b-ad7967bdcc5d=none,none,Switch to activity "Default"
@@ -318,15 +319,16 @@ activate widget 12=none,none,Activate Application Launcher Widget
 activate widget 20=,none,Activate Application Launcher Widget
 activate widget 21=,none,Activate Application Launcher Widget
 activate widget 3=,none,Activate Application Launcher Widget
-activate widget 4=Alt+F1,none,Activate Application Launcher Widget
+activate widget 4=,none,Activate Application Launcher Widget
+activate widget 51=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 edit_clipboard=none,none,Edit Contents...
 manage activities=Meta+Q,Meta+Q,Activities...
-next activity=Meta+Tab,none,Walk through activities
-previous activity=Meta+Shift+Tab,none,Walk through activities (Reverse)
+next activity=Meta+Tab,Meta+Tab,Walk through activities
+previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,none,Show Barcode...
@@ -339,3 +341,14 @@ toggle do not disturb=none,none,Toggle do not disturb
 [tmux-kitty.desktop]
 _k_friendly_name=Launch kitty-tmux
 _launch=Meta+Return,none,Launch kitty-tmux
+
+[wacomtablet]
+Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
+Map to screen 1=,Meta+Ctrl+1,Map to screen 1
+Map to screen 2=,Meta+Ctrl+2,Map to screen 2
+Next Profile=,Meta+Ctrl+N,Next profile
+Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Previous Profile
+Toggle screen map selection=,Meta+Ctrl+M,Toggle between all screens
+Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
+Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
+_k_friendly_name=Wacom Tablet
