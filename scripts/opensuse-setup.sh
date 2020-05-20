@@ -51,31 +51,6 @@ install_packages(){
 }
 
 
-build_emacs(){
-  dnf -y remove emacs
-  dnf -y builddep emacs
-  dnf -y install git autogen
-  git clone https://git.savannah.gnu.org/git/emacs.git /tmp/emacs-build
-  GO_BACK_DIR=`pwd`
-  cd /tmp/emacs-build
-  ./autogen.sh
-  ./configure
-  make -j `nproc`
-  make install -j `nproc`
-  cd $GO_BACK_DIR
-
-  if [ ! -z $SUDO_USER ];then
-    sudo -u $SUDO_USER bash -c '
-    git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
-    echo "y\ny" | ~/.emacs.d/bin/doom install'
-  fi
-}
-
-rest(){
-    echo "defaultyes = True" >> /etc/dnf/dnf.conf
-}
-
-
 main(){
   if [[ $EUID -ne 0 ]]; then
     echo "This script must be run with sudo"
