@@ -43,6 +43,9 @@
     alias unsshfs='fusermount3 -u'
     emacs () {/usr/local/bin/emacs $@ &}
     alias -g C="| xclip -selection \"clipboard\""
+    alias -g G="| grep"
+    alias -g L="| less"
+    alias -g B="| bat"
 
     #package manager aliases
     if [ -f "/usr/bin/apt" ]; then

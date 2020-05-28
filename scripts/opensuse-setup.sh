@@ -31,9 +31,8 @@ install_packages(){
   zypper dup -y
 
   #install packages
-  zypper install -y ccls clang clang-tools-extra cmake code \
-    exfat-utils ffmpeg ffmpegthumbnailer \
-    flatpak gimp git glances google-chrome-stable \
+  zypper install -y ccls clang clang-tools-extra cmake code exfat-utils \
+    ffmpeg ffmpegthumbnailer flatpak gimp git glances google-chrome-stable \
     htop keepassxc kitty mc meson mpv nasm neovim npm papirus-icon-theme \
     steam syncthing vlc xclip zsh
 
@@ -60,40 +59,8 @@ main(){
   while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
-      --all)
-        CINNAMON_SCRIPT="./scripts/cinnamon-settings.sh"
-        PACKAGES="SET"
-        EMACS_BUILD="SET"
-        BACKUP_SCRIPT="./backup.sh"
-        shift
-        break
-      ;;
-      --cinnamon)
-        CINNAMON_SCRIPT="$2"
-        shift
-        shift
-      ;;
-      --xfce)
-        XFCE_SCRIPT="$2"
-        shift
-        shift
-      ;;
       --packages)
         PACKAGES="SET"
-        shift
-      ;;
-      --build-emacs)
-        EMACS_BUILD="SET"
-        shift
-      ;;
-      --backup)
-        BACKUP_SCRIPT="$2"
-        shift
-        shift
-      ;;
-      --basic)
-        PACKAGES="SET"
-        REST="SET"
         shift
       ;;
       *)
@@ -109,40 +76,6 @@ main(){
 
   if [ ! -z "$PACKAGES" ]; then
     install_packages
-  fi
-
-  if [ ! -z "$EMACS_BUILD" ]; then
-    build_emacs
-  fi
-
-  if [ ! -z "$REST" ]; then
-    rest
-  fi
-
-  if [[ -f "$BACKUP_SCRIPT" && ! -z "$BACKUP_SCRIPT" ]];then
-    sudo -H -u $SUDO_USER ./$BACKUP_SCRIPT --pull
-  elif [ ! -z "$BACKUP_SCRIPT" ]; then
-    echo "$BACKUP_SCRIPT doesn't exist!"
-  fi
-
-  if [[ -f "$CINNAMON_SCRIPT" && ! -z "$CINNAMON_SCRIPT" ]]; then
-    if [ -z $SUDO_USER ]; then
-      echo "\$SUDO_USER not set, skipping"
-    else
-      ./$CINNAMON_SCRIPT
-    fi
-  elif [ ! -z "$CINNAMON_SCRIPT" ]; then
-    echo "$CINNAMON_SCRIPT doesn't exist!"
-  fi
-
-  if [[ -f "$XFCE_SCRIPT" && ! -z "$XFCE_SCRIPT" ]]; then
-    if [ -z $SUDO_USER ]; then
-      echo "\$SUDO_USER not set, skipping"
-    else
-      ./$XFCE_SCRIPT
-    fi
-  elif [ ! -z "$XFCE_SCRIPT" ]; then
-    echo "$XFCE_SCRIPT doesn't exist!"
   fi
 }
 

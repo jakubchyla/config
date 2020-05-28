@@ -68,5 +68,6 @@
     "workbench.activityBar.visible": true,
     "editor.suggestSelection": "first",
     "git.autofetch": true,
-    "terminal.integrated.fontSize": 13
+    "terminal.integrated.fontSize": 13,
+    "editor.wordWrap": "on"
 }
