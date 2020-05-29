@@ -6,7 +6,6 @@
 
     Plug 'vim-airline/vim-airline'
     Plug 'tpope/vim-surround'
-    "Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'morhetz/gruvbox'
 
     call plug#end()
@@ -87,8 +86,8 @@
     nnoremap <A-l> a<Space><Esc>h
     
     "insert empty lines
-    nnoremap <A-j> o<Esc>
-    nnoremap <A-k> O<Esc>
+    nnoremap <A-j> o<Esc>k
+    nnoremap <A-k> O<Esc>j
 
     "remove empty line below/above cursor
     function! MergeIfEmpty(previous)
@@ -102,8 +101,8 @@
         endif
     endfunction
 
-    nnoremap <C-j> :call MergeIfEmpty(0)<CR>
-    nnoremap <C-k> :call MergeIfEmpty(1)<CR>
+    nnoremap <C-j> :call MergeIfEmpty("0")<CR>``
+    nnoremap <C-k> :call MergeIfEmpty("1")<CR>``
 "}}}
     
 " language specific {{{
