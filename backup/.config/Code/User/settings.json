@@ -69,5 +69,6 @@
     "editor.suggestSelection": "first",
     "git.autofetch": true,
     "terminal.integrated.fontSize": 13,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "C_Cpp.updateChannel": "Insiders"
 }
