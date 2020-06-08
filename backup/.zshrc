@@ -69,7 +69,7 @@
     elif [ -f "/usr/bin/zypper" ]; then
         # zypper
         alias pacin='sudo zypper install'
-        alias pacrm='sudo zypper remove'
+        alias pacrm='sudo zypper remove -u'
         alias pacse='zypper search'
         alias pacup='sudo zypper dup'
     fi
@@ -90,11 +90,20 @@
         trackball(){
             id=`xinput --list --short 2>/dev/null | grep "Kensington USB Orbit" | grep -Po "id=\d*" | grep -Po "\d*"`
             if [ $id ]; then
-                prop_id=`xinput list-props $id 2>/dev/null | grep -Po "Middle Emulation Enabled \(\d*\)" | grep -Po "\d*"`
-                xinput set-prop $id $prop_id 1 2>/dev/null
+                prop_id1=`xinput list-props $id 2>/dev/null | grep -Po "Middle Emulation Enabled \(\d*\)" | grep -Po "\d*"`
+                prop_id2=`xinput list-props $id 2>/dev/null | grep -Po "Button Scrolling Button \(\d*\)" | grep -Po "\d*"`
+                xinput set-prop $id $prop_id1 1 2>/dev/null
+                xinput set-prop $id $prop_id2 3 2>/dev/null
             fi
         }
         trackball
+    #}}}
+
+    # systemd completion workaround {{{
+      _systemctl_unit_state() {
+          typeset -gA _sys_unit_state
+          _sys_unit_state=( $(__systemctl list-unit-files "$PREFIX*" | awk '{print $1, $2}') )
+      }
     #}}}
     
 #}}}

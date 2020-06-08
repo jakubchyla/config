@@ -3,9 +3,10 @@
 install_packages(){
   #google-chrome
   if [ ! -f /etc/zypp/repos.d/google-chrome.repo ]; then
+    echo "adding google-chrome repo"
     curl https://dl.google.com/linux/linux_signing_key.pub > /tmp/chrome_key.pub
-    rpm --import /tmp/chrome_key.pub
-    printf '%s\n' \
+    sudo rpm --import /tmp/chrome_key.pub
+    sudo printf '%s\n' \
     '[google-chrome]' \
     'name=google-chrome' \
     'baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64' \
@@ -14,10 +15,11 @@ install_packages(){
     'gpgcheck=1' \
     'skip_if_unavailable=1' > /etc/zypp/repos.d/google-chrome.repo
   fi
+  #vscode
   if [ ! -f /etc/zypp/repos.d/vscode.repo ]; then
-    #vscode
-    rpm --import https://packages.microsoft.com/keys/microsoft.asc
-    printf '%s\n' \
+    echo "adding vscode repo"
+    sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+    sudo printf '%s\n' \
     '[code]' \
     'name=Visual Studio Code' \
     'baseurl=https://packages.microsoft.com/yumrepos/vscode' \
@@ -28,34 +30,37 @@ install_packages(){
   fi
 
   #update
-  zypper dup -y
+  echo "updating"
+  sudo zypper dup -y
 
   #install packages
-  zypper install -y ccls clang clang-tools-extra cmake code exfat-utils \
-    ffmpeg ffmpegthumbnailer flatpak gimp git glances google-chrome-stable \
-    htop keepassxc kitty mc meson mpv nasm neovim npm papirus-icon-theme \
-    steam syncthing vlc xclip zsh
+  PACKAGE_LIST1="bat clang cmake code flatpak gimp git glances \
+    google-chrome-stable htop keepassxc kitty mc meson mpv nasm neovim \
+    papirus-icon-theme steam syncthing xclip xinput zsh"
+  PACKAGE_LIST2="ffmpeg-4 vlc"
 
-  flatpak remote-add --if-not-exists flathub \
+  echo "installing packages"
+  sudo zypper install -y $PACKAGE_LIST1
+  sudo zypper install -y --allow-vendor-change --from packman $PACKAGE_LIST2
+
+  echo "installing flatpaks"
+  flatpak --user remote-add --if-not-exists flathub \
     https://flathub.org/repo/flathub.flatpakrepo
-  flatpak install -y --noninteractive com.spotify.Client com.discordapp.Discord
+  flatpak --user install -y --noninteractive com.spotify.Client com.discordapp.Discord
   if ! [ -z $SUDO_USER ]; then
-    flatpak override --filesystem=/home/$SUDO_USER/Music com.spotify.Client
-    flatpak override --filesystem=/home/$SUDO_USER/Pictures com.discordapp.Discord
+    flatpak --user override --filesystem=$HOME/Music com.spotify.Client
+    flatpak --user override --filesystem=$HOME/Pictures com.discordapp.Discord
   fi
-
-  #oh-my-zsh
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+ #oh-my-zsh
+ echo "installing oh-my-zsh"
+ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 }
 
 
-main(){
-  if [[ $EUID -ne 0 ]]; then
-    echo "This script must be run with sudo"
-    exit 1
-  fi
 
+
+main(){
   while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in

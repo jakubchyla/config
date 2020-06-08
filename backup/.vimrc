@@ -23,12 +23,6 @@
     set hidden "seperate tabs
     set breakindent
 
-"theme
-    if exists('g:GuiLoaded')
-        GuiFont Fira Code:h12
-    endif
-    colorscheme gruvbox
-
 "disable swapfile
     set noswapfile
 
