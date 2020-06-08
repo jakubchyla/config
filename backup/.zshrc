@@ -73,6 +73,10 @@
         alias pacse='zypper search'
         alias pacup='sudo zypper dup'
     fi
+    #flatpak aliases
+    alias flatin='flatpak --user install'
+    alias flatrm='flatpak --user uninstall'
+    alias flatup='flatpak --user update'
 
 #}}}
 

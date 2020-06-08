@@ -1,24 +1,3 @@
 {
-    "languageserver": {
-        "bash": {
-          "command": "bash-language-server",
-          "args": ["start"],
-          "filetypes": ["sh"],
-          "ignoredRootPaths": ["~"]
-        },
-        "clangd": {
-          "command": "clangd",
-          "filetypes": ["c", "cpp", "objc", "objcpp"],
-          "rootPatterns": [".clangd", "compile_commands.json", ".git/", ".hg/"],
-          "initializationOptions": {
-             "cache": {
-               "directory": "/tmp/clangd"
-             }
-           }
-        },
-        "lua": {
-            "command": "lua-lsp",
-            "filetypes": ["lua"]
-        }
-    }
+    "python.jediEnabled": false
 }
