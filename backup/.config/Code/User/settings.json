@@ -70,11 +70,8 @@
     "git.autofetch": true,
     "terminal.integrated.fontSize": 13,
     "editor.wordWrap": "on",
-<<<<<<< HEAD
     "workbench.startupEditor": "newUntitledFile",
     "latex-workshop.view.pdf.viewer": "external",
-    "git.confirmSync": false
-=======
+    "git.confirmSync": false,
     "C_Cpp.updateChannel": "Insiders"
->>>>>>> 26e9d279291b4b9643ef4a5f1e3ac7c037feebce
 }

@@ -25,8 +25,6 @@
     set hidden "seperate tabs
     set breakindent
 
-<<<<<<< HEAD
-=======
 "theme
     set termguicolors
     set background=dark
@@ -35,7 +33,6 @@
     endif
     colorscheme gruvbox
 
->>>>>>> 26e9d279291b4b9643ef4a5f1e3ac7c037feebce
 "disable swapfile
     set noswapfile
 
@@ -129,7 +126,7 @@
 "coc.vim
 ""{{{
 ""dependencies: python-language-server, ccls, bash language server
-"CocInstall: coc-json, coc-html, coc-css, coc-rls, coc-python, coc-highlight, coc-git, coc-vimlsp, coc-pairs
+"vim -c CocInstall "coc-html coc-python coc-clangd coc-rust-analyzer coc-json coc-texlab coc-vimlsp coc-xml coc-git coc-cmake"
     "Some servers have issues with backup file
     set nobackup
     set nowritebackup
@@ -138,7 +135,7 @@
     set cmdheight=2
 
     "You will have bad experience for diagnostic messages when it's default 4000.
-    set updatetime=300
+    set updatetime=100
 
     "don't give |ins-completion-menu| messages.
     set shortmess+=c
