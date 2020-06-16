@@ -44,10 +44,11 @@
     alias glances='glances --disable-bg'
     alias unsshfs='fusermount3 -u'
     # emacs () {/usr/local/bin/emacs $@ &}
+    
     # vagrant
     alias vagup='vagrant up'
     alias vagdown='vagrant halt'
-    alias vagssh='if [ `vagrant status --machine-readable | grep -P "state,poweroff"`]; then vagrant up; fi;vagrant ssh'
+    alias vagssh='if [ `vagrant status --machine-readable | grep -P "state,poweroff"` ]; then vagrant up; fi;vagrant ssh'
     alias vagsnap-push='vagrant snapshot push'
     alias vagsnap-pop='vagrant snapshot pop'
     # pipe aliases
