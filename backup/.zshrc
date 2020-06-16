@@ -1,5 +1,15 @@
 # vim:foldmethod=marker
 
+# zsh options {{{
+    # enable vi
+    bindkey -v
+    # how long to wait for next char (affects vim mode)
+    KEYTIMEOUT=1 
+    # messes up copy-paste
+    DISABLE_MAGIC_FUNCTIONS=true
+
+# }}}
+
 # oh-my-zsh {{{
     # Path to your oh-my-zsh installation.
     export ZSH="$HOME/.oh-my-zsh"
@@ -7,14 +17,6 @@
     ZSH_THEME="powerlevel10k/powerlevel10k"
 
     source $ZSH/oh-my-zsh.sh &>/dev/null
-    # messes up copy-paste
-    DISABLE_MAGIC_FUNCTIONS=true
-
-    # zsh options
-    #enable vi
-    bindkey -v
-    #how long to wait for next char (affects vim mode)
-    KEYTIMEOUT=1 
 
 # }}}
 
@@ -41,13 +43,20 @@
     alias vim='nvim'
     alias glances='glances --disable-bg'
     alias unsshfs='fusermount3 -u'
-    emacs () {/usr/local/bin/emacs $@ &}
+    # emacs () {/usr/local/bin/emacs $@ &}
+    # vagrant
+    alias vagup='vagrant up'
+    alias vagdown='vagrant halt'
+    alias vagssh='if [ `vagrant status --machine-readable | grep -P "state,poweroff"`]; then vagrant up; fi;vagrant ssh'
+    alias vagsnap-push='vagrant snapshot push'
+    alias vagsnap-pop='vagrant snapshot pop'
+    # pipe aliases
     alias -g C="| xclip -selection \"clipboard\""
     alias -g G="| grep"
     alias -g L="| less"
     alias -g B="| bat"
 
-    #package manager aliases
+    # package manager aliases
     if [ -f "/usr/bin/apt" ]; then
         # apt
         alias pacin='sudo apt install'
@@ -73,7 +82,7 @@
         alias pacse='zypper search'
         alias pacup='sudo zypper dup'
     fi
-    #flatpak aliases
+    # flatpak aliases
     alias flatin='flatpak --user install'
     alias flatrm='flatpak --user uninstall'
     alias flatup='flatpak --user update'
@@ -87,10 +96,10 @@
 #}}}
 
 # rest {{{
-    #source-highlight
+    # source-highlight
     export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s" 
 
-    #trackball {{{
+    # trackball {{{
         trackball(){
             id=`xinput --list --short 2>/dev/null | grep "Kensington USB Orbit" | grep -Po "id=\d*" | grep -Po "\d*"`
             if [ $id ]; then
