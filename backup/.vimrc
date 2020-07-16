@@ -127,6 +127,19 @@
 ""{{{
 ""dependencies: python-language-server, ccls, bash language server
 "vim -c CocInstall "coc-html coc-python coc-clangd coc-rust-analyzer coc-json coc-texlab coc-vimlsp coc-xml coc-git coc-cmake coc-pairs"
+    let g:coc_global_extensions = [
+        \ 'coc-html',
+        \ 'coc-python',
+        \ 'coc-clangd',
+        \ 'coc-rust-analyzer',
+        \ 'coc-json',
+        \ 'coc-texlab',
+        \ 'coc-vimlsp',
+        \ 'coc-xml',
+        \ 'coc-git',
+        \ 'coc-cmake',
+        \ 'coc-pairs'
+    \ ]
     "Some servers have issues with backup file
     set nobackup
     set nowritebackup

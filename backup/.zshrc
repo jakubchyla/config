@@ -1,15 +1,5 @@
 # vim:foldmethod=marker
 
-# zsh options {{{
-    # enable vi
-    bindkey -v
-    # how long to wait for next char (affects vim mode)
-    KEYTIMEOUT=1 
-    # messes up copy-paste
-    DISABLE_MAGIC_FUNCTIONS=true
-
-# }}}
-
 # oh-my-zsh {{{
     # Path to your oh-my-zsh installation.
     export ZSH="$HOME/.oh-my-zsh"
@@ -51,6 +41,7 @@
     alias vagssh='if [ `vagrant status --machine-readable | grep -P "state,poweroff"` ]; then vagrant up; fi;vagrant ssh'
     alias vagsnap-push='vagrant snapshot push'
     alias vagsnap-pop='vagrant snapshot pop'
+
     # pipe aliases
     alias -g C="| xclip -selection \"clipboard\""
     alias -g G="| grep"
@@ -81,7 +72,7 @@
         alias pacin='sudo zypper install'
         alias pacrm='sudo zypper remove -u'
         alias pacse='zypper search'
-        alias pacup='sudo zypper dup'
+        alias pacup='sudo zypper dup --allow-vendor-change'
     fi
     # flatpak aliases
     alias flatin='flatpak --user install'
@@ -95,6 +86,16 @@
     compinit
 
 #}}}
+
+# zsh options {{{
+    # enable vi
+    bindkey -v
+    # how long to wait for next char (affects vim mode)
+    KEYTIMEOUT=1 
+    # messes up copy-paste
+    DISABLE_MAGIC_FUNCTIONS=true
+
+# }}}
 
 # rest {{{
     # source-highlight

@@ -1,13 +1,14 @@
 {
   "dependencies": {
-    "coc-clangd": ">=0.4.8",
+    "coc-clangd": ">=0.4.11",
     "coc-cmake": ">=0.0.1",
-    "coc-git": ">=1.7.13",
+    "coc-git": ">=1.7.15",
     "coc-html": ">=1.2.4",
     "coc-json": ">=1.2.6",
     "coc-pairs": ">=1.2.21",
     "coc-python": ">=1.2.12",
-    "coc-rust-analyzer": ">=0.7.2",
+    "coc-rust-analyzer": ">=0.7.5",
+    "coc-sh": ">=0.5.1",
     "coc-texlab": ">=2.1.0",
     "coc-vimlsp": ">=0.8.0",
     "coc-xml": ">=1.11.1"

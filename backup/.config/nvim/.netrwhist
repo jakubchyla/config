@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/jakchyla/.vim'
 let g:netrw_dirhist_6='/home/jakchyla/.config/kitty'
 let g:netrw_dirhist_5='/home/jakchyla/.vim'
 let g:netrw_dirhist_4='/home/jakchyla/p/Vector/.ccls-cache'
