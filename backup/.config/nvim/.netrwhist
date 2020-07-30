@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
-let g:netrw_dirhist_7='/home/jakchyla/.vim'
-let g:netrw_dirhist_6='/home/jakchyla/.config/kitty'
-let g:netrw_dirhist_5='/home/jakchyla/.vim'
-let g:netrw_dirhist_4='/home/jakchyla/p/Vector/.ccls-cache'
-let g:netrw_dirhist_3='/home/jakchyla/.config/kitty'
-let g:netrw_dirhist_2='/home/jakchyla/studia/algorytmy/lab4'
-let g:netrw_dirhist_1='/home/jakchyla/.config/kitty/themes'
