@@ -1,0 +1,139 @@
+# vim: set ft=dosini:
+
+set $mod Mod4
+
+set $myleft h
+set $mydown j
+set $myup k
+set $myright l
+
+font pango:JetBrains Mono: Bold 9
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+# change focus
+bindsym $mod+$myleft focus left
+bindsym $mod+$mydown focus down
+bindsym $mod+$myup focus up
+bindsym $mod+$myright focus right
+
+# move focused window
+bindsym $mod+Shift+$myleft move left
+bindsym $mod+Shift+$mydown move down
+bindsym $mod+Shift+$myup move up
+bindsym $mod+Shift+$myright move right
+
+# split in horizontal orientation
+bindsym $mod+c split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+bindsym $mod+b focus child
+
+
+# switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+
+#put workspace on displays
+workspace "1" output HDMI-A-0
+workspace "3" output HDMI-A-0
+workspace "5" output HDMI-A-0
+workspace "7" output HDMI-A-0
+workspace "9" output HDMI-A-0
+
+workspace "2" output DVI-D-0
+workspace "4" output DVI-D-0
+workspace "6" output DVI-D-0
+workspace "8" output DVI-D-0
+workspace "10" output DVI-D-0
+
+# reload the configuration file
+bindsym $mod+Ctrl+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Ctrl+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Ctrl+e exit
+
+
+# resize settings(default)
+mode "resize" {
+
+        bindsym $myleft resize shrink width 10 px or 10 ppt
+        bindsym $myup resize grow height 10 px or 10 ppt
+        bindsym $mydown resize shrink height 10 px or 10 ppt
+        bindsym $myright resize grow width 10 px or 10 ppt
+
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+bindsym $mod+r mode "resize"
+
+#customize windwows borders
+#hide_edge_borders both
+# class                 border  backgr. text    indicator child_border
+client.focused          #000000 #2b2e37 #ffffff #2e9ef4   #000000
+client.focused_inactive #000000 #2b2e37 #ffffff #484e50   #000000
+client.unfocused        #000000 #1b1e27 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+#launcher
+bindsym $mod+d exec rofi -show drun
+
+#keybindings for common apps
+bindsym $mod+Return exec kitty tmux
+bindsym $mod+p exec chromium
+bindsym $mod+Shift+p exec chromium --incognito
+bindsym $mod+m exec keepassxc
+
+#assign apps to workspaces
+assign [class="Steam"] 3
+
+# autostart applications
+exec ~/.autostart
+

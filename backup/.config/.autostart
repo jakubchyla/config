@@ -1,0 +1,5 @@
+setxkbmap pl
+setxkbmap -option ctrl:nocaps
+feh --bg-scale $HOME/Pictures/wallpapers/wallpaper24.jpg
+$HOME/.config/polybar/launch.sh &
+picom &
