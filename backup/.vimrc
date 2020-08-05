@@ -80,9 +80,7 @@
 "clear highlight and search
     nnoremap / :noh<CR> :/
 
-    inoremap jj <Esc>
-    cnoremap jj <Esc>
-    nnoremap <leader>k :
+    nnoremap <S-k> -J
     
     ""insert space before cursor
     nnoremap <A-h> i<Space><Esc>l
@@ -107,6 +105,21 @@
 
     nnoremap <C-j> :call MergeIfEmpty("0")<CR>``
     nnoremap <C-k> :call MergeIfEmpty("1")<CR>``
+
+    function! MergeSaveIndent(previous)
+        if a:previous == 1
+            let l:line_number = line(".") - 1
+        else
+            let l:line_number = line(".")
+        endif
+            let l:indentation = indent(l:line_number)
+        if a:previous == 1
+            exe "normal " . l:line_number "G"
+        endif
+        exe 's/\n//'
+    endfunction
+    nnoremap <S-j> :call MergeSaveIndent("0")<CR>``
+    nnoremap <S-k> :call MergeSaveIndent("1")<CR>``
 "}}}
     
 " language specific {{{

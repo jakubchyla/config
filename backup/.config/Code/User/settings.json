@@ -73,4 +73,5 @@
     "workbench.startupEditor": "newUntitledFile",
     "latex-workshop.view.pdf.viewer": "external",
     "git.confirmSync": false,
+    "python.languageServer": "Microsoft",
 }
