@@ -4,11 +4,11 @@ monitor = ${env:MONITOR:}
 background = #2b2e37
 separator = " | "   
 font-0 = "JetBrains Mono:size=11:weight=bold;0"
-font-1 = "FontAwesome:size=10:weight=bold;0"
+font-1 = "Font Awesome 5 Free:size=10:weight=bold;0"
 
 modules-left = i3
 modules-center = date
-modules-right = memory cpu pulseaudio wired-network battery
+modules-right = pulseaudio wired-network wireless-network battery
 
 
 [module/date]
@@ -16,7 +16,7 @@ type = internal/date
 date = %d-%m-%Y%
 time = %H:%M
 format = <label>
-label = "%date% %time% "
+label = "%date%  %time% "
 
 
 [module/battery]
@@ -28,10 +28,10 @@ adapter = AC
 time-format = %H:%M
 
 format-charging = <animation-charging> <label-charging>
-label-charging = Charging %percentage%%
+label-charging =  %percentage%%
 
 format-discharging = <animation-discharging> <label-discharging>
-label-discharging = Discharging %percentage%%
+label-discharging = %percentage%%
 
 format-full = <label-full>
 label-full = Fully Charged
@@ -51,16 +51,28 @@ animation-discharging-4 = %{T2}%{T-}
 animation-discharging-framerate = 1000
 
 
+[module/wireless-network]
+type = internal/network
+interface = wlp3s0
+interval = 2.5
+
+format-connected = <label-connected>
+label-connected = Wi-Fi: %essid%
+
+format-disconnected = <label-disconnected>
+label-disconnected =
+
+
 [module/wired-network]
 type = internal/network
 interface = enp0s25
-interval = 5.0
+interval = 2.5
 
 format-connected = <label-connected>
 label-connected = Wired: Connected
 
 format-disconnected = <label-disconnected>
-label-disconnected = Wired: Disconnected
+label-disconnected = 
 
 
 [module/pulseaudio]
@@ -71,10 +83,10 @@ use-ui-max = true
 interval = 5
 
 format-volume = <label-volume>
-label-volume = Volume: %percentage%%
+label-volume =  %percentage%%
 
 format-muted = <label-muted>
-label-muted = Muted: %percentage%%
+label-muted =  %percentage%%
 
 
 [module/memory]
