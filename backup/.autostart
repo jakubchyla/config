@@ -1,4 +1,15 @@
-setxkbmap pl
-setxkbmap -option ctrl:nocaps
+#! /bin/bash
+
+#mate changes layout after suspend, set there
+#setxkbmap pl &
+#setxkbmap -option ctrl:nocaps &
+
 $HOME/.config/polybar/launch.sh &
 picom &
+
+steam &
+com.spotify.Client &
+com.discordapp.Discord &
+
+/usr/lib/kdeconnectd &
+kdeconnect-indicator &

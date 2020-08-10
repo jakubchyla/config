@@ -1,14 +1,21 @@
 # vim: set ft=dosini:
 [bar/mybar1]
 monitor = ${env:MONITOR:} 
-background = #2b2e37
-separator = " | "   
-font-0 = "JetBrains Mono:size=11:weight=bold;0"
-font-1 = "Font Awesome 5 Free:size=10:weight=bold;0"
 
+background = #2b2e37
+fixed-center = true
+padding = 1
+
+tray-position = right
+tray-padding = 3
+
+font-0 = "JetBrains Mono:size=11:weight=bold;3"
+font-1 = "Font Awesome 5 Free:size=10:weight=bold;3"
+
+separator = " | "   
 modules-left = i3
 modules-center = date
-modules-right = pulseaudio wired-network wireless-network battery
+modules-right = wired-network wireless-network battery
 
 
 [module/date]
@@ -34,7 +41,7 @@ format-discharging = <animation-discharging> <label-discharging>
 label-discharging = %percentage%%
 
 format-full = <label-full>
-label-full = Fully Charged
+label-full = 
 
 animation-charging-0 = %{T2}%{T-}
 animation-charging-1 = %{T2}%{T-}
@@ -57,7 +64,7 @@ interface = wlp3s0
 interval = 2.5
 
 format-connected = <label-connected>
-label-connected = Wi-Fi: %essid%
+label-connected =  %essid%
 
 format-disconnected = <label-disconnected>
 label-disconnected =
@@ -69,7 +76,7 @@ interface = enp0s25
 interval = 2.5
 
 format-connected = <label-connected>
-label-connected = Wired: Connected
+label-connected =  Connected
 
 format-disconnected = <label-disconnected>
 label-disconnected = 
@@ -189,3 +196,4 @@ label-urgent-padding = 1
 label-separator = |
 label-separator-padding = 1
 label-separator-foreground = #ffb52a
+
