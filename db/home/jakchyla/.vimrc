@@ -69,7 +69,7 @@
     vnoremap j gj
 
 "save with Shift+w
-    nnoremap <S-w> :update<CR>
+    nnoremap <S-w> :w<CR>
     nnoremap <S-q> :q<CR>
 
     noremap <leader>y "+y

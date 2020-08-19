@@ -1,0 +1,81 @@
+#! /bin/bash
+
+copy-from-local() {
+    if [ -z "$BACKUP" ]; then
+        printf "no path for backup specified\n"
+        exit -1
+    elif ! [ -d "$BACKUP" ]; then
+        printf "wrong backup path at $BACKUP\n"
+        exit -1
+    fi
+
+    printf "copying files..."
+    for file in `find $BACKUP -type f -printf "%P\n"`; do
+        src_file="/$file"
+        dest_file=`realpath $BACKUP/$file`
+        cp $src_file $dest_file
+    done
+    printf "OK\n"
+}
+
+copy-to-local(){
+    if [ -z "$BACKUP" ]; then
+        printf "no path for backup specified\n"
+        exit -1
+    elif ! [ -d "$BACKUP" ]; then
+        printf "wrong backup path at $BACKUP\n"
+        exit -1
+    fi 
+
+    printf "copying files..."
+    for file in `find $BACKUP -type f -printf "%P\n"`; do
+        src_file=`realpath $BACKUP/$file`
+        dest_file="/$file"
+        cp $src_file $dest_file
+    done
+    printf "OK\n"
+} 
+
+help(){
+    cat << EOF
+backup COMMAND PATH
+
+Basic managment for git based backup. Ignores errors when copying files.
+
+Commands:
+  copy-from-local  Copy files from local to backup at PATH
+  copy-to-local    Copy files from backup at PATH to local
+
+EOF
+}
+
+main(){
+    if [ -z "$1" ]; then
+        printf "no command specified\n"
+        exit -1
+    fi
+
+    export BACKUP="$2"
+
+    case $1 in
+    copy-from-local)
+        copy-from-local
+        shift
+    ;;
+    copy-to-local)
+        copy-to-local
+        shift
+    ;;
+    -h)
+        help
+        shift
+    ;;
+    *)
+        printf "unknown command\n"
+        exit -1
+    esac
+
+    exit 0
+}
+
+main "$@"
