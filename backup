@@ -31,6 +31,7 @@ copy-to-local(){
     for file in `find $BACKUP -type f -printf "%P\n"`; do
         src_file=`realpath $BACKUP/$file`
         dest_file="/$file"
+        mkdir -p `dirname $dest_file` &>/dev/null
         cp $src_file $dest_file
     done
     printf "OK\n"
