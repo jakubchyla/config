@@ -95,6 +95,8 @@
     KEYTIMEOUT=1 
     # messes up copy-paste
     DISABLE_MAGIC_FUNCTIONS=true
+    # history size
+    export HISTSIZE=1000000
 
 # }}}
 
