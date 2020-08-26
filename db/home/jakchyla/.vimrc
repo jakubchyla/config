@@ -4,11 +4,17 @@
 
     call plug#begin('~/.vim/plugged')
 
-    Plug 'vim-airline/vim-airline'
+    " behaviour
     Plug 'tpope/vim-surround'
-    Plug 'morhetz/gruvbox'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+    " appearance
+    Plug 'vim-airline/vim-airline' 
+
+    "colorschemes
+    Plug 'morhetz/gruvbox'
+    Plug 'altercation/vim-colors-solarized' 
+    Plug 'ayu-theme/ayu-vim' 
 
     call plug#end()
 
@@ -27,11 +33,9 @@
 
 "theme
     set termguicolors
-    set background=dark
-    if exists('g:GuiLoaded')
-        GuiFont Fira Code:h12
-    endif
-    colorscheme gruvbox
+    set background=light
+    let ayucolor="light"
+    colorscheme ayu
 
 "disable swapfile
     set noswapfile

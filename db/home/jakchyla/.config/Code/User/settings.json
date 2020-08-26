@@ -2,12 +2,10 @@
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
-    "window.zoomLevel": 1,
-    "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "explorer.confirmDelete": false,
-    "editor.fontSize": 13,
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "editor.fontSize": 15,
+    "workbench.colorTheme": "Ayu Light Bordered",
 
     "C_Cpp.enhancedColorization": "Enabled",
 
@@ -15,23 +13,7 @@
 
     "vim.leader": ",",
     "vim.useSystemClipboard": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
-        }
-    ],
     "vim.normalModeKeyBindings": [
-        {
-            "before": ["k"],
-            "after": ["g", "k"]
-        },
-        {
-            "before": ["j"],
-            "after": ["g", "j"]
-        }
-    ],
-    "vim.visualModeKeyBindings": [
         {
             "before": ["k"],
             "after": ["g", "k"]
@@ -51,7 +33,7 @@
         {
             "before": ["Q"],
             "commands": [
-                "workbench.action.closeActiveEditor"
+                "workbench.action.closeActiveTab"
             ]
         }
     ],
@@ -74,4 +56,5 @@
     "latex-workshop.view.pdf.viewer": "external",
     "git.confirmSync": false,
     "python.languageServer": "Microsoft",
+    "extensions.ignoreRecommendations": true,
 }
