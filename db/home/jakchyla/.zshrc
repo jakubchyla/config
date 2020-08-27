@@ -4,7 +4,7 @@
     # Path to your oh-my-zsh installation.
     export ZSH="$HOME/.oh-my-zsh"
     export TERM="xterm-256color"
-    ZSH_THEME="powerlevel10k/powerlevel10k"
+    ZSH_THEME="halla"
 
     source $ZSH/oh-my-zsh.sh &>/dev/null
 
@@ -24,7 +24,7 @@
 #}}}
 
 #aliases {{{
-    alias ls='ls --color'
+    alias ls='ls --color=never'
     alias info='info --vi-keys'
     alias sup='/sbin/shutdown now'
     alias rm='rm --interactive'

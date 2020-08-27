@@ -5,7 +5,6 @@
     "editor.lineNumbers": "relative",
     "explorer.confirmDelete": false,
     "editor.fontSize": 15,
-    "workbench.colorTheme": "Ayu Light Bordered",
 
     "C_Cpp.enhancedColorization": "Enabled",
 
@@ -57,4 +56,5 @@
     "git.confirmSync": false,
     "python.languageServer": "Microsoft",
     "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "Ayu Light Bordered",
 }

@@ -1,0 +1,15 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[Favorite Profiles]
+Favorites=asdf.profile,New Profile2.profile
+
+[KonsoleWindow]
+SaveGeometryOnExit=false
+ShowMenuBarByDefault=false
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQBAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 1080x1920=true
