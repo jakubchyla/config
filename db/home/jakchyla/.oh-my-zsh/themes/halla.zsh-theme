@@ -1,6 +1,6 @@
-PROMPT=' %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)-> '
+PROMPT='%B%F{#FF875F}%n@%m%b%f %F{#5FAFD7}%~%f $(git_prompt_info)%(?.%F{#87AF00}->%f.%F{#FF5F87}->%f) '
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg[red]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
+ZSH_THEME_GIT_PROMPT_PREFIX="%F{#D7AF87}(%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%f "
+ZSH_THEME_GIT_PROMPT_DIRTY="%)✗"
+ZSH_THEME_GIT_PROMPT_CLEAN="%)"
