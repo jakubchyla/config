@@ -12,8 +12,8 @@ copy-from-local() {
     printf "copying files..."
     for file in `find $BACKUP -type f -printf "%P\n"`; do
         src_file="/$file"
-        dest_file=`realpath $BACKUP/$file`
-        cp $src_file $dest_file
+        dest_file=`realpath "$BACKUP/$file"`
+        cp "$src_file" "$dest_file"
     done
     printf "OK\n"
 }

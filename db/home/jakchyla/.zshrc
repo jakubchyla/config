@@ -61,7 +61,7 @@
         alias pacin='sudo dnf install'
         alias pacrm='sudo dnf remove'
         alias pacse='dnf search'
-        alias pacup='sudo dnf upgrade --refresh'
+        alias pacup='sudo dnf upgrade'
     elif [ -f "/usr/bin/pacman" ]; then
         # pacman
         alias pacin='sudo pacman -S'
@@ -76,9 +76,9 @@
         alias pacup='sudo zypper dup --allow-vendor-change'
     fi
     # flatpak aliases
-    alias flatin='flatpak --user install'
-    alias flatrm='flatpak --user uninstall'
-    alias flatup='flatpak --user update'
+    alias flatin='sudo flatpak install'
+    alias flatrm='sudo flatpak uninstall'
+    alias flatup='sudo flatpak update'
 
 #}}}
 

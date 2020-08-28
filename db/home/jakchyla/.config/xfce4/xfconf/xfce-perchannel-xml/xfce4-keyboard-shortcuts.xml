@@ -65,13 +65,17 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Super&gt;m" type="string" value="keepassxc"/>
-      <property name="&lt;Super&gt;p" type="string" value="chromium-browser"/>
-      <property name="&lt;Shift&gt;&lt;Super&gt;p" type="string" value="chromium-browser --incognito"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;Right" type="string" value="movewindow right"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;Left" type="string" value="movewindow left"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;Up" type="string" value="movewindow up"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;Down" type="string" value="movewindow down"/>
       <property name="&lt;Super&gt;Return" type="string" value="konsole -e tmux"/>
+      <property name="AudioPrev" type="string" value="playerctl previous"/>
+      <property name="AudioNext" type="string" value="playerctl next"/>
+      <property name="AudioPlay" type="string" value="playerctl play-pause"/>
+      <property name="AudioStop" type="string" value="playerctl stop"/>
+      <property name="&lt;Super&gt;p" type="string" value="google-chrome"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;p" type="string" value="google-chrome --incognito"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
