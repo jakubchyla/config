@@ -6,25 +6,25 @@
     export TERM="xterm-256color"
     ZSH_THEME="halla"
 
-    source $ZSH/oh-my-zsh.sh &>/dev/null
+    source $ZSH/oh-my-zsh.sh 
 
 # }}}
 
-# powerlevel10k {{{
-    [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-    plugins=( common-aliases zsh-syntax-highlight zsh-autosuggestions zsh-completions  )
-    autoload -U compinit && compinit 
-
-# Enable Powerlevel10k instant prompt
-    if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-        source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-    fi
-
-#}}}
+## powerlevel10k {{{
+#    [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#
+#    plugins=( common-aliases zsh-syntax-highlight zsh-autosuggestions zsh-completions  )
+#    autoload -U compinit && compinit 
+#
+## Enable Powerlevel10k instant prompt
+#    if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#        source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+#    fi
+#
+##}}}
 
 #aliases {{{
-    alias ls='ls --color=never'
+    alias ls='ls --color=always'
     alias info='info --vi-keys'
     alias sup='/sbin/shutdown now'
     alias rm='rm --interactive'
@@ -101,9 +101,6 @@
 # }}}
 
 # rest {{{
-    # source-highlight
-    export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s" 
-
     # trackball {{{
         trackball(){
             id=`xinput --list --short 2>/dev/null | grep "Kensington USB Orbit" | grep -Po "id=\d*" | grep -Po "\d*"`
@@ -114,7 +111,7 @@
                 xinput set-prop $id $prop_id2 3 2>/dev/null
             fi
         }
-        trackball
+        #trackball
     #}}}
 
     # systemd completion workaround {{{

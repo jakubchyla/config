@@ -1,4 +1,4 @@
-PROMPT='%B%F{#FF875F}%n@%m%b%f %F{#5FAFD7}%~%f $(git_prompt_info)%(?.%F{#87AF00}->%f.%F{#FF5F87}->%f) '
+PROMPT='%B%F{#FABD2F}%n@%m%b%f %F{#EBDBB2}%~%f $(git_prompt_info)%(?.%F{#B8BB26}->%f.%F{#FB4934}->%f) '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%F{#D7AF87}(%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%f "

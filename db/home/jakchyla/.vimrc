@@ -30,12 +30,13 @@
     set encoding=utf-8
     set hidden "seperate tabs
     set breakindent
+    set nowrap
 
 "theme
     set termguicolors
-    set background=light
-    let ayucolor="light"
-    colorscheme ayu
+    set background=dark
+    "let ayucolor="light"
+    colorscheme gruvbox
 
 "disable swapfile
     set noswapfile

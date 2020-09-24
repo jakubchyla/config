@@ -1,4 +1,0 @@
-[spotify]
-title=Spotify
-description=Music streaming client
-ports=4070,57621/tcp|4070,57621/udp
