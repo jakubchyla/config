@@ -1,5 +1,5 @@
 [$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
 Color=56,56,56
@@ -105,14 +105,18 @@ ForegroundNormal=239,240,241
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
+[DirSelect Dialog]
+DirSelectDialog Size=854,584
+History Items[$e]=file:$HOME/.calibre
+
 [General]
-BrowserApplication=firefox.desktop
+BrowserApplication=google-chrome.desktop
 ColorScheme=BreezeDark
 Name=Breeze Dark
 TerminalApplication=kitty
 XftHintStyle=hintslight
 XftSubPixel=rgb
-dbfile=/home/jakchyla/.mozilla/firefox/59aiemly.default/places.sqlite
+dbfile=/home/jakchyla/.mozilla/firefox/82ekt30i.default/places.sqlite
 shadeSortColumn=true
 toolBarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 
@@ -120,7 +124,7 @@ toolBarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 Theme=Papirus-Dark
 
 [KDE]
-AnimationDurationFactor=0.5
+AnimationDurationFactor=0
 LookAndFeelPackage=org.kde.breezedark.desktop
 contrast=4
 widgetStyle=Breeze
@@ -137,7 +141,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
@@ -146,6 +150,9 @@ View Style=DetailTree
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=49,54,59

@@ -16,6 +16,10 @@
     Plug 'altercation/vim-colors-solarized' 
     Plug 'ayu-theme/ayu-vim' 
 
+    "note taking
+    Plug 'vim-pandoc/vim-pandoc'
+    Plug 'vim-pandoc/vim-pandoc-syntax' 
+
     call plug#end()
 
 "}}}

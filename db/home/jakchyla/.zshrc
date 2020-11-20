@@ -1,90 +1,116 @@
 # vim:foldmethod=marker
 
 # oh-my-zsh {{{
+
+    # Install oh-my-zsh if not installed
+    if [ ! -d "~/.oh-my-zsh"]; then
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    fi
+
     # Path to your oh-my-zsh installation.
     export ZSH="$HOME/.oh-my-zsh"
     export TERM="xterm-256color"
     ZSH_THEME="halla"
 
+    plugins=(jump cargo rustup docker docker-compose)
+
     source $ZSH/oh-my-zsh.sh 
 
 # }}}
 
-## powerlevel10k {{{
-#    [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-#
-#    plugins=( common-aliases zsh-syntax-highlight zsh-autosuggestions zsh-completions  )
-#    autoload -U compinit && compinit 
-#
-## Enable Powerlevel10k instant prompt
-#    if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#        source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-#    fi
-#
-##}}}
-
 #aliases {{{
+    alias _='sudo'
+    alias __='sudo su'
     alias ls='ls --color=always'
-    alias info='info --vi-keys'
     alias sup='/sbin/shutdown now'
     alias rm='rm --interactive'
     alias pless='ps aux | less'
     alias less='less -R'
-    alias vim='nvim'
-    alias glances='glances --disable-bg'
-    alias unsshfs='fusermount3 -u'
-    cless () {unbuffer $@ | /usr/bin/less}
-    emacs () {$HOME/bin/emacs $@ &>/dev/null &}
-    
-    # vagrant
-    alias vagup='vagrant up'
-    alias vagdown='vagrant halt'
-    alias vagssh='vagrant ssh'
-    alias vagsnap-push='vagrant snapshot push'
-    alias vagsnap-pop='vagrant snapshot pop'
 
-    # pipe aliases
+    alias notifend='notify-send --hint=string:desktop-entry:kitty -i dialog-information -t 10'
+
+    if [ -f "/usr/bin/nvim" ]; then
+        alias vim='nvim'
+    fi
+    if [ -f "/usr/bin/glances" ]; then
+        alias glances='glances --disable-bg'
+    fi
+    if [ -f "/usr/bin/fusermount3" ]; then
+        alias unsshfs='fusermount3 -u'
+    fi
+    if [ -f "/usr/bin/unbuffer" ]; then
+        cless () {unbuffer $@ | /usr/bin/less}
+    fi
+    if [ -f "/usr/bin/emacs" ]; then
+        emacs () {$HOME/bin/emacs $@ &>/dev/null &}
+    fi
+    
+
+    # pipe {{{
     alias -g C="| xclip -selection \"clipboard\""
     alias -g G="| grep"
     alias -g L="| less"
-    alias -g B="| bat"
+    #}}}
 
-    # package manager aliases
-    if [ -f "/usr/bin/apt" ]; then
-        # apt
-        alias pacin='sudo apt install'
-        alias pacrm='sudo apt remove'
-        alias pacse='apt search'
-        alias pacup='sudo apt update && sudo apt upgrade'
-    elif [ -f "/usr/bin/dnf" ]; then
-        # dnf
-        alias pacin='sudo dnf install'
-        alias pacrm='sudo dnf remove'
-        alias pacse='dnf search'
-        alias pacup='sudo dnf upgrade'
-    elif [ -f "/usr/bin/pacman" ]; then
-        # pacman
-        alias pacin='sudo pacman -S'
-        alias pacrm='sudo pacman -Rs'
-        alias pacse='pacman -Ss'
-        alias pacup='sudo pacman -Syu'
-    elif [ -f "/usr/bin/zypper" ]; then
-        # zypper
-        alias pacin='sudo zypper install'
-        alias pacrm='sudo zypper remove -u'
-        alias pacse='zypper search'
-        alias pacup='sudo zypper dup --allow-vendor-change'
+    # vagrant {{{
+    if [ -f "/usr/bin/vagrant" ]; then
+        alias vagup='vagrant up'
+        alias vagdown='vagrant halt'
+        alias vagssh='vagrant ssh'
+        alias vagsnap-push='vagrant snapshot push'
+        alias vagsnap-pop='vagrant snapshot pop'
     fi
-    # flatpak aliases
+    #}}}
+
+    # package manager {{{
+    
+    # dnf {{{
+    PACIN="sudo dnf install"
+    PACRM="sudo dnf remove"
+    PACSE="dnf search"
+    PACUP="sudo dnf upgrade"
+    #}}}
+
+    # apt {{{
+    #PACIN='sudo apt install'
+    #PACRM='sudo apt remove'
+    #PACSE='apt search'
+    #PACUP='sudo apt update && sudo apt upgrade'
+    #}}}
+    
+    # pacman {{{
+    #PACIN='sudo pacman -S'
+    #PACRM='sudo pacman -Rs'
+    #PACSE='pacman -Ss'
+    #PACUP='sudo pacman -Syu'
+    #}}}
+    
+    # zypper (tumbleweed) {{{
+    #PACIN='sudo zypper install'
+    #PACRM='sudo zypper remove -u'
+    #PACSE='zypper search'
+    #PACUP='sudo zypper dup --allow-vendor-change'
+    #}}}
+    
+    alias pacin="$PACIN"
+    alias pacrm="$PACRM"
+    alias pacse="$PACSE"
+    alias pacup="$PACUP"
+
+    # flatpak aliases {{{
     alias flatin='sudo flatpak install'
     alias flatrm='sudo flatpak uninstall'
     alias flatup='sudo flatpak update'
+    #}}}
+
+    #}}}
 
 #}}}
 
 # ~/.zfunc {{{
-    fpath+=~/.zfunc
-    compinit
+    # added completion with plugins
+    #fpath+=~/.zfunc
+    #compinit
 
 #}}}
 

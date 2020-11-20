@@ -12,11 +12,6 @@ lidAction=1
 powerButtonAction=16
 triggerLidActionWhenExternalMonitorPresent=false
 
-[AC][SuspendSession]
-idleTime=900000
-suspendThenHibernate=false
-suspendType=1
-
 [Activities][e6b94766-70b9-47b5-9412-79c1cf137e38]
 mode=None
 
